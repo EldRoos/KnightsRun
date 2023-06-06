@@ -1,0 +1,6 @@
+room=rm_maingame
+
+
+
+
+
