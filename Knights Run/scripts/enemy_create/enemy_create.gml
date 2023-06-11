@@ -5,4 +5,5 @@ y=305-(sprite_height/2)
 
 //Init
 damaged=0
+attack_buffer=0
 }
