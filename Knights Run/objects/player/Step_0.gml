@@ -18,6 +18,7 @@ if attack_buffer>=store.attack_buffer_cap {mode="attack" image_index=0 sprite_in
 //Maintenance
 if attack_buffer>store.attack_buffer_cap {attack_buffer=store.attack_buffer_cap}
 if damaged>0 {damaged-=1}
+if store.hp>store.maxhp {store.hp=store.maxhp}
 
 
 
