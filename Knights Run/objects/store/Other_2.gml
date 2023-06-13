@@ -7,6 +7,12 @@ perm_maxhp=25
 perm_dodge_chance=0
 perm_regen=0
 perm_killgold=0
+perm_critical_chance=0
+perm_critical_multiplier=1.25
+perm_defense=0
+perm_lifesteal_chance=0
+perm_lifesteal_amount=1
+perm_luck=0
 //Ingame Stats
 gold=0
 stage=1
@@ -21,6 +27,12 @@ attack_buffer_cap=60
 dodge_chance=perm_dodge_chance
 regen=perm_regen
 killgold=perm_killgold
+critical_chance=perm_critical_chance
+critical_multiplier=perm_critical_multiplier
+defense=perm_defense
+lifesteal_chance=perm_lifesteal_chance
+lifesteal_amount=perm_lifesteal_amount
+luck=perm_luck
 
 
 

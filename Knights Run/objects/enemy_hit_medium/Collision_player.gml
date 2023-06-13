@@ -5,10 +5,10 @@ if store.dodge_chance>random(100) and dodged=0 {dodged=1 instance_create_depth(o
 
 if player.damaged<=0 and check_hit=0 and dodged=0{
 player.damaged=10
-store.hp-=attack_damage
+store.hp-=attack_damage-(attack_damage*(store.defense/100))
 check_hit=1
 //player.sprite_index=spr_player_hit
-instance_create_depth(other.x-10,other.y-other.sprite_height,depth,show_damage_player).myDamage=attack_damage
+instance_create_depth(other.x-10,other.y-other.sprite_height,depth,show_damage_player).myDamage=attack_damage-(attack_damage*(store.defense/100))
 }
 
 }
