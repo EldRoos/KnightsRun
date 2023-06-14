@@ -1,8 +1,8 @@
 {
-  "resourceType": "GMObject",
-  "resourceVersion": "1.0",
-  "name": "default_enemy",
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_upgradebox",
+    "path": "sprites/spr_upgradebox/spr_upgradebox.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,
@@ -21,11 +21,17 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Defaults",
-    "path": "folders/Objects/System/Defaults.yy",
+    "name": "Menu",
+    "path": "folders/Objects/Menu.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "btn_upgrade_test",
+  "tags": [],
+  "resourceType": "GMObject",
 }

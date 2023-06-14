@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "default_enemy",
+  "name": "default_upgrade_button",
   "spriteId": null,
   "solid": false,
   "visible": true,

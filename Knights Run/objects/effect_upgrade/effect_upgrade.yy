@@ -1,8 +1,11 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "default_enemy",
-  "spriteId": null,
+  "name": "effect_upgrade",
+  "spriteId": {
+    "name": "spr_show_upgrade",
+    "path": "sprites/spr_show_upgrade/spr_show_upgrade.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,
@@ -21,11 +24,14 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":7,"eventType":7,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Defaults",
-    "path": "folders/Objects/System/Defaults.yy",
+    "name": "Effects",
+    "path": "folders/Objects/Effects.yy",
   },
 }

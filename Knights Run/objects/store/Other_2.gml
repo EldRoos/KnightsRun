@@ -1,4 +1,6 @@
+//Game Settings
 game_speed=1
+color_scheme=choose(1,2,3)
 
 //Perm Stats
 perm_attack_speed=1
@@ -33,6 +35,13 @@ defense=perm_defense
 lifesteal_chance=perm_lifesteal_chance
 lifesteal_amount=perm_lifesteal_amount
 luck=perm_luck
+//InGame Upgrades
+cost_attack_damage=5
+lvl_attack_damage=1
+cost_attack_speed=5
+lvl_attack_speed=1
 
+//Statistics
+total_upgrades=0
 
 
