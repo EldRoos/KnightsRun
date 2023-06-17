@@ -1,6 +1,6 @@
 //Game Settings
 game_speed=1
-color_scheme=choose(1,2,3)
+color_scheme=1
 
 //Perm Stats
 perm_attack_speed=1
@@ -40,6 +40,14 @@ cost_attack_damage=5
 lvl_attack_damage=1
 cost_attack_speed=5
 lvl_attack_speed=1
+cost_max_health=5
+lvl_max_health=1
+cost_defense=5
+lvl_defense=1
+cost_critical_chance=5
+lvl_critical_chance=1
+cost_critical_multiplier=5
+lvl_critical_multiplier=1
 
 //Statistics
 total_upgrades=0
