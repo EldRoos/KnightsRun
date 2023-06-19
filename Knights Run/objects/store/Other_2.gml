@@ -48,6 +48,10 @@ cost_critical_chance=5
 lvl_critical_chance=1
 cost_critical_multiplier=5
 lvl_critical_multiplier=1
+cost_regen=5
+lvl_regen=1
+cost_dodge=5
+lvl_dodge=1
 
 //Statistics
 total_upgrades=0
