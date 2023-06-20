@@ -52,6 +52,10 @@ cost_regen=5
 lvl_regen=1
 cost_dodge=5
 lvl_dodge=1
+cost_lifesteal_chance=5
+lvl_lifesteal_chance=1
+cost_lifesteal_amount=5
+lvl_lifesteal_amount=1
 
 //Statistics
 total_upgrades=0

@@ -9,6 +9,8 @@ instance_create_depth(16,620,depth,btn_upgrade_maxhealth)
 instance_create_depth(248,620,depth,btn_upgrade_defense)
 instance_create_depth(16,690,depth,btn_upgrade_regen)
 instance_create_depth(248,690,depth,btn_upgrade_dodgechance)
+instance_create_depth(16,760,depth,btn_upgrade_lifestealchance)
+instance_create_depth(248,760,depth,btn_upgrade_lifestealamount)
 
 
 
