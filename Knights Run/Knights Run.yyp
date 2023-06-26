@@ -3,6 +3,7 @@
   "resourceVersion": "1.6",
   "name": "Knights Run",
   "resources": [
+    {"id":{"name":"btn_upgrade_killgold","path":"objects/btn_upgrade_killgold/btn_upgrade_killgold.yy",},"order":13,},
     {"id":{"name":"font_show_effect","path":"fonts/font_show_effect/font_show_effect.yy",},"order":1,},
     {"id":{"name":"player","path":"objects/player/player.yy",},"order":0,},
     {"id":{"name":"spr_stat_cap","path":"sprites/spr_stat_cap/spr_stat_cap.yy",},"order":1,},
@@ -15,6 +16,7 @@
     {"id":{"name":"stage_ground","path":"objects/stage_ground/stage_ground.yy",},"order":2,},
     {"id":{"name":"default_enemy","path":"objects/default_enemy/default_enemy.yy",},"order":0,},
     {"id":{"name":"btn_upgrade_maxhealth","path":"objects/btn_upgrade_maxhealth/btn_upgrade_maxhealth.yy",},"order":5,},
+    {"id":{"name":"btn_upgrade_luck","path":"objects/btn_upgrade_luck/btn_upgrade_luck.yy",},"order":14,},
     {"id":{"name":"show_free_upgrade","path":"objects/show_free_upgrade/show_free_upgrade.yy",},"order":5,},
     {"id":{"name":"spr_player_death","path":"sprites/spr_player_death/spr_player_death.yy",},"order":2,},
     {"id":{"name":"show_criticalhit","path":"objects/show_criticalhit/show_criticalhit.yy",},"order":3,},
@@ -26,6 +28,7 @@
     {"id":{"name":"spr_show_criticalhit","path":"sprites/spr_show_criticalhit/spr_show_criticalhit.yy",},"order":1,},
     {"id":{"name":"enemy_draw","path":"scripts/enemy_draw/enemy_draw.yy",},"order":2,},
     {"id":{"name":"spr_mushroom_run","path":"sprites/spr_mushroom_run/spr_mushroom_run.yy",},"order":0,},
+    {"id":{"name":"waveGen","path":"objects/waveGen/waveGen.yy",},"order":5,},
     {"id":{"name":"enemy_death","path":"objects/enemy_death/enemy_death.yy",},"order":0,},
     {"id":{"name":"btn_upgrade_criticalmultiplier","path":"objects/btn_upgrade_criticalmultiplier/btn_upgrade_criticalmultiplier.yy",},"order":8,},
     {"id":{"name":"spr_show_gold","path":"sprites/spr_show_gold/spr_show_gold.yy",},"order":2,},

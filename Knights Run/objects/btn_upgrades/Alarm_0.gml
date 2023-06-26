@@ -11,6 +11,8 @@ instance_create_depth(16,690,depth,btn_upgrade_regen)
 instance_create_depth(248,690,depth,btn_upgrade_dodgechance)
 instance_create_depth(16,760,depth,btn_upgrade_lifestealchance)
 instance_create_depth(248,760,depth,btn_upgrade_lifestealamount)
+instance_create_depth(16,830,depth,btn_upgrade_killgold)
+instance_create_depth(248,830,depth,btn_upgrade_luck)
 
 
 
