@@ -7,6 +7,8 @@ menu_tab=0
 
 instance_create_depth(x,y,depth,waveGen)
 
+show_stage=3
+
 
 
 

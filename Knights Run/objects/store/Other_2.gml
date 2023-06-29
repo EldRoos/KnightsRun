@@ -1,6 +1,7 @@
 //Game Settings
 game_speed=1
 color_scheme=1
+audio=0
 
 //Perm Stats
 perm_attack_speed=1
@@ -17,7 +18,8 @@ perm_lifesteal_amount=1
 perm_luck=0
 //Ingame Stats
 gold=0
-stage=1
+current_stage=1
+current_area="Mystic Meadows"
 xp=0
 next_level=10
 level=1

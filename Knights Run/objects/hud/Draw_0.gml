@@ -56,9 +56,28 @@ draw_sprite(spr_stat_cap,0,cx+7,cy+466)
 //Draw Current Stage
 draw_set_font(font_stats)
 draw_set_color(c_black)
-draw_text(cx+184,cy+430,"Stage "+string(store.stage))              
+draw_text(cx+184,cy+430,"Stage "+string(store.current_stage))              
 draw_set_color(c_white)
-draw_text(cx+182,cy+428,"Stage "+string(store.stage))
+draw_text(cx+182,cy+428,"Stage "+string(store.current_stage))
+
+//Draw Current Stage Banner
+if show_stage>0 {
+draw_set_alpha(show_stage)
+draw_set_color(c_black)
+draw_set_font(font_large_hud)
+draw_text(cx+124,cy+70,string(store.current_area))  
+draw_set_font(font_upgrades)
+draw_text(cx+204,cy+110,"Stage "+string(store.current_stage))              
+draw_set_color(c_white)
+draw_set_font(font_large_hud)
+draw_text(cx+124,cy+68,string(store.current_area))  
+draw_set_font(font_upgrades)
+draw_text(cx+202,cy+108,"Stage "+string(store.current_stage))
+draw_set_color(c_yellow)
+draw_line(cx+114,cy+67,cx+389,cy+67)
+draw_line(cx+114,cy+107,cx+389,cy+107)
+draw_set_alpha(1)
+}
 
 //Draw Gold
 draw_set_font(font_stats)

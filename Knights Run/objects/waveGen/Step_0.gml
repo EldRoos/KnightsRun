@@ -2,7 +2,7 @@
 if waveWait = 1 and instance_number(default_enemy) <= 0 and hud.game_over = 0
 {
 waveWait = 0
-alarm[0] = 150
+//alarm[0] = 150
 //hud.nightfade = 1
 //store.current_wave +=1
 //if store.current_wave > store.best_day_tier1 {store.best_day_tier1 = store.current_wave}
