@@ -99,9 +99,34 @@ draw_set_color(c_yellow)
 draw_text(cx+273,cy+448,string(floor(store.gold/1000))+"K")    
 }
 
+//Draw Gems
+draw_set_font(font_stats)
+draw_set_color(c_black)
+draw_text(cx+330,cy+430,"Gems")              
+draw_set_color(c_white)
+draw_text(cx+328,cy+428,"Gems")
+draw_sprite(spr_show_gem,0,cx+330,cy+455)
+if store.gems <10000 {
+draw_set_color(c_black)
+draw_text(cx+347,cy+450,string(store.gems))              
+draw_set_color(c_yellow)
+draw_text(cx+345,cy+448,string(store.gems)) 
+}
+else {
+draw_set_color(c_black)
+draw_text(cx+275,cy+450,string(floor(store.gold/1000))+"K")              
+draw_set_color(c_yellow)
+draw_text(cx+273,cy+448,string(floor(store.gold/1000))+"K")    
+}
+
 } //End Pause Check
 
-
+//Draw Paused
+if hud.game_paused=1 {
+draw_set_alpha(.9)
+draw_rectangle_color(0,0,room_width,room_height,c_black,c_black,c_black,c_black,false)
+draw_set_alpha(1)
+}
 
 
 

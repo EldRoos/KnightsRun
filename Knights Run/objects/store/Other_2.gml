@@ -2,6 +2,7 @@
 game_speed=1
 color_scheme=1
 audio=0
+devMode=1
 
 //Perm Stats
 perm_attack_speed=1
@@ -16,6 +17,8 @@ perm_defense=0
 perm_lifesteal_chance=0
 perm_lifesteal_amount=1
 perm_luck=0
+//Perm 
+gems=0
 //Ingame Stats
 gold=0
 current_stage=1
@@ -62,6 +65,8 @@ cost_killgold=5
 lvl_killgold=1
 cost_luck=5
 lvl_luck=1
+//Inventory
+item_potion=5
 
 //Statistics
 total_upgrades=0

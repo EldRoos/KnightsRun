@@ -1,4 +1,4 @@
-depth=-1000
+depth=-10000
 
 current_speed=2
 game_paused=0
