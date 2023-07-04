@@ -67,6 +67,7 @@ cost_luck=5
 lvl_luck=1
 //Inventory
 item_potion=5
+item_mega_potion=2
 
 //Statistics
 total_upgrades=0

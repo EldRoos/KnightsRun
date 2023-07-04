@@ -56,9 +56,9 @@ draw_sprite(spr_stat_cap,0,cx+7,cy+466)
 //Draw Current Stage
 draw_set_font(font_stats)
 draw_set_color(c_black)
-draw_text(cx+184,cy+430,"Stage "+string(store.current_stage))              
+draw_text(cx+184,cy+440,"Stage "+string(store.current_stage))              
 draw_set_color(c_white)
-draw_text(cx+182,cy+428,"Stage "+string(store.current_stage))
+draw_text(cx+182,cy+438,"Stage "+string(store.current_stage))
 
 //Draw Current Stage Banner
 if show_stage>0 {
@@ -82,41 +82,41 @@ draw_set_alpha(1)
 //Draw Gold
 draw_set_font(font_stats)
 draw_set_color(c_black)
-draw_text(cx+260,cy+430,"Gold")              
+draw_text(cx+260,cy+440,"Gold")              
 draw_set_color(c_white)
-draw_text(cx+258,cy+428,"Gold")
-draw_sprite(spr_show_gold,0,cx+260,cy+455)
+draw_text(cx+258,cy+438,"Gold")
+draw_sprite(spr_show_gold,0,cx+260,cy+465)
 if store.gold <10000 {
 draw_set_color(c_black)
-draw_text(cx+275,cy+450,string(store.gold))              
+draw_text(cx+275,cy+460,string(store.gold))              
 draw_set_color(c_yellow)
-draw_text(cx+273,cy+448,string(store.gold)) 
+draw_text(cx+273,cy+458,string(store.gold)) 
 }
 else {
 draw_set_color(c_black)
-draw_text(cx+275,cy+450,string(floor(store.gold/1000))+"K")              
+draw_text(cx+275,cy+460,string(floor(store.gold/1000))+"K")              
 draw_set_color(c_yellow)
-draw_text(cx+273,cy+448,string(floor(store.gold/1000))+"K")    
+draw_text(cx+273,cy+458,string(floor(store.gold/1000))+"K")    
 }
 
 //Draw Gems
 draw_set_font(font_stats)
 draw_set_color(c_black)
-draw_text(cx+330,cy+430,"Gems")              
+draw_text(cx+330,cy+440,"Gems")              
 draw_set_color(c_white)
-draw_text(cx+328,cy+428,"Gems")
-draw_sprite(spr_show_gem,0,cx+330,cy+455)
+draw_text(cx+328,cy+438,"Gems")
+draw_sprite(spr_show_gem,0,cx+330,cy+465)
 if store.gems <10000 {
 draw_set_color(c_black)
-draw_text(cx+347,cy+450,string(store.gems))              
+draw_text(cx+347,cy+460,string(store.gems))              
 draw_set_color(c_yellow)
-draw_text(cx+345,cy+448,string(store.gems)) 
+draw_text(cx+345,cy+458,string(store.gems)) 
 }
 else {
 draw_set_color(c_black)
-draw_text(cx+275,cy+450,string(floor(store.gold/1000))+"K")              
+draw_text(cx+275,cy+460,string(floor(store.gold/1000))+"K")              
 draw_set_color(c_yellow)
-draw_text(cx+273,cy+448,string(floor(store.gold/1000))+"K")    
+draw_text(cx+273,cy+458,string(floor(store.gold/1000))+"K")    
 }
 
 } //End Pause Check

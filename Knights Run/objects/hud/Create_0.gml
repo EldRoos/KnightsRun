@@ -6,6 +6,7 @@ game_over=0
 menu_tab=0
 
 instance_create_depth(x,y,depth,waveGen)
+if store.current_area="Mystic Meadows" {repeat 12 instance_create_depth(random(2400),random(190),0,stage_clouds)}
 
 show_stage=3
 
