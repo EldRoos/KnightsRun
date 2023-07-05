@@ -20,6 +20,9 @@ if attack_buffer>store.attack_buffer_cap {attack_buffer=store.attack_buffer_cap}
 if damaged>0 {damaged-=1}
 if store.hp>store.maxhp {store.hp=store.maxhp}
 
+//Stage Complete
+if hud.stage_complete=1 {x+=2*store.game_speed}
+
 
 
 

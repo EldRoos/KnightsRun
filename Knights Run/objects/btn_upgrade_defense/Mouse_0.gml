@@ -10,7 +10,7 @@ else {store.gold -= store.cost_defense}
 store.defense +=.1
 store.lvl_defense +=1
 store.cost_defense += 5 +(store.lvl_defense*2) 
-if store.lvl_defense > 20 {store.cost_defense += 25}
+if store.lvl_defense > 5 {store.cost_defense += 10*store.lvl_defense}
 store.total_upgrades +=1
 instance_create_depth(x-4,y-4,depth-1000,effect_upgrade)
 log_rotate(c_lime,"Upgraded Defense")

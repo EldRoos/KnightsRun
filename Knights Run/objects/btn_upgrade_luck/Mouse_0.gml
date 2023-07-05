@@ -10,7 +10,7 @@ else {store.gold -= store.cost_luck}
 store.luck +=.1
 store.lvl_luck +=1
 store.cost_luck += 5 +(store.lvl_luck*2) 
-if store.lvl_luck > 20 {store.cost_luck += 25}
+if store.lvl_luck > 5 {store.cost_luck += 10*store.lvl_luck}
 store.total_upgrades +=1
 instance_create_depth(x-4,y-4,depth-1000,effect_upgrade)
 log_rotate(c_lime,"Upgraded Luck")

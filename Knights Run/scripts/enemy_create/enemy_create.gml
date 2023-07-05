@@ -6,4 +6,6 @@ y=321-(sprite_height/2)
 //Init
 damaged=0
 attack_buffer=0
+hp=hp+store.enemy_base_level
+attack_damage=attack_damage+(store.enemy_base_level*.1)
 }

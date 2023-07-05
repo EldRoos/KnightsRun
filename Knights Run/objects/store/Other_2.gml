@@ -26,6 +26,7 @@ current_area="Mystic Meadows"
 xp=0
 next_level=10
 level=1
+enemy_base_level=0
 attack_speed=perm_attack_speed
 attack_damage=perm_attack_damage
 maxhp=perm_maxhp

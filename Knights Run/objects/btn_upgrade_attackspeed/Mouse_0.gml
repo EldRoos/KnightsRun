@@ -10,7 +10,7 @@ else {store.gold -= store.cost_attack_speed}
 store.attack_speed +=.1
 store.lvl_attack_speed +=1
 store.cost_attack_speed += 5 +(store.lvl_attack_speed*2) 
-if store.lvl_attack_speed > 20 {store.cost_attack_speed += 25}
+if store.lvl_attack_speed > 10 {store.cost_attack_speed += 15*store.lvl_attack_speed}
 store.total_upgrades +=1
 instance_create_depth(x-4,y-4,depth-1000,effect_upgrade)
 log_rotate(c_lime,"Upgraded Attack Speed")

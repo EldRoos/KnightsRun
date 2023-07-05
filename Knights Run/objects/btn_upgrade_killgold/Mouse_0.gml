@@ -10,7 +10,7 @@ else {store.gold -= store.cost_killgold}
 store.killgold +=1
 store.lvl_killgold +=1
 store.cost_killgold += 5 +(store.lvl_killgold*2) 
-if store.lvl_killgold > 20 {store.cost_killgold += 25}
+if store.lvl_killgold > 3 {store.cost_killgold += 10*store.lvl_killgold}
 store.total_upgrades +=1
 instance_create_depth(x-4,y-4,depth-1000,effect_upgrade)
 log_rotate(c_lime,"Upgraded Kill Gold Bonus")

@@ -119,6 +119,13 @@ draw_set_color(c_yellow)
 draw_text(cx+273,cy+458,string(floor(store.gold/1000))+"K")    
 }
 
+//Draw Fade
+if show_fade>0 {
+draw_set_alpha(show_fade)
+draw_rectangle_color(0,0,room_width,room_height,c_black,c_black,c_black,c_black,false)
+draw_set_alpha(1)
+}
+
 } //End Pause Check
 
 //Draw Paused

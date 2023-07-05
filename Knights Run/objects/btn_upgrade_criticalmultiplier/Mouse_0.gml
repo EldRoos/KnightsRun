@@ -10,7 +10,7 @@ else {store.gold -= store.cost_critical_multiplier}
 store.critical_multiplier +=.25
 store.lvl_critical_multiplier +=1
 store.cost_critical_multiplier += 5 +(store.lvl_critical_multiplier*2) 
-if store.lvl_critical_multiplier > 20 {store.cost_critical_multiplier += 25}
+if store.lvl_critical_multiplier > 5 {store.cost_critical_multiplier += 10*store.lvl_critical_multiplier}
 store.total_upgrades +=1
 instance_create_depth(x-4,y-4,depth-1000,effect_upgrade)
 log_rotate(c_lime,"Upgraded Critical Multiplier")

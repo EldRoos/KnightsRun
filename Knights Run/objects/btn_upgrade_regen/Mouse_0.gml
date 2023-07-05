@@ -10,7 +10,7 @@ else {store.gold -= store.cost_regen}
 store.regen +=.1
 store.lvl_regen +=1
 store.cost_regen += 5 +(store.lvl_regen*2) 
-if store.lvl_regen > 20 {store.cost_regen += 25}
+if store.lvl_regen > 5 {store.cost_regen += 10*store.lvl_regen}
 store.total_upgrades +=1
 instance_create_depth(x-4,y-4,depth-1000,effect_upgrade)
 log_rotate(c_lime,"Upgraded Regen")

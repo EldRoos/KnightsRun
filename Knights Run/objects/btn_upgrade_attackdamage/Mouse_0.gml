@@ -10,7 +10,7 @@ else {store.gold -= store.cost_attack_damage}
 store.attack_damage +=3
 store.lvl_attack_damage +=1
 store.cost_attack_damage += 5 +(store.lvl_attack_damage*2) 
-if store.lvl_attack_damage > 20 {store.cost_attack_damage += 25}
+if store.lvl_attack_damage > 10 {store.cost_attack_damage += 10}
 store.total_upgrades +=1
 instance_create_depth(x-4,y-4,depth-1000,effect_upgrade)
 log_rotate(c_lime,"Upgraded Attack Damage")
