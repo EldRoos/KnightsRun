@@ -19,6 +19,7 @@ perm_lifesteal_amount=1
 perm_luck=0
 //Perm 
 gems=0
+max_gamespeed=5
 //Ingame Stats
 gold=0
 current_stage=1

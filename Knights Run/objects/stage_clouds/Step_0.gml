@@ -5,7 +5,7 @@ if hud.current_speed>0 {x-=(hud.current_speed*parallax)*store.game_speed}
 if x<=-sprite_width {x+=sprite_width*(8+random(3)) y=random(190) image_index=round(random(image_number))}
 }
 
-x+=.25
+x+=.25*store.game_speed
 
 
 

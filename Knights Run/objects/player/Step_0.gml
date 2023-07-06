@@ -1,5 +1,5 @@
 if hud.game_over=0 and hud.game_paused=0 {
-attack_buffer+=store.attack_speed
+attack_buffer+=store.attack_speed*store.game_speed
 if mode!="attack" {mode="run"}
 if instance_number(default_enemy)>0
 {
@@ -17,7 +17,7 @@ if attack_buffer>=store.attack_buffer_cap {mode="attack" image_index=0 sprite_in
 
 //Maintenance
 if attack_buffer>store.attack_buffer_cap {attack_buffer=store.attack_buffer_cap}
-if damaged>0 {damaged-=1}
+if damaged>0 {damaged-=1*store.game_speed}
 if store.hp>store.maxhp {store.hp=store.maxhp}
 
 //Stage Complete

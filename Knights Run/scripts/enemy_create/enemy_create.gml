@@ -8,4 +8,7 @@ damaged=0
 attack_buffer=0
 hp=hp+store.enemy_base_level
 attack_damage=attack_damage+(store.enemy_base_level*.1)
+
+//Handle clumping
+if distance_to_object(instance_nearest(x,y,default_enemy))<sprite_width {x+=sprite_width}
 }
