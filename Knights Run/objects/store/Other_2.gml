@@ -3,6 +3,7 @@ game_speed=1
 color_scheme=1
 audio=0
 devMode=1
+version="version 1.00"
 
 //Perm Stats
 perm_attack_speed=1
