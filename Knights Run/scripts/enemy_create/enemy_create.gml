@@ -10,5 +10,5 @@ hp=hp+store.enemy_base_level
 attack_damage=attack_damage+(store.enemy_base_level*.1)
 
 //Handle clumping
-if distance_to_object(instance_nearest(x,y,default_enemy))<sprite_width {x+=sprite_width}
+while collision_rectangle(x-sprite_width,y-sprite_height,x+sprite_width,y+sprite_height,default_enemy,false,true) {x+=sprite_width*4}
 }

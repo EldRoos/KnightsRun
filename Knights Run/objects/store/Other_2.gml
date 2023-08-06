@@ -21,6 +21,33 @@ perm_luck=0
 //Perm 
 gems=0
 max_gamespeed=5
+best_stage=1
+//Perm Upgrades
+cost_perm_attack_damage=5
+lvl_perm_attack_damage=1
+cost_perm_attack_speed=5
+lvl_perm_attack_speed=1
+cost_perm_max_health=5
+lvl_perm_max_health=1
+cost_perm_defense=5
+lvl_perm_defense=1
+cost_perm_critical_chance=5
+lvl_perm_critical_chance=1
+cost_perm_critical_multiplier=5
+lvl_perm_critical_multiplier=1
+cost_perm_regen=5
+lvl_perm_regen=1
+cost_perm_dodge=5
+lvl_perm_dodge=1
+cost_perm_lifesteal_chance=5
+lvl_perm_lifesteal_chance=1
+cost_perm_lifesteal_amount=5
+lvl_perm_lifesteal_amount=1
+cost_perm_killgold=5
+lvl_perm_killgold=1
+cost_perm_luck=5
+lvl_perm_luck=1
+cost_max_gamespeed=10
 //Ingame Stats
 gold=0
 current_stage=1
@@ -43,6 +70,7 @@ defense=perm_defense
 lifesteal_chance=perm_lifesteal_chance
 lifesteal_amount=perm_lifesteal_amount
 luck=perm_luck
+active_lures=0
 //InGame Upgrades
 cost_attack_damage=5
 lvl_attack_damage=1
