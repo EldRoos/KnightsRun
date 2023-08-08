@@ -13,6 +13,7 @@ if attack_buffer>=attack_buffer_cap {attack_buffer=0 instance_create_depth(x-spr
 if hp<=0 {
 if myName="Mushkin" {instance_create_depth(x,y,depth,enemy_death).sprite_index=spr_mushroom_death}
 if myName="Goblin" {instance_create_depth(x,y,depth,enemy_death).sprite_index=spr_goblin_death}
+if 70+store.luck>random(100) {instance_create_depth(x+2,y-8,depth,xp_orb)}
 instance_destroy()
 }
 
