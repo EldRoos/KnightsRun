@@ -1,0 +1,76 @@
+// Script assets have changed for v2.3.0 see
+// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
+function level_set_slot(){
+if my_id=0 {
+myHeader="Slot Empty"
+myInfo=""
+}
+if my_id=1 {
+myHeader="Brawn"
+myInfo="Gain +3 Attack Damage"
+myLevel="Level "+string(store.perk_lvl_brawn)+">"+string(store.perk_lvl_brawn+1)
+if store.perk_lvl_brawn=0 {isNew=1}
+}
+if my_id=2 {
+myHeader="Toughskin"
+myInfo="Gain +.5% Defense"
+myLevel="Level "+string(store.perk_lvl_toughskin)+">"+string(store.perk_lvl_toughskin+1)
+if store.perk_lvl_toughskin=0 {isNew=1}
+}
+if my_id=3 {
+myHeader="Swift"
+myInfo="Gain +.25 Attack Speed"
+myLevel="Level "+string(store.perk_lvl_swift)+">"+string(store.perk_lvl_swift+1)
+if store.perk_lvl_swift=0 {isNew=1}
+}
+if my_id=4 {
+myHeader="Mended"
+myInfo="Gain +.25 Regen"
+myLevel="Level "+string(store.perk_lvl_mended)+">"+string(store.perk_lvl_mended+1)
+if store.perk_lvl_mended=0 {isNew=1}
+}
+if my_id=5 {
+myHeader="Iron Walls"
+myInfo="Gain +10 Max HP"
+myLevel="Level "+string(store.perk_lvl_ironwalls)+">"+string(store.perk_lvl_ironwalls+1)
+if store.perk_lvl_ironwalls=0 {isNew=1}
+}
+if my_id=6 {
+myHeader="Sharpshooter"
+myInfo="Gain +.5% Critical Chance"
+myLevel="Level "+string(store.perk_lvl_sharpshooter)+">"+string(store.perk_lvl_sharpshooter+1)
+if store.perk_lvl_sharpshooter=0 {isNew=1}
+}
+if my_id=7 {
+myHeader="Miner"
+myInfo="Gain +25 Gems"
+myLevel="Level "+string(store.perk_lvl_miner)+">"+string(store.perk_lvl_miner+1)
+if store.perk_lvl_miner=0 {isNew=1}
+}
+if my_id=8 {
+myHeader="Evader"
+myInfo="Gain +.25% Dodge Chance"
+myLevel="Level "+string(store.perk_lvl_evader)+">"+string(store.perk_lvl_evader+1)
+if store.perk_lvl_evader=0 {isNew=1}
+}
+if my_id=9 {
+myHeader="Snake Eyes"
+myInfo="Gain +.5% Free Upgrade Chance"
+myLevel="Level "+string(store.perk_lvl_snakeeyes)+">"+string(store.perk_lvl_snakeeyes+1)
+if store.perk_lvl_snakeeyes=0 {isNew=1}
+}
+if my_id=10 {
+myHeader="Wisdom"
+myInfo="Orbs worth +1 XP"
+myLevel="Level "+string(store.perk_lvl_wisdom)+">"+string(store.perk_lvl_wisdom+1)
+if store.perk_lvl_wisdom=0 {isNew=1}
+}
+if my_id=11 {
+myHeader="Sacrifice"
+myInfo="Lose "+string(store.perk_lvl_sacrifice*10)+"HP, Gain "+string(store.perk_lvl_sacrifice*20)+" Gold"
+myLevel="Level "+string(store.perk_lvl_sacrifice)+">"+string(store.perk_lvl_sacrifice+1)
+if store.perk_lvl_sacrifice=0 {isNew=1}
+}
+
+
+}

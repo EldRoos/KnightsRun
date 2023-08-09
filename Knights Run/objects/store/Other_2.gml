@@ -22,6 +22,8 @@ perm_luck=0
 gems=0
 max_gamespeed=5
 best_stage=1
+//Settings
+auto_perk=0
 //Perm Upgrades
 cost_perm_attack_damage=5
 lvl_perm_attack_damage=1
@@ -48,6 +50,18 @@ lvl_perm_killgold=1
 cost_perm_luck=5
 lvl_perm_luck=1
 cost_max_gamespeed=10
+//Ingame Perks
+perk_lvl_brawn=0
+perk_lvl_toughskin=0
+perk_lvl_swift=0
+perk_lvl_mended=0
+perk_lvl_ironwalls=0
+perk_lvl_sharpshooter=0
+perk_lvl_miner=0
+perk_lvl_evader=0
+perk_lvl_snakeeyes=0
+perk_lvl_wisdom=0
+perk_lvl_sacrifice=0
 //Ingame Stats
 gold=0
 current_stage=1
