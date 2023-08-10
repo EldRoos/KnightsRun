@@ -7,7 +7,7 @@ store.attack_damage+=3
 }
 if my_id=2 {
 store.perk_lvl_toughskin+=1
-store.defense+=.5
+store.defense+=.25
 }
 if my_id=3 {
 store.perk_lvl_swift+=1
@@ -23,7 +23,7 @@ store.maxhp+=10
 }
 if my_id=6 {
 store.perk_lvl_sharpshooter+=1
-store.critical_chance+=.5
+store.critical_chance+=.25
 }
 if my_id=7 {
 store.perk_lvl_miner+=1
@@ -35,7 +35,7 @@ store.dodge_chance+=.25
 }
 if my_id=9 {
 store.perk_lvl_snakeeyes+=1
-store.free_upgrade_chance+=.5
+store.luck+=.25
 }
 
 if my_id=10 {

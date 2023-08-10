@@ -7,7 +7,7 @@ if instance_number(default_enemy)>0
 }
 //if instance_number(default_enemy)<=0 {mode="endstage"}
 
-if mode="run" {hud.current_speed=2 sprite_index=spr_player_run}
+if mode="run" {hud.current_speed=2 sprite_index=spr_player_run if instance_number(effect_kickdust)=0 and 2>random(10) {instance_create_depth(x-24,y+sprite_height/2,depth-2,effect_kickdust)}}
 
 if mode="battle" {hud.current_speed=0 sprite_index=spr_player_idle 
 if attack_buffer>=store.attack_buffer_cap {mode="attack" image_index=0 sprite_index=spr_player_attack attack_buffer=0}

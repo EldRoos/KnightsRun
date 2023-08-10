@@ -1,5 +1,4 @@
 depth=-10000
-reset_run()
 
 current_speed=2
 game_paused=0

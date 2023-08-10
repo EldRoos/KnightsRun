@@ -13,7 +13,7 @@ if store.perk_lvl_brawn=0 {isNew=1}
 }
 if my_id=2 {
 myHeader="Toughskin"
-myInfo="Gain +.5% Defense"
+myInfo="Gain +.25% Defense"
 myLevel="Level "+string(store.perk_lvl_toughskin)+">"+string(store.perk_lvl_toughskin+1)
 if store.perk_lvl_toughskin=0 {isNew=1}
 }
@@ -37,7 +37,7 @@ if store.perk_lvl_ironwalls=0 {isNew=1}
 }
 if my_id=6 {
 myHeader="Sharpshooter"
-myInfo="Gain +.5% Critical Chance"
+myInfo="Gain +.25% Critical Chance"
 myLevel="Level "+string(store.perk_lvl_sharpshooter)+">"+string(store.perk_lvl_sharpshooter+1)
 if store.perk_lvl_sharpshooter=0 {isNew=1}
 }
@@ -55,7 +55,7 @@ if store.perk_lvl_evader=0 {isNew=1}
 }
 if my_id=9 {
 myHeader="Snake Eyes"
-myInfo="Gain +.5% Free Upgrade Chance"
+myInfo="Gain +.25% Luck"
 myLevel="Level "+string(store.perk_lvl_snakeeyes)+">"+string(store.perk_lvl_snakeeyes+1)
 if store.perk_lvl_snakeeyes=0 {isNew=1}
 }
@@ -67,7 +67,7 @@ if store.perk_lvl_wisdom=0 {isNew=1}
 }
 if my_id=11 {
 myHeader="Sacrifice"
-myInfo="Lose "+string(store.perk_lvl_sacrifice*10)+"HP, Gain "+string(store.perk_lvl_sacrifice*20)+" Gold"
+myInfo="Lose "+string((store.perk_lvl_sacrifice+1)*10)+"HP, Gain "+string((store.perk_lvl_sacrifice+1)*20)+" Gold"
 myLevel="Level "+string(store.perk_lvl_sacrifice)+">"+string(store.perk_lvl_sacrifice+1)
 if store.perk_lvl_sacrifice=0 {isNew=1}
 }
