@@ -20,7 +20,7 @@ perm_lifesteal_amount=1
 perm_luck=0
 //Perm 
 gems=0
-max_gamespeed=5
+max_gamespeed=2
 best_stage=1
 //Settings
 auto_perk=0
@@ -49,7 +49,8 @@ cost_perm_killgold=5
 lvl_perm_killgold=1
 cost_perm_luck=5
 lvl_perm_luck=1
-cost_max_gamespeed=10
+cost_perm_gamespeed=5
+lvl_perm_gamespeed=1
 //Ingame Perks
 perk_lvl_brawn=0
 perk_lvl_toughskin=0

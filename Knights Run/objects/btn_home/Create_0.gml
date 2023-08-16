@@ -1,5 +1,5 @@
 // Genetix
-depth = -10000
+depth = -1000000
 image_speed = 0
 alarm[0]=1
 

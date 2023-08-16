@@ -149,15 +149,15 @@ if game_over = 1 {
 	draw_text_color(cx+162,cy+200,string(store.current_area),c_white,c_white,c_silver,c_silver,1)
 	draw_text_color(cx+162,cy+220,"Best Run: "+string(store.best_stage),c_white,c_white,c_silver,c_silver,1)
 	draw_text_color(cx+162,cy+220,"Best Run: "+string(store.best_stage),c_white,c_white,c_silver,c_silver,1)
-	draw_text_color(cx+93,cy+264,"Levels Gained: "+string(level),c_white,c_white,c_silver,c_silver,1)
-	draw_text_color(cx+93,cy+304,"Enemies Slain: "+string(enemies_killed),c_white,c_white,c_silver,c_silver,1)
-	draw_text_color(cx+162,cy+354,"Gold Earned: "+string(gold_earned),c_yellow,c_yellow,c_yellow,c_orange,1)
+	draw_text_color(cx+93,cy+264,"Levels Gained: "+string(store.level),c_white,c_white,c_silver,c_silver,1)
+	//draw_text_color(cx+93,cy+304,"Enemies Slain: "+string(enemies_killed),c_white,c_white,c_silver,c_silver,1)
+	//draw_text_color(cx+162,cy+354,"Gold Earned: "+string(gold_earned),c_yellow,c_yellow,c_yellow,c_orange,1)
 	
 	//Show Gems bonuses
-	draw_text_color(cx+316,cy+264,"+"+string(round(level/10))+" gems",c_yellow,c_yellow,c_yellow,c_orange,1)
-	draw_text_color(cx+316,cy+284,"+"+string(round(run_minutes*store.stage))+" gems",c_yellow,c_yellow,c_yellow,c_orange,1)
-	draw_text_color(cx+316,cy+304,"+"+string(round(enemies_killed/10)+hud.enemy_bonus)+" gems",c_yellow,c_yellow,c_yellow,c_orange,1)
-	draw_text_color(cx+316,cy+324,"+"+string(round(neighbors_saved*(5*store.current_stage)))+" gems",c_yellow,c_yellow,c_yellow,c_orange,1)
+	draw_text_color(cx+316,cy+264,"+"+string(round(store.level/10))+" gems",c_yellow,c_yellow,c_yellow,c_orange,1)
+	//draw_text_color(cx+316,cy+284,"+"+string(round(run_minutes*store.stage))+" gems",c_yellow,c_yellow,c_yellow,c_orange,1)
+	//draw_text_color(cx+316,cy+304,"+"+string(round(enemies_killed/10)+hud.enemy_bonus)+" gems",c_yellow,c_yellow,c_yellow,c_orange,1)
+	//draw_text_color(cx+316,cy+324,"+"+string(round(neighbors_saved*(5*store.current_stage)))+" gems",c_yellow,c_yellow,c_yellow,c_orange,1)
 	
 	draw_set_color(c_lime)
 	draw_text(cx+110,cy+383,"The run may have ended\nbut the road is still wide open.")
