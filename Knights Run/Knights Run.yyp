@@ -20,6 +20,7 @@
     {"id":{"name":"btn_upgrade_attackdamage","path":"objects/btn_upgrade_attackdamage/btn_upgrade_attackdamage.yy",},"order":0,},
     {"id":{"name":"spr_backdrop_layer1","path":"sprites/spr_backdrop_layer1/spr_backdrop_layer1.yy",},"order":7,},
     {"id":{"name":"spr_goblin_run","path":"sprites/spr_goblin_run/spr_goblin_run.yy",},"order":3,},
+    {"id":{"name":"btn_perm_killgold","path":"objects/btn_perm_killgold/btn_perm_killgold.yy",},"order":7,},
     {"id":{"name":"btn_perm_criticalmultiplier","path":"objects/btn_perm_criticalmultiplier/btn_perm_criticalmultiplier.yy",},"order":3,},
     {"id":{"name":"spr_tower","path":"sprites/spr_tower/spr_tower.yy",},"order":8,},
     {"id":{"name":"show_heal_player","path":"objects/show_heal_player/show_heal_player.yy",},"order":7,},
