@@ -4,6 +4,7 @@
   "name": "Knights Run",
   "resources": [
     {"id":{"name":"btn_upgrade_killgold","path":"objects/btn_upgrade_killgold/btn_upgrade_killgold.yy",},"order":5,},
+    {"id":{"name":"btn_perm_lifestealchance","path":"objects/btn_perm_lifestealchance/btn_perm_lifestealchance.yy",},"order":9,},
     {"id":{"name":"spr_title","path":"sprites/spr_title/spr_title.yy",},"order":3,},
     {"id":{"name":"btn_perm_upgrades","path":"objects/btn_perm_upgrades/btn_perm_upgrades.yy",},"order":2,},
     {"id":{"name":"stage_decor","path":"objects/stage_decor/stage_decor.yy",},"order":4,},
@@ -71,6 +72,7 @@
     {"id":{"name":"spr_effect_kickdust","path":"sprites/spr_effect_kickdust/spr_effect_kickdust.yy",},"order":5,},
     {"id":{"name":"genetix_logo","path":"objects/genetix_logo/genetix_logo.yy",},"order":4,},
     {"id":{"name":"spr_player_idle","path":"sprites/spr_player_idle/spr_player_idle.yy",},"order":4,},
+    {"id":{"name":"btn_perm_lifestealamount","path":"objects/btn_perm_lifestealamount/btn_perm_lifestealamount.yy",},"order":8,},
     {"id":{"name":"btn_perm_attackdamage","path":"objects/btn_perm_attackdamage/btn_perm_attackdamage.yy",},"order":0,},
     {"id":{"name":"btn_start_run","path":"objects/btn_start_run/btn_start_run.yy",},"order":5,},
     {"id":{"name":"show_lifesteal","path":"objects/show_lifesteal/show_lifesteal.yy",},"order":4,},
