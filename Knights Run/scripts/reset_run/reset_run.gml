@@ -1,5 +1,3 @@
-// Script assets have changed for v2.3.0 see
-// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function reset_run(){
 //Ingame Stats
 store.gold=0
@@ -24,4 +22,41 @@ store.lifesteal_chance=store.perm_lifesteal_chance
 store.lifesteal_amount=store.perm_lifesteal_amount
 store.luck=store.perm_luck
 store.active_lures=0
+//InGame Upgrades
+store.cost_attack_damage=5
+store.lvl_attack_damage=1
+store.cost_attack_speed=5
+store.lvl_attack_speed=1
+store.cost_max_health=5
+store.lvl_max_health=1
+store.cost_defense=5
+store.lvl_defense=1
+store.cost_critical_chance=5
+store.lvl_critical_chance=1
+store.cost_critical_multiplier=5
+store.lvl_critical_multiplier=1
+store.cost_regen=5
+store.lvl_regen=1
+store.cost_dodge=5
+store.lvl_dodge=1
+store.cost_lifesteal_chance=5
+store.lvl_lifesteal_chance=1
+store.cost_lifesteal_amount=5
+store.lvl_lifesteal_amount=1
+store.cost_killgold=5
+store.lvl_killgold=1
+store.cost_luck=5
+store.lvl_luck=1
+//Ingame Perks
+store.perk_lvl_brawn=0
+store.perk_lvl_toughskin=0
+store.perk_lvl_swift=0
+store.perk_lvl_mended=0
+store.perk_lvl_ironwalls=0
+store.perk_lvl_sharpshooter=0
+store.perk_lvl_miner=0
+store.perk_lvl_evader=0
+store.perk_lvl_snakeeyes=0
+store.perk_lvl_wisdom=0
+store.perk_lvl_sacrifice=0
 }
