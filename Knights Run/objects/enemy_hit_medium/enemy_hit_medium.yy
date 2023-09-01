@@ -34,6 +34,6 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Attacks",
-    "path": "folders/Objects/Environment/NPC/Enemies/Attacks.yy",
+    "path": "folders/Objects/NPC/Enemies/Attacks.yy",
   },
 }

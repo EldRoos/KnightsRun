@@ -1,2 +1,2 @@
 audio_play_sound(sfx_click,1,false)
-room=rm_menu_home
+room=rm_menu_settings

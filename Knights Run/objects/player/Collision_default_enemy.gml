@@ -1,7 +1,9 @@
 if hud.game_over=0 and hud.game_paused=0 {
 if mode="attack" and hit_check=0 and other.damaged<=0 {
 //Check Critical or Hit
-if store.critical_chance >= random(100)
+tmp_crit_boost=0
+if store.active_focus>0 {tmp_crit_boost=25}
+if store.critical_chance+tmp_crit_boost >= random(100)
 {
 other.hp -= store.attack_damage*store.critical_multiplier
 instance_create_depth(other.x-17,other.y-other.sprite_height/1.4,depth,show_criticalhit)

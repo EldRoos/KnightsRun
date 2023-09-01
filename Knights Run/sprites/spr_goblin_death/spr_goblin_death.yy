@@ -79,6 +79,6 @@
   "nineSlice": null,
   "parent": {
     "name": "Deaths",
-    "path": "folders/Sprites/Environment/NPC/Enemy/Deaths.yy",
+    "path": "folders/Sprites/NPC/Enemy/Deaths.yy",
   },
 }

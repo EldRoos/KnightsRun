@@ -1,7 +1,13 @@
+//System Init
+randomize()
+audio_group_load(audio_sfx)
+audio_group_load(audio_bgm)
+
 //Game Settings
 game_speed=1
 color_scheme=1
-audio=0
+sfx_volume=1
+bgm_volume=1
 devMode=1
 version="version 1.01"
 
@@ -53,7 +59,8 @@ cost_perm_gamespeed=5
 lvl_perm_gamespeed=1
 //Inventory
 item_potion=5
-item_mega_potion=2
+item_mega_potion=1
+item_focuspill=3
 
 //Statistics
 total_upgrades=0

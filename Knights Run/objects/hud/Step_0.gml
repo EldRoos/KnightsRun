@@ -17,5 +17,9 @@ set_gameover()
 //Fade In
 if stage_complete=0 and show_fade>0 {show_fade-=.025*store.game_speed}
 
+//Active maintenance
+if game_paused=0 {
+if store.active_focus>0 {store.active_focus-=1*store.game_speed}
+}
 
 

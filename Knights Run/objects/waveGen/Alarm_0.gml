@@ -12,4 +12,11 @@ var spawnGoblin = 1 + tier +(3*store.active_lures)
 repeat(spawnGoblin) instance_create_depth(random_range(500,500+distanceGoblin), y,-199,enemy_goblin);
 }
 
+//Gen Bee
+if store.current_area="Mystic Meadows" and store.current_stage%5==0 {
+var distanceBee = max(2000-tier_level,1600)
+var spawnBee = 1 + tier +(1*store.active_lures)
+repeat(spawnBee) instance_create_depth(random_range(500,500+distanceBee), y,-199,enemy_bee);
+}
+
 waveWait = 1 

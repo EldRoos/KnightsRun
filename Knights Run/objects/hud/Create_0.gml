@@ -1,4 +1,5 @@
 depth=-10000
+audio_stop_all()
 
 current_speed=2
 game_paused=0
@@ -10,6 +11,8 @@ show_fade=1
 
 instance_create_depth(x,y,depth,waveGen)
 if store.current_area="Mystic Meadows" {repeat 12 instance_create_depth(random(2400),random(190),0,stage_clouds)}
+
+
 
 
 

@@ -119,6 +119,14 @@ draw_set_color(c_yellow)
 draw_text(cx+273,cy+458,string(floor(store.gold/1000))+"K")    
 }
 
+//Draw Top Menu
+//draw_set_alpha(.5)
+//draw_rectangle_color(0,0,room_width,36,c_black,c_black,c_black,c_black,false)
+//draw_set_alpha(1)
+
+//Draw Active Status
+if store.active_focus>0 {draw_sprite(spr_item_focuspill,0,70,20)}
+
 //Draw Fade
 if show_fade>0 {
 draw_set_alpha(show_fade)

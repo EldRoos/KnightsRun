@@ -1,5 +1,5 @@
 // Genetix
-depth = -10000
+depth = hud.depth-5000
 image_speed = 0
 image_index = 0
 image_alpha =.95
