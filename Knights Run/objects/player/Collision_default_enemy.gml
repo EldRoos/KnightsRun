@@ -19,6 +19,7 @@ instance_create_depth(other.x-10,other.y-other.sprite_height,depth,show_damage).
 }	
 
 hit_check=1
+audio_play_sound(sfx_enemy_hit,1,false)
 }
 
 //Check Lifesteal

@@ -13,10 +13,16 @@ repeat(spawnGoblin) instance_create_depth(random_range(500,500+distanceGoblin), 
 }
 
 //Gen Bee
-if store.current_area="Mystic Meadows" and store.current_stage%5==0 {
+if store.current_area="Mystic Meadows" and store.current_stage%4==0 {
 var distanceBee = max(2000-tier_level,1600)
 var spawnBee = 1 + tier +(1*store.active_lures)
 repeat(spawnBee) instance_create_depth(random_range(500,500+distanceBee), y,-199,enemy_bee);
+}
+
+//Gen BossMushkin
+if store.current_area="Mystic Meadows" and store.current_stage%5==0 {
+var distanceBossMushkin = max(2500-tier_level,1800)
+instance_create_depth(random_range(1000,1000+distanceBossMushkin), y,-199,enemy_boss_mushroom);
 }
 
 waveWait = 1 

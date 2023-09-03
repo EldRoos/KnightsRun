@@ -7,7 +7,7 @@ if store.gold >= store.cost_regen and maxxed = 0 and hud.game_paused = 0
 if store.luck >= random(100) 
 {	instance_create_depth(x,y,depth-10,show_free_upgrade)} 
 else {store.gold -= store.cost_regen}
-store.regen +=.1
+store.regen +=.05
 store.lvl_regen +=1
 store.cost_regen += 5 +(store.lvl_regen*2) 
 if store.lvl_regen > 5 {store.cost_regen += 10*store.lvl_regen}
