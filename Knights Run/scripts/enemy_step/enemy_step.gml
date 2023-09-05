@@ -18,6 +18,7 @@ if myName="Goblin" {instance_create_depth(x,y,depth,enemy_death).sprite_index=sp
 if myName="Bee" {instance_create_depth(x,y,depth,enemy_death).sprite_index=spr_bee_death}
 if myName="Boss Mushkin" {instance_create_depth(x,y,depth,enemy_death).sprite_index=spr_boss_mushroom_death}
 if 70+store.luck>random(100) {instance_create_depth(x+2,y-8,depth,xp_orb)}
+if store.luck>random(100) {drop_item()}
 instance_destroy()
 }
 

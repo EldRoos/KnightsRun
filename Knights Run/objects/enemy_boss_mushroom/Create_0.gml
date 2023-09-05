@@ -1,6 +1,6 @@
 myName="Boss Mushkin"
-hp=250
-attack_buffer_cap=60
+hp=150
+attack_buffer_cap=70
 attack_damage=1.6
 boss=1
 

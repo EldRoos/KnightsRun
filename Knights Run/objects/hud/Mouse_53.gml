@@ -1,4 +1,4 @@
-//instance_create_depth(500,100,-100,enemy_mushroom)
+//instance_create_depth(device_mouse_x(0),device_mouse_y(0),-10000,item_focuspill)
 
 
 

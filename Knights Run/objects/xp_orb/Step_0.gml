@@ -4,6 +4,6 @@ if blackhole_used=1 and hud.game_paused=0 {mp_linear_step_object(player.x,player
 
 if speed>0 {speed-=.1}
 
-if blackhole_used=0 {
-y+=2
+if blackhole_used=0 and y<308 {
+y+=4
 }

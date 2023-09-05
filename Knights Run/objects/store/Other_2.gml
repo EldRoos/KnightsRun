@@ -58,9 +58,9 @@ lvl_perm_luck=1
 cost_perm_gamespeed=5
 lvl_perm_gamespeed=1
 //Inventory
-item_potion=5
-item_mega_potion=1
-item_focuspill=3
+have_potion=5
+have_mega_potion=1
+have_focuspill=3
 
 //Statistics
 total_upgrades=0
