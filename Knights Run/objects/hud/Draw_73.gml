@@ -2,6 +2,9 @@ if game_paused=0 {
 var cx = camera_get_view_x(view_camera[0]);
 var cy = camera_get_view_y(view_camera[0]);
 
+//Stage lighting/misc
+if store.current_area="Sunset Meadows" {draw_set_alpha(.25) draw_rectangle_color(0,0,room_width,420,c_orange,c_orange,c_yellow,c_yellow,false) draw_set_alpha(1)}
+
 //Draw Attack bar
 draw_set_font(font_stats)
 draw_set_alpha(.75)
@@ -168,7 +171,7 @@ if game_over = 1 {
 	//draw_text_color(cx+316,cy+324,"+"+string(round(neighbors_saved*(5*store.current_stage)))+" gems",c_yellow,c_yellow,c_yellow,c_orange,1)
 	
 	draw_set_color(c_lime)
-	draw_text(cx+110,cy+383,"The run may have ended\nbut the road is still wide open.")
+	draw_text(cx+110,cy+383,"Your run may have ended\nbut the road is wide open.")
 }
 
 

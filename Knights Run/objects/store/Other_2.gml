@@ -9,7 +9,28 @@ color_scheme=1
 sfx_volume=1
 bgm_volume=1
 devMode=1
+bonus_discord=0
+auto_perk=0
 version="version 1.01"
+
+//Challenges
+challenge_a=0
+challenge_b=2
+challenge_c=5
+goal_mushroomslayer=0
+lvl_mushroomslayer=1
+goal_bossslayer=0
+lvl_bossslayer=1
+goal_survivor=0
+lvl_survivor=1
+goal_headshotking=0
+lvl_headshotking=1
+goal_bloodthirst=0
+lvl_bloodthirst=1
+goal_healer=0
+lvl_healer=1
+goal_shopaholic=0
+lvl_shopaholic=1
 
 //Perm Stats
 perm_attack_speed=1
@@ -28,8 +49,6 @@ perm_luck=0
 gems=0
 max_gamespeed=2
 best_stage=1
-//Settings
-auto_perk=0
 //Perm Upgrades
 cost_perm_attack_damage=5
 lvl_perm_attack_damage=1

@@ -4,7 +4,7 @@
   "name": "sfx_slash",
   "conversionMode": 0,
   "compression": 0,
-  "volume": 0.38,
+  "volume": 0.15,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,

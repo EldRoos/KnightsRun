@@ -1,5 +1,5 @@
 //Gen Mushkin
-if store.current_area="Mystic Meadows" {
+if store.current_area="Mystic Meadows" or store.current_area="Sunset Meadows" {
 var distanceMushkin = max(2000-tier_level,1600)
 var spawnMushkin = 20 + tier +(7*store.active_lures)
 repeat(spawnMushkin) instance_create_depth(random_range(500,500+distanceMushkin), y,-199,enemy_mushroom);

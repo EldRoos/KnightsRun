@@ -3,8 +3,6 @@ if waveWait = 1 and instance_number(default_enemy) <= 0 and hud.game_over = 0
 {
 waveWait = 0
 hud.stage_complete=1
-//alarm[0] = 150
-//hud.nightfade = 1
 //store.current_wave +=1
 //if store.current_wave > store.best_day_tier1 {store.best_day_tier1 = store.current_wave}
 //store.gold += round(store.gold*(hud.daily_interest/100))
@@ -25,9 +23,10 @@ hud.stage_complete=1
 //hud.enemy_level = store.current_wave+tier_level 
 //repeat 5 instance_create_depth(random_range(-800,-360),random(560),hud.depth,bird) //Create some birds
 //if 3>random(8) {instance_create_depth(-2000,y,depth,effect_cloud_shadow)}
-
-//Collect Orbs
-//if instance_number(xp_orb_green)>0 {with xp_orb_green blackhole_used=1}
+if (store.challenge_a=2 or store.challenge_b=2 or store.challenge_c=2) and store.goal_survivor < 5+(10*store.lvl_survivor)
+{
+	store.goal_survivor+=1		
+}
 
 log_rotate(c_orange,"End of Day")
 }

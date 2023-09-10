@@ -9,6 +9,7 @@ hud.game_paused = 1
 instance_create_depth(170,890,depth-10,btn_abandon_run)
 instance_create_depth(20,520,depth-10,btn_sfx)
 instance_create_depth(20,580,depth-10,btn_bgm)
+instance_create_depth(20,640,depth-10,btn_set_colorscheme)
 
 //instance_create_depth(85,530,depth-10,card_show_pause).my_slot=0
 //instance_create_depth(190,530,depth-10,card_show_pause).my_slot=1
