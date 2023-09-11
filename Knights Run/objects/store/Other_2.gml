@@ -80,6 +80,7 @@ lvl_perm_gamespeed=1
 have_potion=5
 have_mega_potion=1
 have_focuspill=3
+have_vampirefang=3
 
 //Statistics
 total_upgrades=0

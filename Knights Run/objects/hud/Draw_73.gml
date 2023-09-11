@@ -129,6 +129,7 @@ draw_text(cx+273,cy+458,string(floor(store.gold/1000))+"K")
 
 //Draw Active Status
 if store.active_focus>0 {draw_sprite(spr_item_focuspill,0,70,20)}
+if store.active_vampire>0 {draw_sprite(spr_item_vampirefang,0,100,20)}
 
 //Draw Fade
 if show_fade>0 {

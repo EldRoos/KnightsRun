@@ -24,6 +24,7 @@ store.luck=store.perm_luck
 //In game Status Effects
 store.active_focus=0
 store.active_lures=0
+store.active_vampire=0
 //InGame Upgrades
 store.cost_attack_damage=5
 store.lvl_attack_damage=1

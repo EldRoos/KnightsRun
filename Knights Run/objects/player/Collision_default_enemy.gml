@@ -24,8 +24,11 @@ audio_play_sound(sfx_enemy_hit,1,false)
 }
 
 //Check Lifesteal
-if store.lifesteal_chance >= random(100)
+tmp_lifesteal_boost=0
+if store.active_vampire>0 {tmp_lifesteal_boost=15}
+if store.lifesteal_chance+tmp_lifesteal_boost >= random(100)
 {
+
 store.hp += store.lifesteal_amount
 if store.hp > store.maxhp {store.hp = store.maxhp}
 instance_create_depth(x+3,y-42,depth,show_lifesteal)
