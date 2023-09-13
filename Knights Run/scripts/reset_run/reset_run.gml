@@ -62,4 +62,6 @@ store.perk_lvl_evader=0
 store.perk_lvl_snakeeyes=0
 store.perk_lvl_wisdom=0
 store.perk_lvl_sacrifice=0
+//Misc
+store.boss_ready=9
 }

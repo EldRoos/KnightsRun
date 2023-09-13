@@ -11,8 +11,8 @@ show_fade=1
 set_area()
 
 instance_create_depth(x,y,depth,waveGen)
-if store.current_area="Mystic Meadows" {repeat 14 instance_create_depth(random(2400),random(190),0,stage_clouds) if !audio_is_playing(bgm_meadows) {audio_stop_all() audio_play_sound(bgm_meadows,1,true)}}
-if store.current_area="Sunset Meadows" {repeat 10 instance_create_depth(random(2400),random(190),0,stage_clouds) if !audio_is_playing(bgm_meadows) {audio_stop_all() audio_play_sound(bgm_meadows,1,true)}}
+if store.current_area="Mystic Meadows" {repeat 14+random(5) instance_create_depth(random(2400),random(190),0,stage_clouds) if !audio_is_playing(bgm_meadows) {audio_stop_all() audio_play_sound(bgm_meadows,1,true)}}
+if store.current_area="Sunset Meadows" {repeat 10+random(5)  instance_create_depth(random(2400),random(190),0,stage_clouds) if !audio_is_playing(bgm_meadows) {audio_stop_all() audio_play_sound(bgm_meadows,1,true)}}
 
 
 

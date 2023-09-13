@@ -10,9 +10,11 @@ hp=hp+store.enemy_base_level
 maxhp=hp
 attack_damage=attack_damage+(store.enemy_base_level*.1)
 flying=0
+ranged=0
 
 //Custom Init
-if myName="Bee" {flying=1 y-=64}
+if myName="Bee" {flying=1 ranged=1 y-=64}
+if myName="Polis" {ranged=1}
 
 //Handle clumping
 while collision_rectangle(x-sprite_width,y-sprite_height,x+sprite_width,y+sprite_height,default_enemy,false,true) {x+=sprite_width*4}

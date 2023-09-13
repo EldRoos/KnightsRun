@@ -1,5 +1,5 @@
 // Genetix Studio
-depth = -10000
+depth = -10005
 image_speed = 0
 
 myName = "Color\nScheme"
