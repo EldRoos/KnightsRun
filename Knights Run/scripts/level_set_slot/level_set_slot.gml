@@ -67,7 +67,7 @@ if store.perk_lvl_wisdom=0 {isNew=1}
 }
 if my_id=11 {
 myHeader="Sacrifice"
-myInfo="Lose "+string((store.perk_lvl_sacrifice+1)*10)+"HP, Gain "+string((store.perk_lvl_sacrifice+1)*20)+" Gold"
+myInfo="Lose "+string((store.perk_lvl_sacrifice+1)*10)+"HP, Gain "+string((store.perk_lvl_sacrifice+1)*25)+" Gold"
 myLevel="Level "+string(store.perk_lvl_sacrifice)+">"+string(store.perk_lvl_sacrifice+1)
 if store.perk_lvl_sacrifice=0 {isNew=1}
 }

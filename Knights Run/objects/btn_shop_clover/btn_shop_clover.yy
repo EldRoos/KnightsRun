@@ -1,8 +1,11 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "show_menu_header",
-  "spriteId": null,
+  "name": "btn_shop_clover",
+  "spriteId": {
+    "name": "btn_large_tab",
+    "path": "sprites/btn_large_tab/btn_large_tab.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,
@@ -22,12 +25,15 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":4,"eventType":6,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "System",
-    "path": "folders/Objects/System.yy",
+    "name": "ItemShop",
+    "path": "folders/Objects/Menu/buttons/ItemShop.yy",
   },
 }

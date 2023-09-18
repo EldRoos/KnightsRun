@@ -8,6 +8,7 @@ player.damaged=45
 alarm[0]=120
 store.hp-=attack_damage-(attack_damage*(store.defense/100))
 check_hit=1
+audio_play_sound(sfx_playerhit,1,false)
 //player.sprite_index=spr_player_hit
 instance_create_depth(other.x-10,other.y-other.sprite_height,depth,show_damage_player).myDamage=attack_damage-(attack_damage*(store.defense/100))
 }

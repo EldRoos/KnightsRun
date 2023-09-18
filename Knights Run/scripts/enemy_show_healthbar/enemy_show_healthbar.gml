@@ -4,7 +4,7 @@ function enemy_show_healthbar(myName){
 //Draw HP bar
 draw_set_font(font_stats)
 draw_set_alpha(.75)
-draw_set_color(c_gray)
+draw_set_color(c_dkgray)
 draw_rectangle(x-31,y-(17+sprite_height/2),x+31,y-(22+sprite_height/2),false)
 draw_set_alpha(.8)
 draw_set_color(c_black)

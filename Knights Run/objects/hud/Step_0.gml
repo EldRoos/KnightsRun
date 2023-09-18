@@ -21,6 +21,7 @@ if stage_complete=0 and show_fade>0 {show_fade-=.025*store.game_speed}
 if game_paused=0 {
 if store.active_focus>0 {store.active_focus-=1*store.game_speed}
 if store.active_vampire>0 {store.active_vampire-=1*store.game_speed}
+if store.active_clover>0 {store.active_clover-=1*store.game_speed}
 }
 
 

@@ -77,13 +77,17 @@ lvl_perm_luck=1
 cost_perm_gamespeed=5
 lvl_perm_gamespeed=1
 //Inventory
-have_potion=5
-have_mega_potion=1
-have_focuspill=3
-have_vampirefang=3
+have_potion=3
+have_mega_potion=0
+have_focuspill=0
+have_vampirefang=0
+have_clover=1
 
 //Statistics
 total_upgrades=0
+
+//Bonus Codes
+code_payday=0
 
 //Set Ingame vars
 reset_run()

@@ -130,6 +130,7 @@ draw_text(cx+273,cy+458,string(floor(store.gold/1000))+"K")
 //Draw Active Status
 if store.active_focus>0 {draw_sprite(spr_item_focuspill,0,70,20)}
 if store.active_vampire>0 {draw_sprite(spr_item_vampirefang,0,100,20)}
+if store.active_clover>0 {draw_sprite(spr_item_clover,0,130,20)}
 
 //Draw Fade
 if show_fade>0 {
@@ -145,6 +146,9 @@ if hud.game_paused=1 {
 draw_set_alpha(.9)
 draw_rectangle_color(0,0,room_width,room_height,c_black,c_black,c_black,c_black,false)
 draw_set_alpha(1)
+draw_set_font(font_large_hud)
+draw_text_color(134,4,"Game Paused",c_black,c_black,c_black,c_black,.9)
+draw_text_color(132,2,"Game Paused",c_yellow,c_yellow,c_yellow,c_yellow,1)
 }
 
 //gameover
