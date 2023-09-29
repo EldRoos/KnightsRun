@@ -33,7 +33,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Settings",
-    "path": "folders/Objects/Menu/InGame/Settings.yy",
+    "name": "Paused",
+    "path": "folders/Objects/Menu/InGame/Settings/Paused.yy",
   },
 }

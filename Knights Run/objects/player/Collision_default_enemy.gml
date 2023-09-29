@@ -10,7 +10,7 @@ instance_create_depth(other.x-17,other.y-other.sprite_height/1.4,depth,show_crit
 instance_create_depth(other.x-7,other.y-other.sprite_height,depth,show_damage).myDamage=store.attack_damage*store.critical_multiplier
 other.damaged=10
 challenge_headshot_king()
-//check_critgold()
+check_critgold()
 }
 else //Regular Hit
 {
@@ -21,21 +21,27 @@ instance_create_depth(other.x-10,other.y-other.sprite_height,depth,show_damage).
 
 hit_check=1
 audio_play_sound(sfx_enemy_hit,1,false)
-}
 
 //Check Lifesteal
 tmp_lifesteal_boost=0
 if store.active_vampire>0 {tmp_lifesteal_boost=15}
 if store.lifesteal_chance+tmp_lifesteal_boost >= random(100)
 {
-
 store.hp += store.lifesteal_amount
 if store.hp > store.maxhp {store.hp = store.maxhp}
 instance_create_depth(x+3,y-42,depth,show_lifesteal)
 challenge_bloodthirst()
 }
+
+//Check Fury
+if store.card_slot_1 = 7 or store.card_slot_2 = 7 or store.card_slot_3 = 7 or store.card_slot_4 = 7
+	{
+	store.fury+=5 
+	if store.fury>=100 {store.fury=0 instance_create_depth(player.x,player.y,depth,attack_player_fury)}
+	}
 }
 
+}
 
 
 

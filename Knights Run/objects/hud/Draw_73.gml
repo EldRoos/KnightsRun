@@ -4,6 +4,20 @@ var cy = camera_get_view_y(view_camera[0]);
 
 //Stage lighting/misc
 if store.current_area="Sunset Meadows" {draw_set_alpha(.25) draw_rectangle_color(0,0,room_width,420,c_orange,c_orange,c_yellow,c_yellow,false) draw_set_alpha(1)}
+if store.current_area="Whisper Woods" {draw_set_alpha(.05) draw_rectangle_color(0,0,room_width,420,c_purple,c_purple,c_blue,c_blue,false) draw_set_alpha(1)}
+
+//Draw Fury
+if store.card_slot_1 = 7 or store.card_slot_2 = 7 or store.card_slot_3 = 7 or store.card_slot_4 = 7
+	{
+	draw_set_alpha(.75)
+	draw_set_color(c_dkgray)
+	draw_rectangle(player.x-31,player.y+57,player.x+31,player.y+60,false)
+	draw_set_alpha(.8)
+	draw_set_color(c_black)
+	draw_rectangle(player.x-31,y+57,player.x+31,player.y+60,true)
+	draw_rectangle_colour(player.x-30,player.y+58,player.x-30+((store.fury/100)*60),player.y+59,c_yellow,c_yellow,c_orange,c_orange,false)
+	draw_set_alpha(1)
+	}
 
 //Draw Attack bar
 draw_set_font(font_stats)
@@ -147,8 +161,10 @@ draw_set_alpha(.9)
 draw_rectangle_color(0,0,room_width,room_height,c_black,c_black,c_black,c_black,false)
 draw_set_alpha(1)
 draw_set_font(font_large_hud)
-draw_text_color(134,4,"Game Paused",c_black,c_black,c_black,c_black,.9)
-draw_text_color(132,2,"Game Paused",c_yellow,c_yellow,c_yellow,c_yellow,1)
+if instance_number(show_levelup)=0 {
+draw_text_color(138,4,"Game Paused",c_black,c_black,c_black,c_black,.9)
+draw_text_color(136,2,"Game Paused",c_yellow,c_yellow,c_yellow,c_yellow,1)
+}
 }
 
 //gameover
@@ -178,7 +194,6 @@ if game_over = 1 {
 	draw_set_color(c_lime)
 	draw_text(cx+110,cy+383,"Your run may have ended\nbut the road is wide open.")
 }
-
 
 
 

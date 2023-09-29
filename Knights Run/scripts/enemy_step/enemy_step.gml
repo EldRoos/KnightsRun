@@ -11,6 +11,11 @@ if attack_buffer>=attack_buffer_cap and ranged=0{attack_buffer=0 instance_create
 if attack_buffer>=attack_buffer_cap and ranged=1{attack_buffer=0 instance_create_depth(x-sprite_width,y-sprite_height/3,depth-10,enemy_hit_flying).attack_damage=attack_damage} //Attack Ranged
 }
 
+//Boss Stuff
+if boss=1 {
+if distance_to_object(player)<120 and !audio_is_playing(bgm_boss) {audio_stop_all() audio_play_sound(bgm_boss,1,true)}
+}
+
 //Death
 if hp<=0 {
 if myName="Mushkin" {instance_create_depth(x,y,depth,enemy_death).sprite_index=spr_mushroom_death challenge_mushroom_slayer()}

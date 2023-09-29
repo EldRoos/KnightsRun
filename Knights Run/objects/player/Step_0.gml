@@ -13,8 +13,6 @@ if mode="battle" {hud.current_speed=0 sprite_index=spr_player_idle
 if attack_buffer>=store.attack_buffer_cap {mode="attack" image_index=0 sprite_index=spr_player_attack attack_buffer=0 audio_play_sound(sfx_slash,1,false)}
 }
 
-}
-
 //Maintenance
 if attack_buffer>store.attack_buffer_cap {attack_buffer=store.attack_buffer_cap}
 if damaged>0 {damaged-=1*store.game_speed}
@@ -22,6 +20,8 @@ if store.hp>store.maxhp {store.hp=store.maxhp}
 
 //Stage Complete
 if hud.stage_complete=1 {x+=2*store.game_speed}
+
+}
 
 
 

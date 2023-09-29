@@ -7,11 +7,7 @@ store.xp +=1+store.perk_lvl_wisdom
 //if myType="Gold" {hud.xp +=hud.player_xp_gain*10}
 instance_destroy()
 
-if store.xp>=store.next_level
-{
-hud.game_paused = 1
-instance_create_depth(x,y,depth-1000,show_levelup)
-}
+check_lvl_up()
 }
 
 

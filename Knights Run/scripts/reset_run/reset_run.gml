@@ -21,6 +21,7 @@ store.defense=store.perm_defense
 store.lifesteal_chance=store.perm_lifesteal_chance
 store.lifesteal_amount=store.perm_lifesteal_amount
 store.luck=store.perm_luck
+store.fury=0
 //In game Status Effects
 store.active_focus=0
 store.active_lures=0

@@ -9,7 +9,8 @@ draw_text_color(118,240,"Pixel Art by Jestan",c_white,c_white,c_silver,c_silver,
 draw_text_color(118,270,"Pixel Art by Jikaro",c_white,c_white,c_silver,c_silver,1)
 draw_text_color(118,300,"Pixel Animation by Vertibirdo",c_white,c_white,c_silver,c_silver,1)
 draw_text_color(118,330,"Music by Ivan Duch",c_white,c_white,c_silver,c_silver,1)
-draw_text_color(118,360,"Special thanks to Discord Community",c_white,c_white,c_silver,c_silver,1)
+draw_text_color(118,360,"Music by ToCrazy",c_white,c_white,c_silver,c_silver,1)
+draw_text_color(118,390,"Special thanks to Discord Community",c_white,c_white,c_silver,c_silver,1)
 
 
 
