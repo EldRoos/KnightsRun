@@ -1,4 +1,4 @@
-// Genetix Studio
+ // Genetix Studio
 if hud.game_paused=0 and hud.game_over=0 and blackhole_used>0 {
 //if makeSound=1 { audio_play_sound(sfx_pop,1,false)}
 //if myType="Green" {hud.xp +=hud.player_xp_gain}

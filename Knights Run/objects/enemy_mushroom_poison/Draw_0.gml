@@ -1,0 +1,7 @@
+enemy_draw(myName)
+
+
+
+
+
+

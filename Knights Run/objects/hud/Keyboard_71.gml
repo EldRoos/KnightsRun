@@ -6,4 +6,3 @@ store.gold+=100
 
 
 
-

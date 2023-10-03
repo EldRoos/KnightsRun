@@ -8,6 +8,13 @@ if (store.challenge_a=5 or store.challenge_b=5 or store.challenge_c=5) and store
 {
 	store.goal_healer+=store.regen	
 }
+
+//Poison
+if store.active_poison>0 {
+instance_create_depth(other.x-7,other.y-other.sprite_height,depth,show_damage).myDamage=ceil(store.hp/100)
+store.hp-=ceil(store.hp/100)
+}
+
 }
 
 

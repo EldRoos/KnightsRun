@@ -6,7 +6,8 @@ if store.boss_ready<0 {store.boss_ready=9}
 	
 //Set Area and increase base enemy level
 if store.current_stage%10==0 and store.current_stage>=10 {
-store.enemy_base_level+=3 //Tier up difficulty
+store.enemy_base_level+=store.tier  //Tier up difficulty
+store.tier+=1 //Tier up difficulty
 if store.current_area="Mystic Meadows" {store.current_area="Sunset Meadows" exit}	
 if store.current_area="Sunset Meadows" {store.current_area="Whisper Woods" exit}
 if store.current_area="Whisper Woods" {store.current_area="Mystic Meadows" exit}

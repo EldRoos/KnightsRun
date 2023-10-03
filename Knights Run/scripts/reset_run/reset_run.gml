@@ -7,6 +7,9 @@ store.xp=0
 store.next_level=10
 store.level=1
 store.enemy_base_level=0
+store.tier=3
+store.enemies_killed_run=0
+store.gems_earned_run=0
 store.attack_speed=store.perm_attack_speed
 store.attack_damage=store.perm_attack_damage
 store.maxhp=store.perm_maxhp
@@ -27,6 +30,8 @@ store.active_focus=0
 store.active_lures=0
 store.active_vampire=0
 store.active_clover=0
+store.active_slow=0
+store.active_poison=0
 //InGame Upgrades
 store.cost_attack_damage=5
 store.lvl_attack_damage=1
@@ -66,4 +71,5 @@ store.perk_lvl_wisdom=0
 store.perk_lvl_sacrifice=0
 //Misc
 store.boss_ready=9
+store.current_tab=0
 }

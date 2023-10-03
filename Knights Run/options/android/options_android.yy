@@ -25,7 +25,7 @@
   "option_android_lint": true,
   "option_android_install_location": 0,
   "option_android_sleep_margin": 4,
-  "option_android_splash_screens_landscape": "${base_options_dir}/android/splash/landscape.png",
+  "option_android_splash_screens_landscape": "splash/landscape.png",
   "option_android_splash_screens_portrait": "splash/portrait.png",
   "option_android_splash_time": 0,
   "option_android_launchscreen_fill": 2,

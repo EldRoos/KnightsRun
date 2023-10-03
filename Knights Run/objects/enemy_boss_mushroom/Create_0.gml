@@ -1,5 +1,5 @@
 myName="Big Mushkin"
-hp=150+round(store.current_stage*5)
+hp=105+round(store.current_stage*10)
 attack_buffer_cap=70
 attack_damage=1.6
 boss=1

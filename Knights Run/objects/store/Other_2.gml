@@ -77,11 +77,11 @@ cost_perm_gamespeed=5
 lvl_perm_gamespeed=1
 //Inventory
 have_potion=3
-have_mega_potion=0
+have_mega_potion=1
 have_focuspill=1
 have_vampirefang=1
 have_clover=1
-have_chicken=2
+have_chicken=1
 //cards 
 slot_2_unlocked = 0
 slot_3_unlocked = 0
