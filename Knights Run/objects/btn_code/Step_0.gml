@@ -6,20 +6,51 @@ store.gems += reward
 instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "Rewarded "+string(reward)+" Gems!"
 save_game()
 }
+if myResult = "pollo" and store.code_pollo = 0
+{
+reward = 10
+store.code_pollo = 1
+store.have_chicken += reward
+instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "+"+string(reward)+" Chicken!"
+save_game()
+}
+if myResult = "lucky" and store.code_lucky = 0
+{
+reward = 10
+store.code_lucky = 1
+store.have_clover += reward
+instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "+"+string(reward)+" Lucky Clovers!"
+save_game()
+}
+if myResult = "focus" and store.code_focus = 0
+{
+reward = 10
+store.code_focus = 1
+store.have_focuspill += reward
+instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "+"+string(reward)+" Focus Pills!"
+save_game()
+}
+if myResult = "stayinalive" and store.code_stayinalive = 0
+{
+reward = 10
+store.code_stayinalive = 1
+store.have_mega_potion += reward
+instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "+"+string(reward)+" Mega Potions!"
+save_game()
+}
+if myResult = "kickstart" and store.code_kickstart = 0
+{
+reward = 300
+store.code_kickstart = 1
+store.gems += reward
+instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "Rewarded "+string(reward)+" Gems!"
+save_game()
+}
 /*
 if myResult = "buggy" and store.code_buggy = 0
 {
 reward = 100
 store.code_buggy = 1
-store.gems += reward
-instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "Rewarded "+string(reward)+" Gems!"
-save_game()
-}
-
-if myResult = "kickstart" and store.code_kickstart = 0
-{
-reward = 300
-store.code_kickstart = 1
 store.gems += reward
 instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "Rewarded "+string(reward)+" Gems!"
 save_game()
@@ -158,14 +189,6 @@ reward = ceil(random(9999))
 store.code_lotto = 1
 store.gems += reward
 instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "Rewarded "+string(reward)+" Gems!"
-save_game()
-}
-if myResult = "catchemall" and store.code_catchemall = 0
-{
-reward = 99
-store.code_catchemall = 1
-store.monsterlure += reward
-instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "+"+string(reward)+" Monster Lures!"
 save_game()
 }
 if myResult = "chaching" and store.code_chaching = 0

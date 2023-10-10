@@ -2,7 +2,7 @@
 grow = 0
 audio_stop_all()
 
-//ad_load_interstitial()
+ad_load_interstitial()
 
 depth = -100
 fade = 0

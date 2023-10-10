@@ -7,7 +7,7 @@ myInfo=""
 }
 if my_id=1 {
 myHeader="Brawn"
-myInfo="Gain +3 Attack Damage"
+myInfo="Gain +5 Attack Damage"
 myLevel="Level "+string(store.perk_lvl_brawn)+">"+string(store.perk_lvl_brawn+1)
 if store.perk_lvl_brawn=0 {isNew=1}
 }
@@ -43,7 +43,7 @@ if store.perk_lvl_sharpshooter=0 {isNew=1}
 }
 if my_id=7 {
 myHeader="Miner"
-myInfo="Gain +25 Gems"
+myInfo="Gain +"+string(25+(store.perk_lvl_miner*5))+" Gems"
 myLevel="Level "+string(store.perk_lvl_miner)+">"+string(store.perk_lvl_miner+1)
 if store.perk_lvl_miner=0 {isNew=1}
 }
@@ -67,10 +67,15 @@ if store.perk_lvl_wisdom=0 {isNew=1}
 }
 if my_id=11 {
 myHeader="Sacrifice"
-myInfo="Lose "+string((store.perk_lvl_sacrifice+1)*10)+"HP, Gain "+string((store.perk_lvl_sacrifice+1)*25)+" Gold"
+myInfo="Lose "+string((store.perk_lvl_sacrifice+1)*10)+"HP, Gain "+string((store.perk_lvl_sacrifice+1)*40)+" Gold"
 myLevel="Level "+string(store.perk_lvl_sacrifice)+">"+string(store.perk_lvl_sacrifice+1)
 if store.perk_lvl_sacrifice=0 {isNew=1}
 }
-
+if my_id=12 {
+myHeader="Side Weapon"
+myInfo="Attack cards deal+"+string(store.perk_lvl_sideweapon+1)+" damage"
+myLevel="Level "+string(store.perk_lvl_sideweapon)+">"+string(store.perk_lvl_sideweapon+1)
+if store.perk_lvl_sideweapon=0 {isNew=1}
+}
 
 }

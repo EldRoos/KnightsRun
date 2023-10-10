@@ -3,7 +3,7 @@
 image_speed = 0
 
 myName = "Upgrade"
-upgradeCost = 25
+upgradeCost = 10
 save_game()
 
 keepSelected=0

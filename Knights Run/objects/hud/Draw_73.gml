@@ -4,7 +4,8 @@ var cy = camera_get_view_y(view_camera[0]);
 
 //Stage lighting/misc
 if store.current_area="Sunset Meadows" {draw_set_alpha(.25) draw_rectangle_color(0,0,room_width,420,c_orange,c_orange,c_yellow,c_yellow,false) draw_set_alpha(1)}
-if store.current_area="Whisper Woods" {draw_set_alpha(.05) draw_rectangle_color(0,0,room_width,420,c_purple,c_purple,c_blue,c_blue,false) draw_set_alpha(1)}
+if store.current_area="Whisper Woods" {draw_set_alpha(.15) draw_rectangle_color(0,0,room_width,420,c_purple,c_purple,c_blue,c_blue,false) draw_set_alpha(1)}
+if store.current_area="Grim Graveyard" {draw_set_alpha(.05) draw_rectangle_color(0,0,room_width,420,c_purple,c_purple,c_blue,c_blue,false) draw_set_alpha(1)}
 
 //Draw Fury
 if store.card_slot_1 = 7 or store.card_slot_2 = 7 or store.card_slot_3 = 7 or store.card_slot_4 = 7
@@ -103,13 +104,13 @@ draw_text(cx+260,cy+440,"Gold")
 draw_set_color(c_white)
 draw_text(cx+258,cy+438,"Gold")
 draw_sprite(spr_show_gold,0,cx+260,cy+465)
-if store.gold <10000 {
+if store.gold <=9999 {
 draw_set_color(c_black)
 draw_text(cx+275,cy+460,string(store.gold))              
 draw_set_color(c_yellow)
 draw_text(cx+273,cy+458,string(store.gold)) 
 }
-else {
+if store.gold >9999 {
 draw_set_color(c_black)
 draw_text(cx+275,cy+460,string(floor(store.gold/1000))+"K")              
 draw_set_color(c_yellow)
@@ -123,7 +124,7 @@ draw_text(cx+330,cy+440,"Gems")
 draw_set_color(c_white)
 draw_text(cx+328,cy+438,"Gems")
 draw_sprite(spr_show_gem,0,cx+330,cy+465)
-if store.gems <10000 {
+if store.gems <9999 {
 draw_set_color(c_black)
 draw_text(cx+347,cy+460,string(store.gems))              
 draw_set_color(c_yellow)
@@ -131,9 +132,9 @@ draw_text(cx+345,cy+458,string(store.gems))
 }
 else {
 draw_set_color(c_black)
-draw_text(cx+275,cy+460,string(floor(store.gold/1000))+"K")              
+draw_text(cx+347,cy+460,string(floor(store.gems/1000))+"K")              
 draw_set_color(c_yellow)
-draw_text(cx+273,cy+458,string(floor(store.gold/1000))+"K")    
+draw_text(cx+345,cy+458,string(floor(store.gems/1000))+"K")    
 }
 
 //Draw Top Menu
@@ -142,9 +143,11 @@ draw_text(cx+273,cy+458,string(floor(store.gold/1000))+"K")
 //draw_set_alpha(1)
 
 //Draw Active Status
-if store.active_focus>0 {draw_sprite(spr_item_focuspill,0,70,20)}
-if store.active_vampire>0 {draw_sprite(spr_item_vampirefang,0,100,20)}
-if store.active_clover>0 {draw_sprite(spr_item_clover,0,130,20)}
+draw_set_font(font_stats)
+draw_set_color(c_silver)
+if store.active_focus>0 {draw_sprite(spr_item_focuspill,0,70,20) draw_text(64,28,string(round(store.active_focus/60)))}
+if store.active_vampire>0 {draw_sprite(spr_item_vampirefang,0,100,20) draw_text(94,28,string(round(store.active_vampire/60)))}
+if store.active_clover>0 {draw_sprite(spr_item_clover,0,130,20) draw_text(124,28,string(round(store.active_clover/60)))}
 if store.active_slow>0 {draw_sprite(spr_effect_clock,0,player.x+4,player.y-56)}
 if store.active_poison>0 {draw_sprite(spr_effect_poison,0,player.x+4,player.y-69)}
 
@@ -190,8 +193,8 @@ if game_over = 1 {
 	
 	//Show Gems bonuses
 	draw_text_color(cx+316,cy+264,"+"+string(round(store.current_stage))+" gems",c_yellow,c_yellow,c_yellow,c_orange,1)
-	draw_text_color(cx+316,cy+289,"+"+string(round(store.level))+" gems",c_yellow,c_yellow,c_yellow,c_orange,1)
-	draw_text_color(cx+316,cy+314,"+"+string(ceil(store.enemies_killed_run/10))+" gems",c_yellow,c_yellow,c_yellow,c_orange,1)
+	draw_text_color(cx+316,cy+289,"+"+string(round(store.level*2))+" gems",c_yellow,c_yellow,c_yellow,c_orange,1)
+	draw_text_color(cx+316,cy+314,"+"+string(ceil(store.enemies_killed_run/5))+" gems",c_yellow,c_yellow,c_yellow,c_orange,1)
 	
 	draw_set_color(c_lime)
 	draw_text(cx+114,cy+383,"Your run may have ended\nbut the journey never ends!")

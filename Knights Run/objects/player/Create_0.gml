@@ -6,7 +6,7 @@ attack_range=70
 hit_check=0
 damaged=0
 
-alarm[0]=60*store.game_speed
+alarm[0]=ceil(60/store.game_speed)
 
 
 

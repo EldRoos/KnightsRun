@@ -6,7 +6,7 @@ if stage_complete=1 and game_paused=0 {
 	if show_fade>1.5 {store.current_stage+=1 store.enemy_base_level+=1 if store.current_stage>store.best_stage {store.best_stage=store.current_stage} room=rm_maingame}
 }
 
-//Gamoever
+//Gameover
 if store.hp <= 0 and game_over = 0
 {
 //if revive<=0 {set_gameover()}
@@ -21,7 +21,8 @@ if stage_complete=0 and show_fade>0 {show_fade-=.025*store.game_speed}
 if game_paused=0 {
 if store.active_focus>0 {store.active_focus-=1*store.game_speed}
 if store.active_vampire>0 {store.active_vampire-=1*store.game_speed}
-if store.active_clover>0 {store.active_clover-=1*store.game_speed}
+if store.active_clover>0 {luck_boost=7 store.active_clover-=1*store.game_speed}
+if store.active_clover<=0 {luck_boost=0}
 if store.active_slow>0 {store.active_slow-=1*store.game_speed}
 if store.active_poison>0 {store.active_poison-=1*store.game_speed}
 }

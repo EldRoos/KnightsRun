@@ -13,8 +13,9 @@ store.gems -= store.card_cost*maxCards
 if store.gems<0 {store.gems=0}
 cardsRecieved=0
 
+var max_cards = 9.99 //Increment this when adding new card
+
 while maxCards>0 {
-var max_cards = 13.99 //Increment this when adding new card
 my_id = floor(random(max_cards))+2 
 //Make some cards more Rare
 if my_id = 8 and 5>random(10) {my_id = floor(random(max_cards))+2}

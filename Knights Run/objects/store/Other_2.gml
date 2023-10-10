@@ -1,17 +1,20 @@
 //System Init
 randomize()
+ads_init()
 audio_group_load(audio_sfx)
 audio_group_load(audio_bgm)
+version="version 1.07"
+devMode=1
+game_speed=1
+ads_watched=0
+gem_chest_cooldown=0
 
 //Game Settings
-game_speed=1
 color_scheme=1
 sfx_volume=1
 bgm_volume=1
-devMode=1
 bonus_discord=0
 auto_perk=0
-version="version 1.01"
 
 //Challenges
 challenge_a=0
@@ -76,7 +79,7 @@ lvl_perm_luck=1
 cost_perm_gamespeed=5
 lvl_perm_gamespeed=1
 //Inventory
-have_potion=3
+have_potion=4
 have_mega_potion=1
 have_focuspill=1
 have_vampirefang=1
@@ -114,7 +117,7 @@ card_lvl_mastery=1
 
 //Statistics
 best_stage=1
-total_runs=1
+total_runs=0
 enemies_slain=0
 bosses_slain=0
 gems_earned=0
@@ -124,6 +127,11 @@ challenges_completed=0
 
 //Bonus Codes
 code_payday=0
+code_pollo=0
+code_lucky=0
+code_focus=0
+code_stayinalive=0
+code_kickstart=0
 
 //Set Ingame vars
 reset_run()

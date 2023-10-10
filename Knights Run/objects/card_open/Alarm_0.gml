@@ -2,7 +2,7 @@
 if opened = 0 
 {
 opened = 1
-var max_cards = 10.99 //Increment this when adding new card
+var max_cards = 9.99 //Increment this when adding new card
 instance_create_depth(x,y,depth-1000,show_open_card)
 my_id = floor(random(max_cards))+2 
 //Make some cards more Rare

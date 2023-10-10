@@ -3,7 +3,7 @@
 function level_upgrade(){
 if my_id=1 {
 store.perk_lvl_brawn+=1
-store.attack_damage+=3
+store.attack_damage+=5
 }
 if my_id=2 {
 store.perk_lvl_toughskin+=1
@@ -27,7 +27,7 @@ store.critical_chance+=.25
 }
 if my_id=7 {
 store.perk_lvl_miner+=1
-store.gems+=25
+store.gems+=25+(store.perk_lvl_miner*5)
 }
 if my_id=8 {
 store.perk_lvl_evader+=1
@@ -37,7 +37,6 @@ if my_id=9 {
 store.perk_lvl_snakeeyes+=1
 store.luck+=.25
 }
-
 if my_id=10 {
 store.perk_lvl_wisdom+=1
 //Orbs +XP
@@ -46,6 +45,10 @@ if my_id=11 {
 store.perk_lvl_sacrifice+=1
 store.hp-= store.perk_lvl_sacrifice*10
 store.gold+= store.perk_lvl_sacrifice*25
+}
+if my_id=12 {
+store.perk_lvl_sideweapon+=1
+//Card Damage +X
 }
 
 }

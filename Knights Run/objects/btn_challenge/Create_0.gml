@@ -1,5 +1,5 @@
 // Genetix Studio
-depth = -10000
+depth = -10005
 image_speed = 0
 alarm[1] = 1
 image_index=1
@@ -11,6 +11,7 @@ myDesc = ""
 myReward = 0
 myCap = 0
 myCur = 0
+myLevel=1
 
 
 

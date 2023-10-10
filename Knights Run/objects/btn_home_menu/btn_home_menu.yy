@@ -33,7 +33,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "MenuTabs",
-    "path": "folders/Objects/Menu/MenuTabs.yy",
+    "name": "InGame",
+    "path": "folders/Objects/Menu/InGame.yy",
   },
 }

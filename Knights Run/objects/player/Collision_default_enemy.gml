@@ -21,6 +21,7 @@ instance_create_depth(other.x-10,other.y-other.sprite_height,depth,show_damage).
 
 hit_check=1
 audio_play_sound(sfx_enemy_hit,1,false)
+instance_create_depth(other.x,player.y,depth,effect_blood_hit)
 
 //Check Lifesteal
 tmp_lifesteal_boost=0

@@ -6,7 +6,7 @@ boss=0
 damaged=0
 
 gem_reward=ceil(random(5))
-gold_reward=ceil(random(10))
+gold_reward=ceil(random(10)+store.current_stage)
 
 //Supply Boost
 if store.card_slot_1 = 8 or store.card_slot_2 = 8 or store.card_slot_3 = 8 or store.card_slot_4 = 8 {

@@ -16,10 +16,12 @@ attack_poison=0
 
 //Custom Init
 if myName="Bee" {flying=1 ranged=1 y-=64}
+if myName="Bat" {flying=1 ranged=1 y-=64}
 if myName="Polis" {ranged=1}
 if myName="Ghoul" {ranged=2 attack_slow=1}
 if myName="Poison Mushkin" {ranged=2 attack_poison=1}
-if myName="Eyemon" {flying=1 ranged=1 y-=48}
+if myName="Boss Eyemon" {flying=1 ranged=1 y-=48}
+if myName="Boss Dark Apprentice" {flying=1 ranged=1 y-=54}
 
 //Handle clumping
 while collision_rectangle(x-sprite_width,y-sprite_height,x+sprite_width,y+sprite_height,default_enemy,false,true) {x+=sprite_width*4}

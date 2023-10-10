@@ -10,5 +10,7 @@ alarm[0]=60
 if store.current_area="Mystic Meadows" {sprite_index=spr_decor_forest}
 if store.current_area="Sunset Meadows" {sprite_index=spr_decor_forest}
 if store.current_area="Whisper Woods" {sprite_index=spr_decor_deadforest}
+if store.current_area="Grim Graveyard" {sprite_index=spr_decor_deadforest}
+if store.current_area="Deadly Dungeon" {sprite_index=spr_decor_castle}
 
 

@@ -39,7 +39,7 @@
   ],
   "overriddenProperties": [],
   "parent": {
-    "name": "Menu",
-    "path": "folders/Objects/Menu.yy",
+    "name": "menu_buttons",
+    "path": "folders/Objects/Menu/buttons/menu_buttons.yy",
   },
 }

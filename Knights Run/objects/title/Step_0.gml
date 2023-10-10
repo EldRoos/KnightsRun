@@ -4,7 +4,7 @@ if fade > 0 {fade +=.05 image_xscale +=.01}
 
 if device_mouse_check_button(0,mb_any) and fade = 0
 {
-//	load_game()
+	load_game()
 	if store.sfx_volume = 0 {audio_group_set_gain(audio_sfx,0,60)}
 	if store.sfx_volume = 1 {audio_group_set_gain(audio_sfx,1,60) audio_play_sound(sfx_upgrade,1,false)}
 	if store.bgm_volume = 0 {audio_group_set_gain(audio_bgm,0,60)}
