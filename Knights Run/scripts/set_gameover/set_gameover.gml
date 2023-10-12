@@ -7,7 +7,7 @@ hud.game_paused = 0
 hud.game_over = 1 
 store.total_runs+=1
 	
-store.gems_earned_run=store.current_stage+(store.level*2)+ceil(store.enemies_killed_run/5)
+store.gems_earned_run=store.current_stage+(store.level*3)+ceil(store.enemies_killed_run/5)
 store.gems+=store.gems_earned_run
 store.gems_earned+=store.gems_earned_run
 

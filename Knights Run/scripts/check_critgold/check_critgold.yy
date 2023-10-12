@@ -5,7 +5,7 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Card_Perks_Abilities",
-    "path": "folders/Scripts/Card_Perks_Abilities.yy",
+    "name": "Cards",
+    "path": "folders/Scripts/Cards.yy",
   },
 }

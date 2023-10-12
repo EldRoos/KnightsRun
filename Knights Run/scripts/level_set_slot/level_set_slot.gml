@@ -31,7 +31,7 @@ if store.perk_lvl_mended=0 {isNew=1}
 }
 if my_id=5 {
 myHeader="Iron Walls"
-myInfo="Gain +10 Max HP"
+myInfo="Gain +"+string(10+(store.perk_lvl_miner*5))+" Max HP"
 myLevel="Level "+string(store.perk_lvl_ironwalls)+">"+string(store.perk_lvl_ironwalls+1)
 if store.perk_lvl_ironwalls=0 {isNew=1}
 }
@@ -76,6 +76,12 @@ myHeader="Side Weapon"
 myInfo="Attack cards deal+"+string(store.perk_lvl_sideweapon+1)+" damage"
 myLevel="Level "+string(store.perk_lvl_sideweapon)+">"+string(store.perk_lvl_sideweapon+1)
 if store.perk_lvl_sideweapon=0 {isNew=1}
+}
+if my_id=13 {
+myHeader="Daily Gold"
+myInfo="Gain +"+string((store.perk_lvl_dailygold+1)*15)+" Gold each day"
+myLevel="Level "+string(store.perk_lvl_dailygold)+">"+string(store.perk_lvl_dailygold+1)
+if store.perk_lvl_dailygold=0 {isNew=1}
 }
 
 }

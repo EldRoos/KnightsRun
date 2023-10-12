@@ -13,7 +13,8 @@ draw_text_color(118,360,"Pixel Animation by Vertibirdo",c_white,c_white,c_silver
 draw_text_color(118,390,"Music by Ivan Duch",c_white,c_white,c_silver,c_silver,1)
 draw_text_color(118,420,"Music by ToCrazy",c_white,c_white,c_silver,c_silver,1)
 draw_text_color(118,450,"Music by Music Sweet Music",c_white,c_white,c_silver,c_silver,1)
-draw_text_color(118,480,"Special thanks to Discord Community",c_white,c_white,c_silver,c_silver,1)
+draw_text_color(118,480,"Testing by Sean Bales",c_white,c_white,c_silver,c_silver,1)
+draw_text_color(118,510,"Special thanks to Discord Community",c_white,c_white,c_silver,c_silver,1)
 
 
 

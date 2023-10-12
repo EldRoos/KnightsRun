@@ -54,7 +54,9 @@ if (store.card_slot_1 = 11 or store.card_slot_2 = 11 or store.card_slot_3 = 11 o
 		check_lvl_up()
 	}	
 
-
+//PERKS
+//Daily Gold
+if store.perk_lvl_dailygold>0 {store.gold+=store.perk_lvl_dailygold*15}
 
 
 

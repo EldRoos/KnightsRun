@@ -26,7 +26,7 @@ if store.card_orb > 0 {image_index = 2 draw_card()}
 if my_id = 6 //Critical Gold
 {
 if store.card_critgold = 0 {image_index = 1}
-if store.card_critgold > 0 {image_index = 3 draw_card()}
+if store.card_critgold > 0 {image_index = 2 draw_card()}
 }
 if my_id = 7 //Raging Fury
 {

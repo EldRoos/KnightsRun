@@ -46,16 +46,15 @@ store.gems += reward
 instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "Rewarded "+string(reward)+" Gems!"
 save_game()
 }
-/*
-if myResult = "buggy" and store.code_buggy = 0
+if myResult = "lotto" and store.code_lotto = 0
 {
-reward = 100
-store.code_buggy = 1
+reward = ceil(random(999))
+store.code_lotto = 1
 store.gems += reward
 instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "Rewarded "+string(reward)+" Gems!"
 save_game()
 }
-
+/*
 if myResult = "incorrect" and store.code_incorrect = 0
 {
 reward = 200
@@ -74,15 +73,6 @@ instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "Rewarded "+strin
 save_game()
 }
 
-if myResult = "grow" and store.code_grow = 0
-{
-reward = 200
-store.code_grow = 1
-store.crop_seeds += reward
-instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "Rewarded "+string(reward)+" Seeds!"
-save_game()
-}
-
 if myResult = "lumos" and store.code_lumos = 0
 {
 reward = 100
@@ -92,13 +82,6 @@ instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "Rewarded "+strin
 save_game()
 }
 
-if myResult = "allday" and store.code_allday = 0
-{
-store.best_day_tier1=101
-store.code_allday=1
-instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "Best Day set to 101"
-save_game()
-}
 
 if myResult = "heart" and store.code_heart = 0
 {
@@ -183,14 +166,7 @@ store.ice_arrows += reward
 instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "+"+string(reward)+" Ice Arrows!"
 save_game()
 }
-if myResult = "lotto" and store.code_lotto = 0
-{
-reward = ceil(random(9999))
-store.code_lotto = 1
-store.gems += reward
-instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "Rewarded "+string(reward)+" Gems!"
-save_game()
-}
+
 if myResult = "chaching" and store.code_chaching = 0
 {
 reward = 500

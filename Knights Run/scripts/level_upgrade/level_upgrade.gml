@@ -19,7 +19,7 @@ store.regen+=.25
 }
 if my_id=5 {
 store.perk_lvl_ironwalls+=1
-store.maxhp+=10
+store.maxhp+=10+(store.perk_lvl_miner*5)
 }
 if my_id=6 {
 store.perk_lvl_sharpshooter+=1
@@ -49,6 +49,10 @@ store.gold+= store.perk_lvl_sacrifice*25
 if my_id=12 {
 store.perk_lvl_sideweapon+=1
 //Card Damage +X
+}
+if my_id=13 {
+store.perk_lvl_dailygold+=1
+//Daily Gold +X
 }
 
 }

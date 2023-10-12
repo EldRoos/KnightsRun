@@ -69,11 +69,11 @@ instance_create_depth(random_range(1000,1000+distanceBossTokisaki), y,-199,enemy
 if store.current_area="Whisper Woods" { 
 //Gen Mushkin
 var distanceMushkin = max(2000-tier_level,1600)
-var spawnMushkin = 12 + tier +(7*store.active_lures)
+var spawnMushkin = 13 + tier +(7*store.active_lures)
 repeat(spawnMushkin) instance_create_depth(random_range(500,500+distanceMushkin), y,-199,enemy_mushroom);
 //Gen Poison Mushkin
 var distancePoisonMushkin = max(2000-tier_level,1600)
-var spawnPoisonMushkin = 4 + tier +(7*store.active_lures)
+var spawnPoisonMushkin = 3 + tier +(7*store.active_lures)
 repeat(spawnPoisonMushkin) instance_create_depth(random_range(500,500+distancePoisonMushkin), y,-199,enemy_mushroom_poison);
 //Gen Goblin
 if store.current_stage%4==0 {
@@ -90,7 +90,7 @@ repeat(spawnBee) instance_create_depth(random_range(500,500+distanceBee), y,-199
 //Gen ghoul
 if store.current_stage%2==0 {
 var distanceGhoul = max(2000-tier_level,1600)
-var spawnGhoul = 5 + tier +(3*store.active_lures)
+var spawnGhoul = 3 + tier +(3*store.active_lures)
 repeat(spawnGhoul) instance_create_depth(random_range(500,500+distanceGhoul), y,-199,enemy_ghoul);
 }
 //Gen Eyemon Boss

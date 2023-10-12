@@ -56,8 +56,8 @@ draw_sprite(spr_stat_cap,1,cx+7,cy+451)
 //Draw HP bar
 draw_set_font(font_stats)
 draw_set_alpha(.75)
-draw_set_color(c_maroon)
-draw_rectangle(cx+7,cy+461,cx+59,cy+472,false)
+draw_set_color(c_gray)
+draw_rectangle(cx+7,cy+461,cx+159,cy+472,false)
 draw_set_alpha(.8)
 draw_set_color(c_black)
 draw_rectangle(cx+7,cy+460,cx+159,cy+473,true)
@@ -137,11 +137,6 @@ draw_set_color(c_yellow)
 draw_text(cx+345,cy+458,string(floor(store.gems/1000))+"K")    
 }
 
-//Draw Top Menu
-//draw_set_alpha(.5)
-//draw_rectangle_color(0,0,room_width,36,c_black,c_black,c_black,c_black,false)
-//draw_set_alpha(1)
-
 //Draw Active Status
 draw_set_font(font_stats)
 draw_set_color(c_silver)
@@ -193,7 +188,7 @@ if game_over = 1 {
 	
 	//Show Gems bonuses
 	draw_text_color(cx+316,cy+264,"+"+string(round(store.current_stage))+" gems",c_yellow,c_yellow,c_yellow,c_orange,1)
-	draw_text_color(cx+316,cy+289,"+"+string(round(store.level*2))+" gems",c_yellow,c_yellow,c_yellow,c_orange,1)
+	draw_text_color(cx+316,cy+289,"+"+string(round(store.level*3))+" gems",c_yellow,c_yellow,c_yellow,c_orange,1)
 	draw_text_color(cx+316,cy+314,"+"+string(ceil(store.enemies_killed_run/5))+" gems",c_yellow,c_yellow,c_yellow,c_orange,1)
 	
 	draw_set_color(c_lime)

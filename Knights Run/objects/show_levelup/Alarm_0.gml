@@ -1,7 +1,7 @@
 // Genetix Studio
 if instance_number(btn_lvl_upgrade)>0 {with btn_lvl_upgrade instance_destroy()}
 
-total_choices=11.99 //UPDATE THIS WHEN ADDING NEW CHOICE
+total_choices=12.99 //UPDATE THIS WHEN ADDING NEW CHOICE
 slot_1= ceil(random(total_choices))
 slot_2= ceil(random(total_choices))
 slot_3= ceil(random(total_choices))
@@ -15,6 +15,11 @@ var cy = camera_get_view_y(view_camera[0]);
 instance_create_depth(cx+143,cy+330,depth-10,btn_lvl_upgrade).my_id=slot_1
 instance_create_depth(cx+143,cy+410,depth-10,btn_lvl_upgrade).my_id=slot_2
 instance_create_depth(cx+143,cy+490,depth-10,btn_lvl_upgrade).my_id=slot_3
+
+if (store.challenge_a=7 or store.challenge_b=7 or store.challenge_c=7) and store.goal_learning < 5+(5*store.lvl_learning)
+{
+	store.goal_learning+=1		
+}
 
 //instance_create_depth(cx+4,cy+908,depth-10,btn_reroll)
 

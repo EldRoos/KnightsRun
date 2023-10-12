@@ -4,7 +4,7 @@ ads_init()
 audio_group_load(audio_sfx)
 audio_group_load(audio_bgm)
 version="version 1.07"
-devMode=1
+devMode=0
 game_speed=1
 ads_watched=0
 gem_chest_cooldown=0
@@ -34,6 +34,8 @@ goal_healer=0
 lvl_healer=1
 goal_shopaholic=0
 lvl_shopaholic=1
+goal_learning=0
+lvl_learning=1
 
 //Perm Stats
 perm_attack_speed=1
@@ -132,6 +134,7 @@ code_lucky=0
 code_focus=0
 code_stayinalive=0
 code_kickstart=0
+code_lotto=0
 
 //Set Ingame vars
 reset_run()

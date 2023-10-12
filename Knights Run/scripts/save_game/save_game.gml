@@ -27,6 +27,8 @@ ini_write_real( "save1", "goal_healer", store.goal_healer);
 ini_write_real( "save1", "lvl_healer", store.lvl_healer);
 ini_write_real( "save1", "goal_shopaholic", store.goal_shopaholic);
 ini_write_real( "save1", "lvl_shopaholic", store.lvl_shopaholic);
+ini_write_real( "save1", "goal_learning", store.goal_learning);
+ini_write_real( "save1", "lvl_learning", store.lvl_learning);
 //Perm Stats
 ini_write_real( "save1", "perm_attack_speed", store.perm_attack_speed);
 ini_write_real( "save1", "perm_attack_damage", store.perm_attack_damage);
@@ -122,6 +124,7 @@ ini_write_real( "save1", "code_lucky", store.code_lucky);
 ini_write_real( "save1", "code_focus", store.code_focus);
 ini_write_real( "save1", "code_stayinalive", store.code_stayinalive);
 ini_write_real( "save1", "code_kickstart", store.code_kickstart);
+ini_write_real( "save1", "code_lotto", store.code_lotto);
 //Ingame Stats
 ini_write_real( "save1", "gold", store.gold);
 ini_write_real( "save1", "current_stage", store.current_stage);
@@ -193,6 +196,7 @@ ini_write_real( "save1", "perk_lvl_snakeeyes", store.perk_lvl_snakeeyes);
 ini_write_real( "save1", "perk_lvl_wisdom", store.perk_lvl_wisdom);
 ini_write_real( "save1", "perk_lvl_sacrifice", store.perk_lvl_sacrifice);
 ini_write_real( "save1", "perk_lvl_sideweapon", store.perk_lvl_sideweapon);
+ini_write_real( "save1", "perk_lvl_dailygold", store.perk_lvl_dailygold);
 //Misc
 ini_write_real( "save1", "boss_ready", store.boss_ready);
 ini_write_real( "save1", "current_tab", store.current_tab);
