@@ -19,7 +19,7 @@ store.regen+=.25
 }
 if my_id=5 {
 store.perk_lvl_ironwalls+=1
-store.maxhp+=10+(store.perk_lvl_miner*5)
+store.maxhp+=5+(store.perk_lvl_ironwalls*5)
 }
 if my_id=6 {
 store.perk_lvl_sharpshooter+=1
@@ -27,7 +27,7 @@ store.critical_chance+=.25
 }
 if my_id=7 {
 store.perk_lvl_miner+=1
-store.gems+=25+(store.perk_lvl_miner*5)
+store.gems+=20+(store.perk_lvl_miner*5)
 }
 if my_id=8 {
 store.perk_lvl_evader+=1
@@ -39,20 +39,23 @@ store.luck+=.25
 }
 if my_id=10 {
 store.perk_lvl_wisdom+=1
-//Orbs +XP
 }
 if my_id=11 {
 store.perk_lvl_sacrifice+=1
 store.hp-= store.perk_lvl_sacrifice*10
-store.gold+= store.perk_lvl_sacrifice*25
+store.gold+= store.perk_lvl_sacrifice*50
 }
 if my_id=12 {
 store.perk_lvl_sideweapon+=1
-//Card Damage +X
 }
 if my_id=13 {
 store.perk_lvl_dailygold+=1
-//Daily Gold +X
+}
+if my_id=14 {
+store.perk_lvl_plunderer+=1
+}
+if my_id=15 {
+store.perk_lvl_frostblade+=1
 }
 
 }

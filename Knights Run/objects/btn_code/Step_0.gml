@@ -54,6 +54,38 @@ store.gems += reward
 instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "Rewarded "+string(reward)+" Gems!"
 save_game()
 }
+if myResult = "dracula" and store.code_dracula = 0
+{
+reward = 10
+store.code_dracula = 1
+store.have_vampirefang += reward
+instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "+"+string(reward)+" Vampire Fangs!"
+save_game()
+}
+if myResult = "hooked" and store.code_hooked = 0
+{
+reward = 10
+store.code_hooked = 1
+store.have_lure += reward
+instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "+"+string(reward)+" Monster Lures!"
+save_game()
+}
+if myResult = "lumos" and store.code_lumos = 0
+{
+reward = 100
+store.code_lumos = 1
+store.gems += reward
+instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "Rewarded "+string(reward)+" Gems!"
+save_game()
+}
+if myResult = "trickortreat" and store.code_trickortreat = 0
+{
+reward = 250
+store.code_trickortreat = 1
+store.gems += reward
+instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "Rewarded "+string(reward)+" Gems!"
+save_game()
+}
 /*
 if myResult = "incorrect" and store.code_incorrect = 0
 {
@@ -72,16 +104,6 @@ store.gems += reward
 instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "Rewarded "+string(reward)+" Gems!"
 save_game()
 }
-
-if myResult = "lumos" and store.code_lumos = 0
-{
-reward = 100
-store.code_lumos = 1
-store.gems += reward
-instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "Rewarded "+string(reward)+" Gems!"
-save_game()
-}
-
 
 if myResult = "heart" and store.code_heart = 0
 {

@@ -24,6 +24,8 @@ if store.current_area="Sunset Meadows" {repeat 10+random(5)  instance_create_dep
 if store.current_area="Whisper Woods" {repeat 16+random(5)  instance_create_depth(random(2400),random(190),0,stage_clouds) repeat random(4) instance_create_depth(random(-2400),random(190),0,bird) if !audio_is_playing(bgm_darknight) {audio_stop_all() audio_play_sound(bgm_darknight,1,true)}}
 if store.current_area="Grim Graveyard" {repeat 15+random(5)  instance_create_depth(random(2400),random(190),0,stage_clouds) if !audio_is_playing(bgm_darknight) {audio_stop_all() audio_play_sound(bgm_darknight,1,true)}}
 if store.current_area="Deadly Dungeon" {if !audio_is_playing(bgm_castle) {audio_stop_all() audio_play_sound(bgm_castle,1,true)}}
+if store.current_area="Cursed Courtyard" {repeat 13+random(5) instance_create_depth(random(2400),random(190),0,stage_clouds) repeat random(7) instance_create_depth(random(-2400),random(190),0,bird) if !audio_is_playing(bgm_castle) {audio_stop_all() audio_play_sound(bgm_castle,1,true)}}
+if store.current_area="Ice Cavern" {if !audio_is_playing(bgm_cavern) {audio_stop_all() audio_play_sound(bgm_cavern,1,true)}}
 
 /////CARDS
 //Inheritance Card
@@ -56,7 +58,7 @@ if (store.card_slot_1 = 11 or store.card_slot_2 = 11 or store.card_slot_3 = 11 o
 
 //PERKS
 //Daily Gold
-if store.perk_lvl_dailygold>0 {store.gold+=store.perk_lvl_dailygold*15}
+if store.perk_lvl_dailygold>0 {store.gold+=store.perk_lvl_dailygold*25}
 
 
 

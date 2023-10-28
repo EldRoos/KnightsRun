@@ -32,6 +32,7 @@ store.active_vampire=0
 store.active_clover=0
 store.active_slow=0
 store.active_poison=0
+store.active_lampoil=0
 //InGame Upgrades
 store.cost_attack_damage=5
 store.lvl_attack_damage=1
@@ -71,7 +72,12 @@ store.perk_lvl_wisdom=0
 store.perk_lvl_sacrifice=0
 store.perk_lvl_sideweapon=0
 store.perk_lvl_dailygold=0
+store.perk_lvl_plunderer=0
+store.perk_lvl_frostblade=0
 //Misc
 store.boss_ready=9
 store.current_tab=0
+store.shiva_ready=0
+store.phoenix_ready=0
+store.ifrit_ready=0
 }

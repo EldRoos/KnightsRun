@@ -10,6 +10,7 @@ if reward_item_name = "Focus Pill" {store.have_focuspill += reward_items}
 if reward_item_name = "Vampire Fang" {store.have_vampirefang += reward_items}
 if reward_item_name = "Lucky Clover" {store.have_clover += reward_items}
 if reward_item_name = "Chicken" {store.have_chicken += reward_items}
+if reward_item_name = "Monster Lure" {store.have_lure += reward_items}
 
 alarm[0]=3
 

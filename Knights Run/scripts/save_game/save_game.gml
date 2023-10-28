@@ -9,6 +9,10 @@ ini_write_real( "save1", "bgm_volume", store.bgm_volume);
 ini_write_real( "save1", "bonus_discord", store.bonus_discord);
 ini_write_real( "save1", "auto_perk", store.auto_perk);
 ini_write_real( "save1", "ads_watched", store.ads_watched);
+ini_write_real( "save1", "show_healthbars", store.show_healthbars);
+ini_write_real( "save1", "auto_upgrade", store.auto_upgrade);
+ini_write_real( "save1", "auto_guardian", store.auto_guardian);
+ini_write_real( "save1", "auto_event", store.auto_event);
 //Challenges
 ini_write_real( "save1", "challenge_a", store.challenge_a);
 ini_write_real( "save1", "challenge_b", store.challenge_b);
@@ -79,6 +83,16 @@ ini_write_real( "save1", "have_focuspill", store.have_focuspill);
 ini_write_real( "save1", "have_vampirefang", store.have_vampirefang);
 ini_write_real( "save1", "have_clover", store.have_clover);
 ini_write_real( "save1", "have_chicken", store.have_chicken);
+ini_write_real( "save1", "have_lure", store.have_lure);
+ini_write_real( "save1", "have_lampoil", store.have_lampoil);
+//Guardians
+ini_write_real( "save1", "have_skullkeys", store.have_skullkeys);
+ini_write_real( "save1", "guardian_shiva_lvl", store.guardian_shiva_lvl);
+//ini_write_real( "save1", "shiva_readytime", store.shiva_readytime);
+ini_write_real( "save1", "guardian_phoenix_lvl", store.guardian_phoenix_lvl);
+//ini_write_real( "save1", "phoenix_readytime", store.phoenix_readytime);
+ini_write_real( "save1", "guardian_ifrit_lvl", store.guardian_ifrit_lvl);
+//ini_write_real( "save1", "ifrit_readytime", store.ifrit_readytime);
 //cards 
 ini_write_real( "save1", "slot_2_unlocked", store.slot_2_unlocked);
 ini_write_real( "save1", "slot_3_unlocked", store.slot_3_unlocked);
@@ -125,6 +139,10 @@ ini_write_real( "save1", "code_focus", store.code_focus);
 ini_write_real( "save1", "code_stayinalive", store.code_stayinalive);
 ini_write_real( "save1", "code_kickstart", store.code_kickstart);
 ini_write_real( "save1", "code_lotto", store.code_lotto);
+ini_write_real( "save1", "code_dracula", store.code_dracula);
+ini_write_real( "save1", "code_hooked", store.code_hooked);
+ini_write_real( "save1", "code_lumos", store.code_lumos);
+ini_write_real( "save1", "code_trickortreat", store.code_trickortreat);
 //Ingame Stats
 ini_write_real( "save1", "gold", store.gold);
 ini_write_real( "save1", "current_stage", store.current_stage);
@@ -158,6 +176,7 @@ ini_write_real( "save1", "active_vampire", store.active_vampire);
 ini_write_real( "save1", "active_clover", store.active_clover);
 ini_write_real( "save1", "active_slow", store.active_slow);
 ini_write_real( "save1", "active_poison", store.active_poison);
+ini_write_real( "save1", "active_lampoil", store.active_lampoil);
 //InGame Upgrades
 ini_write_real( "save1", "cost_attack_damage", store.cost_attack_damage);
 ini_write_real( "save1", "lvl_attack_damage", store.lvl_attack_damage);
@@ -197,9 +216,14 @@ ini_write_real( "save1", "perk_lvl_wisdom", store.perk_lvl_wisdom);
 ini_write_real( "save1", "perk_lvl_sacrifice", store.perk_lvl_sacrifice);
 ini_write_real( "save1", "perk_lvl_sideweapon", store.perk_lvl_sideweapon);
 ini_write_real( "save1", "perk_lvl_dailygold", store.perk_lvl_dailygold);
+ini_write_real( "save1", "perk_lvl_plunderer", store.perk_lvl_plunderer);
+ini_write_real( "save1", "perk_lvl_frostblade", store.perk_lvl_frostblade);
 //Misc
 ini_write_real( "save1", "boss_ready", store.boss_ready);
 ini_write_real( "save1", "current_tab", store.current_tab);
+ini_write_real( "save1", "shiva_ready", store.shiva_ready);
+ini_write_real( "save1", "phoenix_ready", store.phoenix_ready);
+ini_write_real( "save1", "ifrit_ready", store.ifrit_ready);
 	
 	ini_close();
 

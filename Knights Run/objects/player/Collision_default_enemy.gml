@@ -30,8 +30,15 @@ if store.lifesteal_chance+tmp_lifesteal_boost >= random(100)
 {
 store.hp += store.lifesteal_amount
 if store.hp > store.maxhp {store.hp = store.maxhp}
+instance_create_depth(player.x-9,player.y-72,depth,show_heal_player).myNumber=store.lifesteal_amount
 instance_create_depth(x+3,y-42,depth,show_lifesteal)
 challenge_bloodthirst()
+}
+
+//Check Frost Blade
+if store.perk_lvl_frostblade>0 and (store.perk_lvl_frostblade*5>random(100))
+{
+	if other.boss=0 {other.frozen=180}
 }
 
 //Check Fury

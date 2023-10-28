@@ -9,8 +9,13 @@ instance_create_depth(270,890,depth-10,btn_resume)
 instance_create_depth(74,890,depth-10,btn_abandon_run)
 instance_create_depth(92,420,depth-10,btn_sfx)
 instance_create_depth(92,480,depth-10,btn_bgm)
+instance_create_depth(92,540,depth-10,btn_autoupgrade)
+instance_create_depth(92,600,depth-10,btn_autoguardian)
 instance_create_depth(242,420,depth-10,btn_set_colorscheme)
-instance_create_depth(242,480,depth-10,btn_autoperk)
+instance_create_depth(242,480,depth-10,btn_healthbars)
+instance_create_depth(242,540,depth-10,btn_autoperk)
+instance_create_depth(242,600,depth-10,btn_autoevent)
+
 
 instance_create_depth(81,103,depth-10,btn_challenge).my_slot=0
 instance_create_depth(81,173,depth-10,btn_challenge).my_slot=1

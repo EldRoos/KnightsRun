@@ -12,6 +12,8 @@ if store.current_area="Mystic Meadows" {store.current_area="Sunset Meadows" exit
 if store.current_area="Sunset Meadows" {store.current_area="Whisper Woods" exit}
 if store.current_area="Whisper Woods" {store.current_area="Grim Graveyard" exit}
 if store.current_area="Grim Graveyard" {store.current_area="Deadly Dungeon" exit}
-if store.current_area="Deadly Dungeon" {store.current_area="Mystic Meadows" exit}
+if store.current_area="Deadly Dungeon" {store.current_area="Cursed Courtyard" exit}
+if store.current_area="Cursed Courtyard" {store.current_area="Ice Cavern" exit}
+if store.current_area="Ice Cavern" {store.current_area="Mystic Meadows" exit}
 }
 }

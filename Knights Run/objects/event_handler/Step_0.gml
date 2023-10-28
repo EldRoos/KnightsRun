@@ -1,0 +1,1 @@
+if hud.game_over > 0 {instance_destroy()}

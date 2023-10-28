@@ -29,7 +29,7 @@ if slot=9 {
 if store.perk_lvl_snakeeyes>=6 {return false}
 }
 if slot=10 {
-if store.perk_lvl_wisdom>=3 {return false}
+if store.perk_lvl_wisdom>=4 {return false}
 }
 if slot=11 {
 if store.perk_lvl_sacrifice>=9999 {return false}
@@ -39,6 +39,12 @@ if store.perk_lvl_sideweapon>=99 {return false}
 }
 if slot=13 {
 if store.perk_lvl_dailygold>=99 {return false}
+}
+if slot=14 {
+if store.perk_lvl_plunderer>=3 {return false}
+}
+if slot=15 {
+if store.perk_lvl_frostblade>=3 {return false}
 }
 
 return true

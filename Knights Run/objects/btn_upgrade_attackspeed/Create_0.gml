@@ -7,3 +7,4 @@ stat_cap = 10
 maxxed = 0
 hold=0
 
+alarm[0]=15 //Auto Upgrade Checker

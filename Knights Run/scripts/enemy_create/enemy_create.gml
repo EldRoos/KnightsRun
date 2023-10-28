@@ -13,6 +13,8 @@ flying=0
 ranged=0
 attack_slow=0
 attack_poison=0
+frozen=0
+burning=0
 
 //Custom Init
 if myName="Bee" {flying=1 ranged=1 y-=64}

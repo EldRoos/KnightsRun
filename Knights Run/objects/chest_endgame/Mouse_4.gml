@@ -1,5 +1,5 @@
 // Genetix Studio
-if AdMob_Interstitial_IsLoaded() =1
+if AdMob_Interstitial_IsLoaded()=1
 {
 ad_show_interstitial()
 store.gems += reward

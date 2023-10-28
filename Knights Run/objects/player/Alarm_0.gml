@@ -11,8 +11,33 @@ if (store.challenge_a=5 or store.challenge_b=5 or store.challenge_c=5) and store
 
 //Poison
 if store.active_poison>0 {
-instance_create_depth(other.x-5,other.y-other.sprite_height-3,depth,show_damage).myDamage=ceil(store.hp/100)
+instance_create_depth(other.x-5,other.y-other.sprite_height-8,depth,show_damage).myDamage=ceil(store.hp/100)
 store.hp-=ceil(store.hp/100)
+}
+
+//Guardians
+tmp_guardian_boost=0
+if store.active_lampoil>0 {tmp_guardian_boost=2}
+if store.shiva_ready<store.shiva_readytime and store.guardian_shiva_lvl>0 {store.shiva_ready+=1+tmp_guardian_boost}
+if store.phoenix_ready<store.phoenix_readytime and store.guardian_phoenix_lvl {store.phoenix_ready+=1+tmp_guardian_boost}
+if store.ifrit_ready<store.ifrit_readytime and store.guardian_ifrit_lvl {store.ifrit_ready+=1+tmp_guardian_boost}
+
+if store.shiva_ready>=store.shiva_readytime and store.auto_guardian=1 and instance_number(default_guardian)=0 {
+store.shiva_ready=0
+instance_create_depth(-100,100,depth-1000,guardian_shiva)
+log_rotate(c_lime,"Summoned Shiva")
+}
+
+if store.phoenix_ready>=store.phoenix_readytime and store.auto_guardian=1 and instance_number(default_guardian)=0 {
+store.phoenix_ready=0
+instance_create_depth(-100,100,depth-1000,guardian_phoenix)
+log_rotate(c_lime,"Summoned Phoenix")
+}
+
+if store.ifrit_ready>=store.ifrit_readytime and store.auto_guardian=1 and instance_number(default_guardian)=0 {
+store.ifrit_ready=0
+instance_create_depth(-100,100,depth-1000,guardian_ifrit)
+log_rotate(c_lime,"Summoned Ifrit")
 }
 
 }

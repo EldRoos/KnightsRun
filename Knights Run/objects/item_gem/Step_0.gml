@@ -1,5 +1,5 @@
 //Fall to ground
-if y<308 {x+=4 y+=4}
+if y<308 {x+=1+(random(5)) y+=4}
 
 //Move with player
 if hud.game_over=0 and hud.game_paused=0 {

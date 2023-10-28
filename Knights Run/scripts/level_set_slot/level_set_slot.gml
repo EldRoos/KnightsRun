@@ -31,7 +31,7 @@ if store.perk_lvl_mended=0 {isNew=1}
 }
 if my_id=5 {
 myHeader="Iron Walls"
-myInfo="Gain +"+string(10+(store.perk_lvl_miner*5))+" Max HP"
+myInfo="Gain +"+string(10+(store.perk_lvl_ironwalls*5))+" Max HP"
 myLevel="Level "+string(store.perk_lvl_ironwalls)+">"+string(store.perk_lvl_ironwalls+1)
 if store.perk_lvl_ironwalls=0 {isNew=1}
 }
@@ -67,21 +67,33 @@ if store.perk_lvl_wisdom=0 {isNew=1}
 }
 if my_id=11 {
 myHeader="Sacrifice"
-myInfo="Lose "+string((store.perk_lvl_sacrifice+1)*10)+"HP, Gain "+string((store.perk_lvl_sacrifice+1)*40)+" Gold"
+myInfo="Lose "+string((store.perk_lvl_sacrifice+1)*10)+"HP, Gain "+string((store.perk_lvl_sacrifice+1)*50)+" Gold"
 myLevel="Level "+string(store.perk_lvl_sacrifice)+">"+string(store.perk_lvl_sacrifice+1)
 if store.perk_lvl_sacrifice=0 {isNew=1}
 }
 if my_id=12 {
 myHeader="Side Weapon"
-myInfo="Attack cards deal+"+string(store.perk_lvl_sideweapon+1)+" damage"
+myInfo="Attack cards deal +1 damage"
 myLevel="Level "+string(store.perk_lvl_sideweapon)+">"+string(store.perk_lvl_sideweapon+1)
 if store.perk_lvl_sideweapon=0 {isNew=1}
 }
 if my_id=13 {
 myHeader="Daily Gold"
-myInfo="Gain +"+string((store.perk_lvl_dailygold+1)*15)+" Gold each day"
+myInfo="Gain +"+string((store.perk_lvl_dailygold+1)*25)+" Gold each day"
 myLevel="Level "+string(store.perk_lvl_dailygold)+">"+string(store.perk_lvl_dailygold+1)
 if store.perk_lvl_dailygold=0 {isNew=1}
+}
+if my_id=14 {
+myHeader="Plunderer"
+myInfo=string((store.perk_lvl_plunderer+1))+"% chance enemies drop Gem"
+myLevel="Level "+string(store.perk_lvl_plunderer)+">"+string(store.perk_lvl_plunderer+1)
+if store.perk_lvl_plunderer=0 {isNew=1}
+}
+if my_id=15 {
+myHeader="Frost Blade"
+myInfo=string((store.perk_lvl_frostblade+1)*5)+"% chance to freeze enemies hit."
+myLevel="Level "+string(store.perk_lvl_frostblade)+">"+string(store.perk_lvl_frostblade+1)
+if store.perk_lvl_frostblade=0 {isNew=1}
 }
 
 }

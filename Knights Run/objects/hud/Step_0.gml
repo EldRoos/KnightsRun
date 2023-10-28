@@ -23,6 +23,7 @@ if store.active_focus>0 {store.active_focus-=1*store.game_speed}
 if store.active_vampire>0 {store.active_vampire-=1*store.game_speed}
 if store.active_clover>0 {luck_boost=7 store.active_clover-=1*store.game_speed}
 if store.active_clover<=0 {luck_boost=0}
+if store.active_lampoil>0 {store.active_lampoil-=1*store.game_speed}
 if store.active_slow>0 {store.active_slow-=1*store.game_speed}
 if store.active_poison>0 {store.active_poison-=1*store.game_speed}
 }
