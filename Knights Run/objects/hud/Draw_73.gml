@@ -6,7 +6,7 @@ var cy = camera_get_view_y(view_camera[0]);
 if store.current_area="Sunset Meadows" {draw_set_alpha(.25) draw_rectangle_color(0,0,room_width,420,c_orange,c_orange,c_yellow,c_yellow,false) draw_set_alpha(1)}
 if store.current_area="Whisper Woods" {draw_set_alpha(.15) draw_rectangle_color(0,0,room_width,420,c_purple,c_purple,c_blue,c_blue,false) draw_set_alpha(1)}
 if store.current_area="Grim Graveyard" {draw_set_alpha(.05) draw_rectangle_color(0,0,room_width,420,c_purple,c_purple,c_blue,c_blue,false) draw_set_alpha(1)}
-if store.current_area="Ice Cavern" {draw_set_alpha(.1) draw_rectangle_color(0,0,room_width,420,c_teal,c_teal,c_blue,c_blue,false) draw_set_alpha(1)}
+if store.current_area="Ice Cavern" {draw_set_alpha(.2) draw_rectangle_color(0,0,room_width,420,c_teal,c_teal,c_blue,c_blue,false) draw_set_alpha(1)}
 
 //Draw Fury
 if store.card_slot_1 = 7 or store.card_slot_2 = 7 or store.card_slot_3 = 7 or store.card_slot_4 = 7
@@ -145,7 +145,7 @@ if store.active_focus>0 {draw_sprite(spr_item_focuspill,0,70,20) draw_text(64,28
 if store.active_vampire>0 {draw_sprite(spr_item_vampirefang,0,100,20) draw_text(94,28,string(round(store.active_vampire/60)))}
 if store.active_clover>0 {draw_sprite(spr_item_clover,0,130,20) draw_text(124,28,string(round(store.active_clover/60)))}
 if store.active_lures>0 {draw_sprite(spr_item_lure,0,160,20) draw_text(154,28,string(round(store.active_lures)))}
-if store.active_lampoil>0 {draw_sprite(spr_item_lampoil,0,70,20) draw_text(64,28,string(round(store.active_lampoil/60)))}
+if store.active_lampoil>0 {draw_sprite(spr_item_lampoil,0,190,20) draw_text(184,28,string(round(store.active_lampoil/60)))}
 if store.active_slow>0 {draw_sprite(spr_effect_clock,0,player.x+4,player.y-56)}
 if store.active_poison>0 {draw_sprite(spr_effect_poison,0,player.x+4,player.y-69)}
 
@@ -191,7 +191,7 @@ if game_over = 1 {
 	
 	//Show Gems bonuses
 	draw_text_color(cx+316,cy+264,"+"+string(round(store.current_stage*5))+" gems",c_yellow,c_yellow,c_yellow,c_orange,1)
-	draw_text_color(cx+316,cy+289,"+"+string(round(store.level*5))+" gems",c_yellow,c_yellow,c_yellow,c_orange,1)
+	draw_text_color(cx+316,cy+289,"+"+string(round(store.level*10))+" gems",c_yellow,c_yellow,c_yellow,c_orange,1)
 	draw_text_color(cx+316,cy+314,"+"+string(ceil(store.enemies_killed_run/3))+" gems",c_yellow,c_yellow,c_yellow,c_orange,1)
 	
 	draw_set_color(c_lime)

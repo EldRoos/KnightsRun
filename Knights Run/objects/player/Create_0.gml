@@ -9,4 +9,3 @@ damaged=0
 alarm[0]=ceil(60/store.game_speed)
 
 
-

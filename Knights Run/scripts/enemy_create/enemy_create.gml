@@ -22,6 +22,7 @@ if myName="Bat" {flying=1 ranged=1 y-=64}
 if myName="Polis" {ranged=1}
 if myName="Ghoul" {ranged=2 attack_slow=1}
 if myName="Poison Mushkin" {ranged=2 attack_poison=1}
+if myName="Spider" {ranged=2 attack_poison=1}
 if myName="Boss Eyemon" {flying=1 ranged=1 y-=48}
 if myName="Boss Dark Apprentice" {flying=1 ranged=1 y-=54}
 

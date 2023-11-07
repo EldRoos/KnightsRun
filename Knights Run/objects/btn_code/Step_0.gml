@@ -86,6 +86,22 @@ store.gems += reward
 instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "Rewarded "+string(reward)+" Gems!"
 save_game()
 }
+if myResult = "wish" and store.code_wish = 0
+{
+reward = 10
+store.code_wish = 1
+store.have_lampoil += reward
+instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "+"+string(reward)+" Lamp Oil!"
+save_game()
+}
+if myResult = "turkey" and store.code_turkey = 0
+{
+reward = 250
+store.code_turkey = 1
+store.gems += reward
+instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "Rewarded "+string(reward)+" Gems!"
+save_game()
+}
 /*
 if myResult = "incorrect" and store.code_incorrect = 0
 {

@@ -82,12 +82,12 @@ store.lvl_perm_luck=1
 store.cost_perm_gamespeed=5
 store.lvl_perm_gamespeed=1
 //Inventory
-store.have_potion=4
+store.have_potion=5
 store.have_mega_potion=1
-store.have_focuspill=1
-store.have_vampirefang=1
-store.have_clover=1
-store.have_chicken=1
+store.have_focuspill=3
+store.have_vampirefang=3
+store.have_clover=3
+store.have_chicken=3
 store.have_lure=0
 store.have_lampoil=0
 //Guardians
@@ -98,6 +98,8 @@ store.guardian_phoenix_lvl=0
 store.phoenix_readytime=270
 store.guardian_ifrit_lvl=0
 store.ifrit_readytime=300
+store.guardian_titan_lvl=0
+store.titan_readytime=280
 //cards 
 store.slot_2_unlocked = 0
 store.slot_3_unlocked = 0
@@ -150,4 +152,6 @@ store.code_dracula=0
 store.code_hooked=0
 store.code_lumos=0
 store.code_trickortreat=0
+store.code_wish=0
+store.code_turkey=0
 }

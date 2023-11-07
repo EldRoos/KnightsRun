@@ -41,6 +41,25 @@ draw_text_ext_color(32,300,"Active Lure\nDays to attract extra Enemies",20,420,c
 draw_sprite(spr_item_lure,0,12,309)
 }
 
+if tab=3 {
+draw_set_font(font_med_hud)
+draw_text_ext_color(32,50,"Potion\nRestores 20% of your Max Health points.",20,420,c_orange,c_orange,c_yellow,c_yellow,1)
+draw_sprite(spr_item_potion,0,12,59)
+draw_text_ext_color(32,100,"Mega Potion\nFully restore all Health points",20,420,c_orange,c_orange,c_yellow,c_yellow,1)
+draw_sprite(spr_item_megapotion,0,12,109)
+draw_text_ext_color(32,150,"Focus Pill\n+15% Critical chance for 60 seconds.",20,420,c_orange,c_orange,c_yellow,c_yellow,1)
+draw_sprite(spr_item_focuspill,0,12,159)
+draw_text_ext_color(32,200,"Vampire Fang\n+15% Lifesteal chance for 60 seconds.",20,420,c_orange,c_orange,c_yellow,c_yellow,1)
+draw_sprite(spr_item_vampirefang,0,12,209)
+draw_text_ext_color(32,250,"Lucky Clover\n+7% Luck for 60 seconds.",20,420,c_orange,c_orange,c_yellow,c_yellow,1)
+draw_sprite(spr_item_clover,0,12,259)
+draw_text_ext_color(32,300,"Chicken\nGain +3 Attack Damage for rest of run.",20,420,c_orange,c_orange,c_yellow,c_yellow,1)
+draw_sprite(spr_item_chicken,0,12,309)
+draw_text_ext_color(32,350,"Monster Lure\nSpawn more enemies for 3 stages. Can be stacked.",20,420,c_orange,c_orange,c_yellow,c_yellow,1)
+draw_sprite(spr_item_lure,0,12,359)
+draw_text_ext_color(32,400,"Lamp Oil\nGuardians summon meter fills much faster for 60 seconds.",20,420,c_orange,c_orange,c_yellow,c_yellow,1)
+draw_sprite(spr_item_lampoil,0,12,409)
+}
 
 
 

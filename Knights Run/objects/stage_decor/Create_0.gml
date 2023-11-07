@@ -14,5 +14,6 @@ if store.current_area="Grim Graveyard" {sprite_index=spr_decor_deadforest}
 if store.current_area="Deadly Dungeon" {sprite_index=spr_decor_castle}
 if store.current_area="Cursed Courtyard" {sprite_index=spr_decor_castle}
 if store.current_area="Ice Cavern" {sprite_index=spr_decor_cave}
+if store.current_area="Snowy Peak" {sprite_index=spr_decor_deadforest}
 
 

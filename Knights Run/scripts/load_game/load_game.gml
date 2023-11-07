@@ -88,11 +88,9 @@ store.have_lampoil=ini_read_real( "save1", "have_lampoil",store.have_lampoil);
 //Guardians
 store.have_skullkeys=ini_read_real( "save1", "have_skullkeys",store.have_skullkeys);
 store.guardian_shiva_lvl=ini_read_real( "save1", "guardian_shiva_lvl",store.guardian_shiva_lvl);
-//store.shiva_readytime=ini_read_real( "save1", "shiva_readytime",store.shiva_readytime);
 store.guardian_phoenix_lvl=ini_read_real( "save1", "guardian_phoenix_lvl",store.guardian_phoenix_lvl);
-//store.phoenix_readytime=ini_read_real( "save1", "phoenix_readytime",store.phoenix_readytime);
 store.guardian_ifrit_lvl=ini_read_real( "save1", "guardian_ifrit_lvl",store.guardian_ifrit_lvl);
-//store.ifrit_readytime=ini_read_real( "save1", "ifrit_readytime",store.ifrit_readytime);
+store.guardian_titan_lvl=ini_read_real( "save1", "guardian_titan_lvl",store.guardian_titan_lvl);
 //cards 
 store.slot_2_unlocked=ini_read_real( "save1", "slot_2_unlocked",store.slot_2_unlocked);
 store.slot_3_unlocked=ini_read_real( "save1", "slot_3_unlocked",store.slot_3_unlocked);
@@ -143,6 +141,8 @@ store.code_dracula=ini_read_real( "save1", "code_dracula",store.code_dracula);
 store.code_hooked=ini_read_real( "save1", "code_hooked",store.code_hooked);
 store.code_lumos=ini_read_real( "save1", "code_lumos",store.code_lumos);
 store.code_trickortreat=ini_read_real( "save1", "code_trickortreat",store.code_trickortreat);
+store.code_wish=ini_read_real( "save1", "code_wish",store.code_wish);
+store.code_turkey=ini_read_real( "save1", "code_turkey",store.code_turkey);
 //Ingame Stats
 store.gold=ini_read_real( "save1", "gold",store.gold);
 store.current_stage=ini_read_real( "save1", "current_stage",store.current_stage);

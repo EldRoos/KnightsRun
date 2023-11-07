@@ -1,9 +1,9 @@
 if hud.game_over=0 and hud.game_paused=0 {
 if mode="attack" and hit_check=0 and other.damaged<=0 {
 //Check Critical or Hit
-tmp_crit_boost=0
-if store.active_focus>0 {tmp_crit_boost=15}
-if store.critical_chance+tmp_crit_boost >= random(100)
+hud.tmp_crit_boost=0
+if store.active_focus>0 {hud.tmp_crit_boost=15}
+if store.critical_chance+hud.tmp_crit_boost >= random(100)
 {
 other.hp -= store.attack_damage*store.critical_multiplier
 instance_create_depth(other.x-17,other.y-other.sprite_height/1.4,depth,show_criticalhit)
@@ -24,9 +24,9 @@ audio_play_sound(sfx_enemy_hit,1,false)
 instance_create_depth(other.x,player.y,depth,effect_blood_hit)
 
 //Check Lifesteal
-tmp_lifesteal_boost=0
-if store.active_vampire>0 {tmp_lifesteal_boost=15}
-if store.lifesteal_chance+tmp_lifesteal_boost >= random(100)
+hud.tmp_lifesteal_boost=0
+if store.active_vampire>0 {hud.tmp_lifesteal_boost=15}
+if store.lifesteal_chance+hud.tmp_lifesteal_boost >= random(100)
 {
 store.hp += store.lifesteal_amount
 if store.hp > store.maxhp {store.hp = store.maxhp}

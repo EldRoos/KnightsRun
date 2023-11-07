@@ -43,7 +43,7 @@ store.perk_lvl_wisdom+=1
 if my_id=11 {
 store.perk_lvl_sacrifice+=1
 store.hp-= store.perk_lvl_sacrifice*10
-store.gold+= store.perk_lvl_sacrifice*50
+store.gold+= store.perk_lvl_sacrifice*75
 }
 if my_id=12 {
 store.perk_lvl_sideweapon+=1

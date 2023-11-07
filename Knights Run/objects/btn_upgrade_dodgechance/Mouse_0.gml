@@ -9,8 +9,8 @@ if store.luck+hud.luck_boost >= random(100)
 else {store.gold -= store.cost_dodge}
 store.dodge_chance +=.1
 store.lvl_dodge +=1
-store.cost_dodge += 5 +(store.lvl_dodge*2) 
-if store.lvl_dodge > 5 {store.cost_dodge += 10*store.lvl_dodge}
+store.cost_dodge +=3 +(store.lvl_dodge*2) 
+if store.lvl_dodge > 10 {store.cost_dodge += 3*store.lvl_dodge}
 store.total_upgrades +=1
 instance_create_depth(x-4,y-4,depth-1000,effect_upgrade)
 log_rotate(c_lime,"Upgraded Dodge Chance")

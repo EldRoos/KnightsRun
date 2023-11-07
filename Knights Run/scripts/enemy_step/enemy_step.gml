@@ -35,6 +35,7 @@ if myName="Bat" {instance_create_depth(x,y,depth,enemy_death).sprite_index=spr_b
 if myName="Polis" {instance_create_depth(x,y,depth,enemy_death).sprite_index=spr_polis_death}
 if myName="Ghoul" {instance_create_depth(x,y,depth,enemy_death).sprite_index=spr_ghoul_death}
 if myName="Poison Mushkin" {instance_create_depth(x,y,depth,enemy_death).sprite_index=spr_mushroom_poison_death}
+if myName="Spider" {instance_create_depth(x,y,depth,enemy_death).sprite_index=spr_spider_death}
 if myName="Bonesy" {instance_create_depth(x,y,depth,enemy_death).sprite_index=spr_bonesy_death}
 if myName="Cave Golem" {instance_create_depth(x,y,depth,enemy_death).sprite_index=spr_golem_death}
 if myName="Boss Mushkin" {instance_create_depth(x,y,depth,enemy_death).sprite_index=spr_boss_mushroom_death challenge_boss_slayer()}
@@ -47,7 +48,7 @@ if 70+store.luck+hud.luck_boost>random(100) {instance_create_depth(x+2,y-8,depth
 if store.luck+hud.luck_boost>random(100) {drop_item()}
 store.enemies_killed_run+=1
 store.enemies_slain+=1
-if boss=1 {store.bosses_slain+=1 instance_create_depth(x+sprite_width/2+10,y-8,depth,item_guardiankey) repeat 10 instance_create_depth(x+sprite_width/2+random(8),y-8,depth,item_gem)}
+if boss=1 {store.bosses_slain+=1 instance_create_depth(x+sprite_width/2+1,y-8,depth,item_guardiankey) repeat 3 instance_create_depth(x+sprite_width/2+random(8),y-8,depth,item_gem)}
 if store.perk_lvl_plunderer>0 and (store.perk_lvl_plunderer>random(100)) {instance_create_depth(x+sprite_width/2+8,y-8,depth,item_gem)} //Plunderer Perk
 instance_create_depth(x,y-sprite_height/2,depth,effect_blood_kill)
 instance_destroy()

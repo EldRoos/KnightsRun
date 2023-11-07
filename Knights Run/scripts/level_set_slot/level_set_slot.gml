@@ -67,7 +67,7 @@ if store.perk_lvl_wisdom=0 {isNew=1}
 }
 if my_id=11 {
 myHeader="Sacrifice"
-myInfo="Lose "+string((store.perk_lvl_sacrifice+1)*10)+"HP, Gain "+string((store.perk_lvl_sacrifice+1)*50)+" Gold"
+myInfo="Lose "+string((store.perk_lvl_sacrifice+1)*10)+"HP, Gain "+string((store.perk_lvl_sacrifice+1)*75)+" Gold"
 myLevel="Level "+string(store.perk_lvl_sacrifice)+">"+string(store.perk_lvl_sacrifice+1)
 if store.perk_lvl_sacrifice=0 {isNew=1}
 }
@@ -79,7 +79,7 @@ if store.perk_lvl_sideweapon=0 {isNew=1}
 }
 if my_id=13 {
 myHeader="Daily Gold"
-myInfo="Gain +"+string((store.perk_lvl_dailygold+1)*25)+" Gold each day"
+myInfo="Gain +"+string((store.perk_lvl_dailygold+1)*50)+" Gold each day"
 myLevel="Level "+string(store.perk_lvl_dailygold)+">"+string(store.perk_lvl_dailygold+1)
 if store.perk_lvl_dailygold=0 {isNew=1}
 }

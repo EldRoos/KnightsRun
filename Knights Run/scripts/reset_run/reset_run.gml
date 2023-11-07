@@ -80,4 +80,5 @@ store.current_tab=0
 store.shiva_ready=0
 store.phoenix_ready=0
 store.ifrit_ready=0
+store.titan_ready=0
 }

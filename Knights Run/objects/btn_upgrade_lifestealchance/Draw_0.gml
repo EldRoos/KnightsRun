@@ -4,7 +4,9 @@ draw_self()
 draw_set_font(font_upgrades)
 draw_set_color(c_white)
 draw_text(x+6,y+10,myName)
-draw_text(x+132,y+11,string(store.lifesteal_chance)+"%")
+if hud.tmp_lifesteal_boost>0 {draw_set_color(c_orange)}
+draw_text(x+132,y+11,string(store.lifesteal_chance+hud.tmp_lifesteal_boost)+"%")
+draw_set_color(c_white)
 if maxxed = 0 {
 draw_text(x+152,y+38,string(store.cost_lifesteal_chance))
 draw_sprite(spr_show_gold,0,x+142,y+48)

@@ -34,6 +34,7 @@
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a075559d-31d4-4fab-9c1a-f98fbda6fdd1",},
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"4c7ad0f4-63eb-4c3c-97f1-07db72f1fff5",},
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"2167a946-2081-463b-b72f-54f353a9f213",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"06525ed9-894c-41dd-998b-a9df1cc1e167",},
   ],
   "sequence": {
     "resourceType": "GMSequence",
@@ -45,7 +46,7 @@
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
-    "length": 6.0,
+    "length": 7.0,
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
@@ -56,6 +57,7 @@
             {"id":"5ea78a3d-647c-4f24-a94e-e01fb3c3e4f2","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a075559d-31d4-4fab-9c1a-f98fbda6fdd1","path":"sprites/spr_backdrop/spr_backdrop.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"41566923-56df-4dc7-a627-14acce2986f6","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4c7ad0f4-63eb-4c3c-97f1-07db72f1fff5","path":"sprites/spr_backdrop/spr_backdrop.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"323427e6-3318-4553-bad3-372333685735","Key":5.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2167a946-2081-463b-b72f-54f353a9f213","path":"sprites/spr_backdrop/spr_backdrop.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"875439a7-3291-4b70-a724-80af21764922","Key":6.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"06525ed9-894c-41dd-998b-a9df1cc1e167","path":"sprites/spr_backdrop/spr_backdrop.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,

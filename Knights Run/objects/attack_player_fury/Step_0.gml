@@ -1,8 +1,8 @@
-image_alpha-=.02*store.game_speed
-x+=7*store.game_speed
+image_alpha-=.01*(store.game_speed/10)
+x+=5+store.game_speed
 if image_alpha<=0 {instance_destroy()}
 
-
+if x>room_width {image_alpha-=.1}
 
 
 

@@ -88,11 +88,9 @@ ini_write_real( "save1", "have_lampoil", store.have_lampoil);
 //Guardians
 ini_write_real( "save1", "have_skullkeys", store.have_skullkeys);
 ini_write_real( "save1", "guardian_shiva_lvl", store.guardian_shiva_lvl);
-//ini_write_real( "save1", "shiva_readytime", store.shiva_readytime);
 ini_write_real( "save1", "guardian_phoenix_lvl", store.guardian_phoenix_lvl);
-//ini_write_real( "save1", "phoenix_readytime", store.phoenix_readytime);
 ini_write_real( "save1", "guardian_ifrit_lvl", store.guardian_ifrit_lvl);
-//ini_write_real( "save1", "ifrit_readytime", store.ifrit_readytime);
+ini_write_real( "save1", "guardian_titan_lvl", store.guardian_titan_lvl);
 //cards 
 ini_write_real( "save1", "slot_2_unlocked", store.slot_2_unlocked);
 ini_write_real( "save1", "slot_3_unlocked", store.slot_3_unlocked);
@@ -143,6 +141,8 @@ ini_write_real( "save1", "code_dracula", store.code_dracula);
 ini_write_real( "save1", "code_hooked", store.code_hooked);
 ini_write_real( "save1", "code_lumos", store.code_lumos);
 ini_write_real( "save1", "code_trickortreat", store.code_trickortreat);
+ini_write_real( "save1", "code_wish", store.code_wish);
+ini_write_real( "save1", "code_turkey", store.code_turkey);
 //Ingame Stats
 ini_write_real( "save1", "gold", store.gold);
 ini_write_real( "save1", "current_stage", store.current_stage);
@@ -224,6 +224,7 @@ ini_write_real( "save1", "current_tab", store.current_tab);
 ini_write_real( "save1", "shiva_ready", store.shiva_ready);
 ini_write_real( "save1", "phoenix_ready", store.phoenix_ready);
 ini_write_real( "save1", "ifrit_ready", store.ifrit_ready);
+ini_write_real( "save1", "titan_ready", store.titan_ready);
 	
 	ini_close();
 
