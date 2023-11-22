@@ -1,4 +1,4 @@
-alarm[0]=10+round(random(12)) //Auto Upgrade Checker
+alarm[0]=30+round(random(12)) //Auto Upgrade Checker
 
 if store.auto_upgrade=1 
 {

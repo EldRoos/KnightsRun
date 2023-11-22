@@ -13,6 +13,7 @@ if my_id =4 {store.goal_bloodthirst=0 store.lvl_bloodthirst+=1}
 if my_id =5 {store.goal_healer=0 store.lvl_healer+=1}
 if my_id =6 {store.goal_shopaholic=0 store.lvl_shopaholic+=1}
 if my_id =7 {store.goal_learning=0 store.lvl_learning+=1}
+if my_id =8 {store.goal_itemmaster=0 store.lvl_itemmaster+=1}
 store.challenges_completed +=1
 save_game()
 }

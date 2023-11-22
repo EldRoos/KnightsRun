@@ -6,4 +6,5 @@ instance_create_depth(x-4,y-4,depth-1000,effect_upgrade)
 store.have_lure-=1
 store.active_lures+=3
 log_rotate(c_lime,"Used Monster Lure")
+challenge_item_master()
 }

@@ -6,4 +6,5 @@ instance_create_depth(x-4,y-4,depth-1000,effect_upgrade)
 store.have_vampirefang-=1
 store.active_vampire+=3600
 log_rotate(c_lime,"Used Vampire Fang")
+challenge_item_master()
 }

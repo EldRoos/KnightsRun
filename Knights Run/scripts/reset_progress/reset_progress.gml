@@ -37,6 +37,8 @@ store.goal_shopaholic=0
 store.lvl_shopaholic=1
 store.goal_learning=0
 store.lvl_learning=1
+store.goal_itemmaster=0
+store.lvl_itemmaster=1
 
 //Perm Stats
 store.perm_attack_speed=1
@@ -90,6 +92,7 @@ store.have_clover=3
 store.have_chicken=3
 store.have_lure=0
 store.have_lampoil=0
+store.have_salve=0
 //Guardians
 store.have_skullkeys=0
 store.guardian_shiva_lvl=0
@@ -154,4 +157,5 @@ store.code_lumos=0
 store.code_trickortreat=0
 store.code_wish=0
 store.code_turkey=0
+store.code_gravy=0
 }

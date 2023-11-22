@@ -7,4 +7,5 @@ store.have_potion-=1
 store.hp+=store.maxhp*.20
 instance_create_depth(player.x-8,player.y-60,depth,show_heal_player).myNumber=store.maxhp*.20
 log_rotate(c_lime,"Used Potion")
+challenge_item_master()
 }

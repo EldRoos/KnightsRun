@@ -1,5 +1,5 @@
 myName="Boss Dark Apprentice"
-hp=7000+round(store.current_stage*75)
+hp=4000+round(store.current_stage*75)
 attack_buffer_cap=120
 attack_damage=7
 boss=1

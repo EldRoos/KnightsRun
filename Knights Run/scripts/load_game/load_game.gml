@@ -33,6 +33,8 @@ store.goal_shopaholic=ini_read_real( "save1", "goal_shopaholic",store.goal_shopa
 store.lvl_shopaholic=ini_read_real( "save1", "lvl_shopaholic",store.lvl_shopaholic);
 store.goal_learning=ini_read_real( "save1", "goal_learning",store.goal_learning);
 store.lvl_learning=ini_read_real( "save1", "lvl_learning",store.lvl_learning);
+store.goal_itemmaster=ini_read_real( "save1", "goal_itemmaster",store.goal_itemmaster);
+store.lvl_itemmaster=ini_read_real( "save1", "lvl_itemmaster",store.lvl_itemmaster);
 //Perm Stats
 store.perm_attack_speed=ini_read_real( "save1", "perm_attack_speed",store.perm_attack_speed);
 store.perm_attack_damage=ini_read_real( "save1", "perm_attack_damage",store.perm_attack_damage);
@@ -85,6 +87,7 @@ store.have_clover=ini_read_real( "save1", "have_clover",store.have_clover);
 store.have_chicken=ini_read_real( "save1", "have_chicken",store.have_chicken);
 store.have_lure=ini_read_real( "save1", "have_lure",store.have_lure);
 store.have_lampoil=ini_read_real( "save1", "have_lampoil",store.have_lampoil);
+store.have_salve=ini_read_real( "save1", "have_salve",store.have_salve);
 //Guardians
 store.have_skullkeys=ini_read_real( "save1", "have_skullkeys",store.have_skullkeys);
 store.guardian_shiva_lvl=ini_read_real( "save1", "guardian_shiva_lvl",store.guardian_shiva_lvl);
@@ -143,6 +146,7 @@ store.code_lumos=ini_read_real( "save1", "code_lumos",store.code_lumos);
 store.code_trickortreat=ini_read_real( "save1", "code_trickortreat",store.code_trickortreat);
 store.code_wish=ini_read_real( "save1", "code_wish",store.code_wish);
 store.code_turkey=ini_read_real( "save1", "code_turkey",store.code_turkey);
+store.code_gravy=ini_read_real( "save1", "code_gravy",store.code_gravy);
 //Ingame Stats
 store.gold=ini_read_real( "save1", "gold",store.gold);
 store.current_stage=ini_read_real( "save1", "current_stage",store.current_stage);
@@ -176,6 +180,7 @@ store.active_vampire=ini_read_real( "save1", "active_vampire",store.active_vampi
 store.active_clover=ini_read_real( "save1", "active_clover",store.active_clover);
 store.active_slow=ini_read_real( "save1", "active_slow",store.active_slow);
 store.active_poison=ini_read_real( "save1", "active_poison",store.active_poison);
+store.active_salve=ini_read_real( "save1", "active_salve",store.active_salve);
 //InGame Upgrades
 store.cost_attack_damage=ini_read_real( "save1", "cost_attack_damage",store.cost_attack_damage);
 store.lvl_attack_damage=ini_read_real( "save1", "lvl_attack_damage",store.lvl_attack_damage);
@@ -223,6 +228,8 @@ store.current_tab=ini_read_real( "save1", "current_tab",store.current_tab);
 store.shiva_ready=ini_read_real( "save1", "shiva_ready",store.shiva_ready);
 store.phoenix_ready=ini_read_real( "save1", "phoenix_ready",store.phoenix_ready);
 store.ifrit_ready=ini_read_real( "save1", "ifrit_ready",store.ifrit_ready);
-	
+store.last_stage=ini_read_string( "save1", "last_stage",store.last_stage);
+store.second_last_stage=ini_read_string( "save1", "second_last_stage",store.second_last_stage);
+
 	ini_close();
 }

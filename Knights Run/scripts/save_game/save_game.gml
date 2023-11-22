@@ -33,6 +33,8 @@ ini_write_real( "save1", "goal_shopaholic", store.goal_shopaholic);
 ini_write_real( "save1", "lvl_shopaholic", store.lvl_shopaholic);
 ini_write_real( "save1", "goal_learning", store.goal_learning);
 ini_write_real( "save1", "lvl_learning", store.lvl_learning);
+ini_write_real( "save1", "goal_itemmaster", store.goal_itemmaster);
+ini_write_real( "save1", "lvl_itemmaster", store.lvl_itemmaster);
 //Perm Stats
 ini_write_real( "save1", "perm_attack_speed", store.perm_attack_speed);
 ini_write_real( "save1", "perm_attack_damage", store.perm_attack_damage);
@@ -85,6 +87,7 @@ ini_write_real( "save1", "have_clover", store.have_clover);
 ini_write_real( "save1", "have_chicken", store.have_chicken);
 ini_write_real( "save1", "have_lure", store.have_lure);
 ini_write_real( "save1", "have_lampoil", store.have_lampoil);
+ini_write_real( "save1", "have_salve", store.have_salve);
 //Guardians
 ini_write_real( "save1", "have_skullkeys", store.have_skullkeys);
 ini_write_real( "save1", "guardian_shiva_lvl", store.guardian_shiva_lvl);
@@ -143,6 +146,7 @@ ini_write_real( "save1", "code_lumos", store.code_lumos);
 ini_write_real( "save1", "code_trickortreat", store.code_trickortreat);
 ini_write_real( "save1", "code_wish", store.code_wish);
 ini_write_real( "save1", "code_turkey", store.code_turkey);
+ini_write_real( "save1", "code_gravy", store.code_gravy);
 //Ingame Stats
 ini_write_real( "save1", "gold", store.gold);
 ini_write_real( "save1", "current_stage", store.current_stage);
@@ -177,6 +181,7 @@ ini_write_real( "save1", "active_clover", store.active_clover);
 ini_write_real( "save1", "active_slow", store.active_slow);
 ini_write_real( "save1", "active_poison", store.active_poison);
 ini_write_real( "save1", "active_lampoil", store.active_lampoil);
+ini_write_real( "save1", "active_salve", store.active_salve);
 //InGame Upgrades
 ini_write_real( "save1", "cost_attack_damage", store.cost_attack_damage);
 ini_write_real( "save1", "lvl_attack_damage", store.lvl_attack_damage);
@@ -225,6 +230,8 @@ ini_write_real( "save1", "shiva_ready", store.shiva_ready);
 ini_write_real( "save1", "phoenix_ready", store.phoenix_ready);
 ini_write_real( "save1", "ifrit_ready", store.ifrit_ready);
 ini_write_real( "save1", "titan_ready", store.titan_ready);
+ini_write_string( "save1", "last_stage", store.last_stage);
+ini_write_string( "save1", "second_last_stage", store.second_last_stage);
 	
 	ini_close();
 

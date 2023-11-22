@@ -141,11 +141,19 @@ draw_text(cx+345,cy+458,string(floor(store.gems/1000))+"K")
 //Draw Active Status
 draw_set_font(font_stats)
 draw_set_color(c_silver)
-if store.active_focus>0 {draw_sprite(spr_item_focuspill,0,70,20) draw_text(64,28,string(round(store.active_focus/60)))}
-if store.active_vampire>0 {draw_sprite(spr_item_vampirefang,0,100,20) draw_text(94,28,string(round(store.active_vampire/60)))}
-if store.active_clover>0 {draw_sprite(spr_item_clover,0,130,20) draw_text(124,28,string(round(store.active_clover/60)))}
+if store.active_focus>0 and store.active_focus<3601 {draw_sprite(spr_item_focuspill,0,70,20) draw_text(64,28,string(round(store.active_focus/60)))}
+if store.active_focus>0 and store.active_focus>3600 {draw_sprite(spr_item_focuspill,0,70,20) draw_text(64,28,string(ceil(store.active_focus/3600))+"m")}
+if store.active_vampire>0 and store.active_vampire<3601 {draw_sprite(spr_item_vampirefang,0,100,20) draw_text(94,28,string(round(store.active_vampire/60)))}
+if store.active_vampire>0 and store.active_vampire>3600 {draw_sprite(spr_item_vampirefang,0,100,20) draw_text(94,28,string(ceil(store.active_vampire/3600))+"m")}
+if store.active_clover>0 and store.active_clover<3601 {draw_sprite(spr_item_clover,0,130,20) draw_text(124,28,string(round(store.active_clover/60)))}
+if store.active_clover>0 and store.active_clover>3600 {draw_sprite(spr_item_clover,0,130,20) draw_text(124,28,string(ceil(store.active_clover/3600))+"m")}
 if store.active_lures>0 {draw_sprite(spr_item_lure,0,160,20) draw_text(154,28,string(round(store.active_lures)))}
-if store.active_lampoil>0 {draw_sprite(spr_item_lampoil,0,190,20) draw_text(184,28,string(round(store.active_lampoil/60)))}
+if store.active_lampoil>0 and store.active_lampoil<3601 {draw_sprite(spr_item_lampoil,0,190,20) draw_text(184,28,string(round(store.active_lampoil/60)))}
+if store.active_lampoil>0 and store.active_lampoil>3600 {draw_sprite(spr_item_lampoil,0,190,20) draw_text(184,28,string(ceil(store.active_lampoil/3600))+"m")}
+if store.active_salve>0 and store.active_salve<3601 {draw_sprite(spr_item_healingsalve,0,220,20) draw_text(214,28,string(round(store.active_salve/60)))}
+if store.active_salve>0 and store.active_salve>3600 {draw_sprite(spr_item_healingsalve,0,220,20) draw_text(214,28,string(ceil(store.active_salve/3600))+"m")}
+
+//Draw Play Active Status
 if store.active_slow>0 {draw_sprite(spr_effect_clock,0,player.x+4,player.y-56)}
 if store.active_poison>0 {draw_sprite(spr_effect_poison,0,player.x+4,player.y-69)}
 

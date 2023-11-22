@@ -7,4 +7,5 @@ store.have_mega_potion-=1
 store.hp=store.maxhp
 instance_create_depth(player.x-8,player.y-60,depth,show_heal_player).myNumber=store.maxhp
 log_rotate(c_lime,"Used Mega Potion")
+challenge_item_master()
 }

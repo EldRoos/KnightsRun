@@ -9,5 +9,6 @@ if 24>=random(100) {instance_create_depth(x+2,y-16,depth,item_chicken) exit}
 if 25>=random(100) {instance_create_depth(x+2,y-16,depth,item_luckyclover) exit}
 if 26>=random(100) {instance_create_depth(x+2,y-16,depth,item_megapotion) exit}
 if 27>=random(100) {instance_create_depth(x+2,y-16,depth,item_monsterlure) exit}
+if 28>=random(100) {instance_create_depth(x+2,y-16,depth,item_healingsalve) exit}
 instance_create_depth(x+2,y-16,depth,item_potion) //Guaranteed item if all others fail
 }

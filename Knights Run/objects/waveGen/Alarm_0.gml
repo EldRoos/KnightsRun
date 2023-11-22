@@ -23,7 +23,7 @@ var spawnBee = 1 + tier +(5*store.active_lures)
 repeat(spawnBee) instance_create_depth(random_range(500,500+distanceBee), y,-199,enemy_bee);
 }
 //Gen BossMushkin
-if store.boss_ready=0 {
+if store.current_stage%10==0 {
 var distanceBossMushkin = max(2500-tier_level,1800)
 instance_create_depth(random_range(1000,1000+distanceBossMushkin), y,-199,enemy_boss_mushroom);
 }
@@ -59,7 +59,7 @@ var spawnBee = 2 + tier +(3*store.active_lures)
 repeat(spawnBee) instance_create_depth(random_range(500,500+distanceBee), y,-199,enemy_bee);
 }
 //Gen Boss Tokisaki
-if store.boss_ready=0 {
+if store.current_stage%10==0 {
 var distanceBossTokisaki = max(2500-tier_level,1800)
 instance_create_depth(random_range(1000,1000+distanceBossTokisaki), y,-199,enemy_boss_tokisaki);
 }
@@ -94,7 +94,7 @@ var spawnGhoul = 3 + tier +(3*store.active_lures)
 repeat(spawnGhoul) instance_create_depth(random_range(500,500+distanceGhoul), y,-199,enemy_ghoul);
 }
 //Gen Eyemon Boss
-if store.boss_ready=0 {
+if store.current_stage%10==0 {
 var distanceBossEyemon = max(2500-tier_level,1800)
 instance_create_depth(random_range(1000,1000+distanceBossEyemon), y,-199,enemy_boss_eyemon);
 }
@@ -135,7 +135,7 @@ var spawnGhoul = 4 + tier +(3*store.active_lures)
 repeat(spawnGhoul) instance_create_depth(random_range(500,500+distanceGhoul), y,-199,enemy_ghoul);
 }
 //Gen Boneheads Boss
-if store.boss_ready=0 {
+if store.current_stage%10==0 {
 var distanceBossBoneheads = max(2500-tier_level,1800)
 instance_create_depth(random_range(1000,1000+distanceBossBoneheads), y,-199,enemy_boss_boneheads);
 }
@@ -172,7 +172,7 @@ var spawnGhoul = 5 + tier +(3*store.active_lures)
 repeat(spawnGhoul) instance_create_depth(random_range(500,500+distanceGhoul), y,-199,enemy_ghoul);
 }
 //Gen Dark Apprentice 
-if store.boss_ready=0 {
+if store.current_stage%10==0 {
 var distanceBossDarkApprentice = max(2500-tier_level,1800)
 instance_create_depth(random_range(1000,1000+distanceBossDarkApprentice), y,-199,enemy_boss_darkapprentice);
 }
@@ -217,7 +217,7 @@ var spawnGhoul = 1 + tier +(3*store.active_lures)
 repeat(spawnGhoul) instance_create_depth(random_range(500,500+distanceGhoul), y,-199,enemy_ghoul);
 }
 //Gen Boneheads Boss
-if store.boss_ready=0 {
+if store.current_stage%10==0 {
 var distanceBossBoneheads = max(2500-tier_level,1800)
 instance_create_depth(random_range(1000,1000+distanceBossBoneheads), y,-199,enemy_boss_boneheads);
 }
@@ -256,7 +256,7 @@ var spawnSpider = 1 + tier +(3*store.active_lures)
 repeat(spawnSpider) instance_create_depth(random_range(500,500+distanceSpider), y,-199,enemy_spider);
 }
 //Gen Eyemon Boss
-if store.boss_ready=0 {
+if store.current_stage%10==0 {
 var distanceBossEyemon = max(2500-tier_level,1800)
 instance_create_depth(random_range(1000,1000+distanceBossEyemon), y,-199,enemy_boss_eyemon);
 }
@@ -295,7 +295,7 @@ var spawnSpider = 1 + tier +(3*store.active_lures)
 repeat(spawnSpider) instance_create_depth(random_range(500,500+distanceSpider), y,-199,enemy_spider);
 }
 //Gen Eyemon Boss
-if store.boss_ready=0 {
+if store.current_stage%10==0 {
 var distanceBossEyemon = max(2500-tier_level,1800)
 instance_create_depth(random_range(1000,1000+distanceBossEyemon), y,-199,enemy_boss_eyemon);
 }

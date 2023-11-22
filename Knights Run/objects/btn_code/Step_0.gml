@@ -102,6 +102,15 @@ store.gems += reward
 instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "Rewarded "+string(reward)+" Gems!"
 save_game()
 }
+if myResult = "gravy" and store.code_gravy = 0
+{
+reward = 250
+store.code_gravy = 1
+store.gems += reward
+instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "Rewarded "+string(reward)+" Gems!"
+save_game()
+}
+
 /*
 if myResult = "incorrect" and store.code_incorrect = 0
 {

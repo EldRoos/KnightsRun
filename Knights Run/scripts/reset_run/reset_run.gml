@@ -33,6 +33,7 @@ store.active_clover=0
 store.active_slow=0
 store.active_poison=0
 store.active_lampoil=0
+store.active_salve=0
 //InGame Upgrades
 store.cost_attack_damage=5
 store.lvl_attack_damage=1
@@ -81,4 +82,6 @@ store.shiva_ready=0
 store.phoenix_ready=0
 store.ifrit_ready=0
 store.titan_ready=0
+store.last_stage=""
+store.second_last_stage=""
 }

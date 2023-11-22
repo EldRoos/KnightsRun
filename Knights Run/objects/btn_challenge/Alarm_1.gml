@@ -11,5 +11,6 @@ if my_id = 4 {myCap=20+(10*store.lvl_bloodthirst) myName="Bloodthirst" myDesc="L
 if my_id = 5 {myCap=40+(10*store.lvl_healer) myName="Healer" myDesc="Regen "+string(myCap)+" HP" myReward=25+(5*store.lvl_healer) myCur=store.goal_healer myLevel=store.lvl_healer}
 if my_id = 6 {myCap=3+(2*store.lvl_shopaholic) myName="Shopaholic" myDesc="Buy "+string(myCap)+" Shop Items" myReward=25+(5*store.lvl_shopaholic) myCur=store.goal_shopaholic myLevel=store.lvl_shopaholic}
 if my_id = 7 {myCap=5+(5*store.lvl_learning) myName="Learning" myDesc="Level up "+string(myCap)+" times" myReward=25+(5*store.lvl_learning) myCur=store.goal_learning myLevel=store.lvl_learning}
+if my_id = 8 {myCap=5+(5*store.lvl_itemmaster) myName="Item Master" myDesc="Use "+string(myCap)+" Items" myReward=25+(5*store.lvl_itemmaster) myCur=store.goal_itemmaster myLevel=store.lvl_itemmaster}
 
 save_game()

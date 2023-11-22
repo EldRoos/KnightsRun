@@ -6,4 +6,5 @@ instance_create_depth(x-4,y-4,depth-1000,effect_upgrade)
 store.have_chicken-=1
 store.attack_damage+=5
 log_rotate(c_lime,"Ate Chicken")
+challenge_item_master()
 }
