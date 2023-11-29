@@ -158,4 +158,5 @@ store.code_trickortreat=0
 store.code_wish=0
 store.code_turkey=0
 store.code_gravy=0
+store.code_feelgood=0
 }

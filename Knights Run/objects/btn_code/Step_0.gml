@@ -110,6 +110,15 @@ store.gems += reward
 instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "Rewarded "+string(reward)+" Gems!"
 save_game()
 }
+if myResult = "feelgood" and store.code_feelgood = 0
+{
+reward = 10
+store.code_feelgood = 1
+store.have_salve += reward
+instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "+"+string(reward)+" Healing Salve!"
+save_game()
+}
+
 
 /*
 if myResult = "incorrect" and store.code_incorrect = 0

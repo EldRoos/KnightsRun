@@ -3,7 +3,7 @@ draw_self()
 
 draw_set_font(font_upgrades)
 draw_set_color(c_white)
-draw_text(x+23,y+11,myName)
+draw_text(x+25,y+15,myName)
 
 //Show best day
 draw_set_font(font_upgrades)

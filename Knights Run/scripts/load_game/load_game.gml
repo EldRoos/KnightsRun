@@ -147,6 +147,7 @@ store.code_trickortreat=ini_read_real( "save1", "code_trickortreat",store.code_t
 store.code_wish=ini_read_real( "save1", "code_wish",store.code_wish);
 store.code_turkey=ini_read_real( "save1", "code_turkey",store.code_turkey);
 store.code_gravy=ini_read_real( "save1", "code_gravy",store.code_gravy);
+store.code_feelgood=ini_read_real( "save1", "code_feelgood",store.code_feelgood);
 //Ingame Stats
 store.gold=ini_read_real( "save1", "gold",store.gold);
 store.current_stage=ini_read_real( "save1", "current_stage",store.current_stage);

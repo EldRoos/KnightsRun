@@ -147,6 +147,7 @@ ini_write_real( "save1", "code_trickortreat", store.code_trickortreat);
 ini_write_real( "save1", "code_wish", store.code_wish);
 ini_write_real( "save1", "code_turkey", store.code_turkey);
 ini_write_real( "save1", "code_gravy", store.code_gravy);
+ini_write_real( "save1", "code_feelgood", store.code_feelgood);
 //Ingame Stats
 ini_write_real( "save1", "gold", store.gold);
 ini_write_real( "save1", "current_stage", store.current_stage);

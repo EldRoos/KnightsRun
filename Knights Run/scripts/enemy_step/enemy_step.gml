@@ -38,9 +38,11 @@ if myName="Poison Mushkin" {instance_create_depth(x,y,depth,enemy_death).sprite_
 if myName="Spider" {instance_create_depth(x,y,depth,enemy_death).sprite_index=spr_spider_death}
 if myName="Bonesy" {instance_create_depth(x,y,depth,enemy_death).sprite_index=spr_bonesy_death}
 if myName="Cave Golem" {instance_create_depth(x,y,depth,enemy_death).sprite_index=spr_golem_death}
+if myName="Sprouter" {instance_create_depth(x,y,depth,enemy_death).sprite_index=spr_sprouter_death}
 if myName="Boss Mushkin" {instance_create_depth(x,y,depth,enemy_death).sprite_index=spr_boss_mushroom_death challenge_boss_slayer()}
 if myName="Boss Eyemon" {instance_create_depth(x,y,depth,enemy_death).sprite_index=spr_boss_eyemon_death challenge_boss_slayer()}
 if myName="Boss Tokisaki" {instance_create_depth(x,y,depth,enemy_death).sprite_index=spr_boss_tokisaki_death challenge_boss_slayer()}
+if myName="Boss Spworm" {instance_create_depth(x,y,depth,enemy_death).sprite_index=spr_spworm_death challenge_boss_slayer()}
 if myName="Boss Boneheads" {instance_create_depth(x,y,depth,enemy_death).sprite_index=spr_boss_boneheads_death challenge_boss_slayer()}
 if myName="Boss Dark Apprentice" {instance_create_depth(x,y,depth,enemy_death).sprite_index=spr_dead_darkapprentice challenge_boss_slayer()}
 

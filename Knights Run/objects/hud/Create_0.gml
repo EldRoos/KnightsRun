@@ -28,7 +28,7 @@ if store.current_area="Grim Graveyard" {repeat 15+random(5)  instance_create_dep
 if store.current_area="Deadly Dungeon" {if !audio_is_playing(bgm_castle) {audio_stop_all() audio_play_sound(bgm_castle,1,true)}}
 if store.current_area="Cursed Courtyard" {repeat 13+random(5) instance_create_depth(random(2400),random(190),0,stage_clouds) repeat random(7) instance_create_depth(random(-2400),random(190),0,bird) if !audio_is_playing(bgm_castle) {audio_stop_all() audio_play_sound(bgm_castle,1,true)}}
 if store.current_area="Ice Cavern" {if !audio_is_playing(bgm_cavern) {audio_stop_all() audio_play_sound(bgm_cavern,1,true)}}
-if store.current_area="Snowy Peak" {repeat 21+random(5) instance_create_depth(random(2400),random(190),0,stage_clouds) repeat random(22) instance_create_depth(random(-2400),random(190),0,bird) if !audio_is_playing(bgm_meadows) {audio_stop_all() audio_play_sound(bgm_meadows,1,true)}}
+if store.current_area="Snowy Peak" {repeat 21+random(5) instance_create_depth(random(2400),random(190),0,stage_clouds) repeat random(22) instance_create_depth(random(-2400),random(190),0,bird) if !audio_is_playing(bgm_icedungeon) {audio_stop_all() audio_play_sound(bgm_icedungeon,1,true)}}
 
 /////CARDS
 //Inheritance Card

@@ -10,12 +10,13 @@ draw_text_color(118,270,"Pixel Art by Jikaro",c_white,c_white,c_silver,c_silver,
 draw_text_color(118,300,"Pixel Art by TheWiseHedgehog",c_white,c_white,c_silver,c_silver,1)
 draw_text_color(118,330,"Pixel Art by Brullov",c_white,c_white,c_silver,c_silver,1)
 draw_text_color(118,360,"Pixel Animation by Vertibirdo",c_white,c_white,c_silver,c_silver,1)
-draw_text_color(118,390,"Music by Ivan Duch",c_white,c_white,c_silver,c_silver,1)
-draw_text_color(118,420,"Music by ToCrazy",c_white,c_white,c_silver,c_silver,1)
-draw_text_color(118,450,"Music by Music Sweet Music",c_white,c_white,c_silver,c_silver,1)
-draw_text_color(118,480,"Music by Eric Stylianopoulos",c_white,c_white,c_silver,c_silver,1)
-draw_text_color(118,510,"Testing by Sean Bales",c_white,c_white,c_silver,c_silver,1)
-draw_text_color(118,540,"Special thanks to Discord Community",c_white,c_white,c_silver,c_silver,1)
+draw_text_color(118,390,"Pixel Art by Itcamefromyourfridge",c_white,c_white,c_silver,c_silver,1)
+draw_text_color(118,420,"Music by Ivan Duch",c_white,c_white,c_silver,c_silver,1)
+draw_text_color(118,450,"Music by ToCrazy",c_white,c_white,c_silver,c_silver,1)
+draw_text_color(118,480,"Music by Music Sweet Music",c_white,c_white,c_silver,c_silver,1)
+draw_text_color(118,510,"Music by Eric Stylianopoulos",c_white,c_white,c_silver,c_silver,1)
+draw_text_color(118,540,"Testing by Sean Bales",c_white,c_white,c_silver,c_silver,1)
+draw_text_color(118,570,"Special thanks to Discord Community",c_white,c_white,c_silver,c_silver,1)
 
 
 

@@ -198,9 +198,11 @@ if game_over = 1 {
 	draw_text_color(cx+162,cy+354,"Bonus Gems: "+string(store.gems_earned_run),c_yellow,c_yellow,c_yellow,c_orange,1)
 	
 	//Show Gems bonuses
+	if store.current_stage>1 {
 	draw_text_color(cx+316,cy+264,"+"+string(round(store.current_stage*5))+" gems",c_yellow,c_yellow,c_yellow,c_orange,1)
 	draw_text_color(cx+316,cy+289,"+"+string(round(store.level*10))+" gems",c_yellow,c_yellow,c_yellow,c_orange,1)
 	draw_text_color(cx+316,cy+314,"+"+string(ceil(store.enemies_killed_run/3))+" gems",c_yellow,c_yellow,c_yellow,c_orange,1)
+	}
 	
 	draw_set_color(c_lime)
 	draw_text(cx+114,cy+383,"Your run may have ended\nbut the journey never ends!")

@@ -1,7 +1,6 @@
 depth=-10
 parallax=1
 image_speed=0
-image_index=round(random(image_number))
 
 //Handle clumping
 while collision_rectangle(x-sprite_width,y-sprite_height,x+sprite_width,y+sprite_height,stage_decor,false,true) {x+=sprite_width*4}
@@ -16,4 +15,4 @@ if store.current_area="Cursed Courtyard" {sprite_index=spr_decor_castle}
 if store.current_area="Ice Cavern" {sprite_index=spr_decor_cave}
 if store.current_area="Snowy Peak" {sprite_index=spr_decor_deadforest}
 
-
+image_index=round(random(image_number))

@@ -33,8 +33,8 @@ if my_id = 10 {store.card_evilcreed +=1 got_card_evilcreed+=1}
 if my_id = 11 {store.card_mastery +=1 got_card_mastery+=1}
 maxCards-=1
 cardsRecieved+=1
+store.card_cost +=2
 }
 
-store.card_cost +=2
 if store.card_cost > 500 {store.card_cost = 500}
 save_game()
