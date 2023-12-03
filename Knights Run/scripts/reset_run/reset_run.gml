@@ -75,6 +75,7 @@ store.perk_lvl_sideweapon=0
 store.perk_lvl_dailygold=0
 store.perk_lvl_plunderer=0
 store.perk_lvl_frostblade=0
+store.perk_lvl_pinata=0
 //Misc
 store.boss_ready=9
 store.current_tab=0
@@ -82,6 +83,8 @@ store.shiva_ready=0
 store.phoenix_ready=0
 store.ifrit_ready=0
 store.titan_ready=0
+store.djinn_ready=0
+store.bahamut_ready=0
 store.last_stage=""
 store.second_last_stage=""
 }

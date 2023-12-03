@@ -57,5 +57,8 @@ store.perk_lvl_plunderer+=1
 if my_id=15 {
 store.perk_lvl_frostblade+=1
 }
+if my_id=16 {
+store.perk_lvl_pinata+=1
+}
 
 }

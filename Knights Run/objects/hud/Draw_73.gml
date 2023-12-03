@@ -205,7 +205,11 @@ if game_over = 1 {
 	}
 	
 	draw_set_color(c_lime)
-	draw_text(cx+114,cy+383,"Your run may have ended\nbut the journey never ends!")
+	
+	if endMessage=0 {draw_text(cx+114,cy+383,"Your run may have ended\nbut the journey never ends!")}
+	if endMessage=1 {draw_text(cx+114,cy+383,"You've fallen down hurt\nit's time to get back up!")}
+	if endMessage=2 {draw_text(cx+114,cy+383,"Your run has come to an end\nlevel up and try again!")}
+	if endMessage=3 {draw_text(cx+114,cy+383,"You lay on the ground dying\nfind the strength to rise!")}
 }
 
 

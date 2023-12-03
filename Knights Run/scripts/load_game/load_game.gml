@@ -94,6 +94,8 @@ store.guardian_shiva_lvl=ini_read_real( "save1", "guardian_shiva_lvl",store.guar
 store.guardian_phoenix_lvl=ini_read_real( "save1", "guardian_phoenix_lvl",store.guardian_phoenix_lvl);
 store.guardian_ifrit_lvl=ini_read_real( "save1", "guardian_ifrit_lvl",store.guardian_ifrit_lvl);
 store.guardian_titan_lvl=ini_read_real( "save1", "guardian_titan_lvl",store.guardian_titan_lvl);
+store.guardian_djinn_lvl=ini_read_real( "save1", "guardian_djinn_lvl",store.guardian_djinn_lvl);
+store.guardian_bahamut_lvl=ini_read_real( "save1", "guardian_bahamut_lvl",store.guardian_bahamut_lvl);
 //cards 
 store.slot_2_unlocked=ini_read_real( "save1", "slot_2_unlocked",store.slot_2_unlocked);
 store.slot_3_unlocked=ini_read_real( "save1", "slot_3_unlocked",store.slot_3_unlocked);
@@ -148,6 +150,7 @@ store.code_wish=ini_read_real( "save1", "code_wish",store.code_wish);
 store.code_turkey=ini_read_real( "save1", "code_turkey",store.code_turkey);
 store.code_gravy=ini_read_real( "save1", "code_gravy",store.code_gravy);
 store.code_feelgood=ini_read_real( "save1", "code_feelgood",store.code_feelgood);
+store.code_winterishere=ini_read_real( "save1", "code_winterishere",store.code_winterishere);
 //Ingame Stats
 store.gold=ini_read_real( "save1", "gold",store.gold);
 store.current_stage=ini_read_real( "save1", "current_stage",store.current_stage);
@@ -223,12 +226,15 @@ store.perk_lvl_sideweapon=ini_read_real( "save1", "perk_lvl_sideweapon",store.pe
 store.perk_lvl_dailygold=ini_read_real( "save1", "perk_lvl_dailygold",store.perk_lvl_dailygold);
 store.perk_lvl_plunderer=ini_read_real( "save1", "perk_lvl_plunderer",store.perk_lvl_plunderer);
 store.perk_lvl_frostblade=ini_read_real( "save1", "perk_lvl_frostblade",store.perk_lvl_frostblade);
+store.perk_lvl_pinata=ini_read_real( "save1", "perk_lvl_pinata",store.perk_lvl_pinata);
 //Misc
 store.boss_ready=ini_read_real( "save1", "boss_ready",store.boss_ready);
 store.current_tab=ini_read_real( "save1", "current_tab",store.current_tab);
 store.shiva_ready=ini_read_real( "save1", "shiva_ready",store.shiva_ready);
 store.phoenix_ready=ini_read_real( "save1", "phoenix_ready",store.phoenix_ready);
 store.ifrit_ready=ini_read_real( "save1", "ifrit_ready",store.ifrit_ready);
+store.djinn_ready=ini_read_real( "save1", "djinn_ready",store.djinn_ready);
+store.bahamut_ready=ini_read_real( "save1", "bahamut_ready",store.bahamut_ready);
 store.last_stage=ini_read_string( "save1", "last_stage",store.last_stage);
 store.second_last_stage=ini_read_string( "save1", "second_last_stage",store.second_last_stage);
 

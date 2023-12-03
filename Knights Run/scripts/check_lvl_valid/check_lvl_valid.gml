@@ -46,6 +46,9 @@ if store.perk_lvl_plunderer>=3 {return false}
 if slot=15 {
 if store.perk_lvl_frostblade>=3 {return false}
 }
+if slot=16 {
+if store.perk_lvl_pinata>=3 {return false}
+}
 
 return true
 }

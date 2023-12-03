@@ -36,7 +36,7 @@ challenge_bloodthirst()
 }
 
 //Check Frost Blade
-if store.perk_lvl_frostblade>0 and (store.perk_lvl_frostblade*5>random(100))
+if store.perk_lvl_frostblade>0 and (store.perk_lvl_frostblade*10>random(100))
 {
 	if other.boss=0 {other.frozen=180}
 }

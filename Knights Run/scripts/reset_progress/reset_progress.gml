@@ -103,6 +103,10 @@ store.guardian_ifrit_lvl=0
 store.ifrit_readytime=300
 store.guardian_titan_lvl=0
 store.titan_readytime=280
+store.guardian_djinn_lvl=0
+store.djinn_readytime=310
+store.guardian_bahamut_lvl=0
+store.bahamut_readytime=350
 //cards 
 store.slot_2_unlocked = 0
 store.slot_3_unlocked = 0
@@ -159,4 +163,5 @@ store.code_wish=0
 store.code_turkey=0
 store.code_gravy=0
 store.code_feelgood=0
+store.code_winterishere=0
 }

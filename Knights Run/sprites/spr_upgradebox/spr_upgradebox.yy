@@ -32,6 +32,7 @@
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"0c157e77-66cc-4edb-a822-974c5da54f91",},
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d18c1fab-416b-49c4-9263-b8f103e81c25",},
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"6d962ed2-581a-4528-bfe0-d6db2da8b657",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"4a9d07fe-ab69-43c8-a58d-0b19196cea4d",},
   ],
   "sequence": {
     "resourceType": "GMSequence",
@@ -43,7 +44,7 @@
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
-    "length": 4.0,
+    "length": 5.0,
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
@@ -52,6 +53,7 @@
             {"id":"c4475eef-8748-423e-bcac-3f0c8cc9df90","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0c157e77-66cc-4edb-a822-974c5da54f91","path":"sprites/spr_upgradebox/spr_upgradebox.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"5d36cee2-b521-4e94-a931-1d37be105231","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d18c1fab-416b-49c4-9263-b8f103e81c25","path":"sprites/spr_upgradebox/spr_upgradebox.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"403517b1-ed70-44fa-87b3-6ac11962cf36","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6d962ed2-581a-4528-bfe0-d6db2da8b657","path":"sprites/spr_upgradebox/spr_upgradebox.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"4f7dd96e-6671-4500-add8-50c37b7ba27d","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4a9d07fe-ab69-43c8-a58d-0b19196cea4d","path":"sprites/spr_upgradebox/spr_upgradebox.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,

@@ -23,6 +23,8 @@ if store.shiva_ready<store.shiva_readytime and store.guardian_shiva_lvl>0 {store
 if store.phoenix_ready<store.phoenix_readytime and store.guardian_phoenix_lvl {store.phoenix_ready+=1+tmp_guardian_boost}
 if store.ifrit_ready<store.ifrit_readytime and store.guardian_ifrit_lvl {store.ifrit_ready+=1+tmp_guardian_boost}
 if store.titan_ready<store.titan_readytime and store.guardian_titan_lvl {store.titan_ready+=1+tmp_guardian_boost}
+if store.djinn_ready<store.djinn_readytime and store.guardian_djinn_lvl {store.djinn_ready+=1+tmp_guardian_boost}
+if store.bahamut_ready<store.bahamut_readytime and store.guardian_bahamut_lvl {store.bahamut_ready+=1+tmp_guardian_boost}
 
 if store.shiva_ready>=store.shiva_readytime and store.auto_guardian=1 and instance_number(default_guardian)=0 {
 store.shiva_ready=0
@@ -46,6 +48,18 @@ if store.titan_ready>=store.titan_readytime and store.auto_guardian=1 and instan
 store.titan_ready=0
 instance_create_depth(-100,232,depth-1000,guardian_titan)
 log_rotate(c_lime,"Summoned Titan")
+}
+
+if store.djinn_ready>=store.djinn_readytime and store.auto_guardian=1 and instance_number(default_guardian)=0 {
+store.djinn_ready=0
+instance_create_depth(-100,232,depth-1000,guardian_djinn)
+log_rotate(c_lime,"Summoned Djinn")
+}
+
+if store.bahamut_ready>=store.bahamut_readytime and store.auto_guardian=1 and instance_number(default_guardian)=0 {
+store.bahamut_ready=0
+instance_create_depth(-100,232,depth-1000,guardian_bahamut)
+log_rotate(c_lime,"Summoned Bahamut")
 }
 
 }

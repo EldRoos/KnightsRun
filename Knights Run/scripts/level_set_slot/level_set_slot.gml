@@ -91,9 +91,15 @@ if store.perk_lvl_plunderer=0 {isNew=1}
 }
 if my_id=15 {
 myHeader="Frost Blade"
-myInfo=string((store.perk_lvl_frostblade+1)*5)+"% chance to freeze enemies hit."
+myInfo=string((store.perk_lvl_frostblade+1)*10)+"% chance to freeze enemies hit."
 myLevel="Level "+string(store.perk_lvl_frostblade)+">"+string(store.perk_lvl_frostblade+1)
 if store.perk_lvl_frostblade=0 {isNew=1}
+}
+if my_id=16 {
+myHeader="Pinata"
+myInfo="+"+string(store.perk_lvl_pinata+1)+"% enemies drop item."
+myLevel="Level "+string(store.perk_lvl_pinata)+">"+string(store.perk_lvl_pinata+1)
+if store.perk_lvl_pinata=0 {isNew=1}
 }
 
 }

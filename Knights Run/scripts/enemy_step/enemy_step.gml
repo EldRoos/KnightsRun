@@ -47,7 +47,7 @@ if myName="Boss Boneheads" {instance_create_depth(x,y,depth,enemy_death).sprite_
 if myName="Boss Dark Apprentice" {instance_create_depth(x,y,depth,enemy_death).sprite_index=spr_dead_darkapprentice challenge_boss_slayer()}
 
 if 70+store.luck+hud.luck_boost>random(100) {instance_create_depth(x+2,y-8,depth,xp_orb)}
-if store.luck+hud.luck_boost>random(100) {drop_item()}
+if store.luck+hud.luck_boost+store.perk_lvl_pinata>random(100) {drop_item()}
 store.enemies_killed_run+=1
 store.enemies_slain+=1
 if boss=1 {store.bosses_slain+=1 instance_create_depth(x+sprite_width/2+1,y-8,depth,item_guardiankey) repeat 3 instance_create_depth(x+sprite_width/2+random(8),y-8,depth,item_gem)}
