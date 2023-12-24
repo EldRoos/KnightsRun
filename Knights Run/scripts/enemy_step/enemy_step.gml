@@ -45,6 +45,7 @@ if myName="Boss Tokisaki" {instance_create_depth(x,y,depth,enemy_death).sprite_i
 if myName="Boss Spworm" {instance_create_depth(x,y,depth,enemy_death).sprite_index=spr_spworm_death challenge_boss_slayer()}
 if myName="Boss Boneheads" {instance_create_depth(x,y,depth,enemy_death).sprite_index=spr_boss_boneheads_death challenge_boss_slayer()}
 if myName="Boss Dark Apprentice" {instance_create_depth(x,y,depth,enemy_death).sprite_index=spr_dead_darkapprentice challenge_boss_slayer()}
+if myName="Boss Dark One" {instance_create_depth(x,y,depth,enemy_death).sprite_index=spr_darkone_death challenge_boss_slayer()}
 
 if 70+store.luck+hud.luck_boost>random(100) {instance_create_depth(x+2,y-8,depth,xp_orb)}
 if store.luck+hud.luck_boost+store.perk_lvl_pinata>random(100) {drop_item()}

@@ -87,4 +87,5 @@ store.djinn_ready=0
 store.bahamut_ready=0
 store.last_stage=""
 store.second_last_stage=""
+store.bloodmoon=0
 }

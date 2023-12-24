@@ -10,7 +10,7 @@ else {store.gold -= store.cost_max_health}
 store.maxhp +=5
 store.lvl_max_health +=1
 store.cost_max_health += 5 +(store.lvl_max_health*2) 
-if store.lvl_max_health > 10 {store.cost_max_health += 5*store.lvl_max_health}
+if store.lvl_max_health > 10 {store.cost_max_health += 6*store.lvl_max_health}
 store.total_upgrades +=1
 instance_create_depth(x-4,y-4,depth-1000,effect_upgrade)
 log_rotate(c_lime,"Upgraded Max Health")

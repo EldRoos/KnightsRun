@@ -47,7 +47,7 @@ draw_sprite(spr_item_healingsalve,0,12,409)
 
 if tab=3 {
 draw_set_font(font_med_hud)
-draw_text_ext_color(32,50,"Potion\nRestores 20% of your Max Health points.",20,420,c_orange,c_orange,c_yellow,c_yellow,1)
+draw_text_ext_color(32,50,"Potion\nRestores 15% of your Max Health points.",20,420,c_orange,c_orange,c_yellow,c_yellow,1)
 draw_sprite(spr_item_potion,0,12,59)
 draw_text_ext_color(32,100,"Mega Potion\nFully restore all Health points",20,420,c_orange,c_orange,c_yellow,c_yellow,1)
 draw_sprite(spr_item_megapotion,0,12,109)

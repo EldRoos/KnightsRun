@@ -13,6 +13,7 @@ store.show_healthbars=ini_read_real( "save1", "show_healthbars",store.show_healt
 store.auto_upgrade=ini_read_real( "save1", "auto_upgrade",store.auto_upgrade);
 store.auto_guardian=ini_read_real( "save1", "auto_guardian",store.auto_guardian);
 store.auto_event=ini_read_real( "save1", "auto_event",store.auto_event);
+store.story_scene=ini_read_real( "save1", "story_scene",store.story_scene);
 //Challenges
 store.challenge_a=ini_read_real( "save1", "challenge_a",store.challenge_a);
 store.challenge_b=ini_read_real( "save1", "challenge_b",store.challenge_b);
@@ -151,6 +152,8 @@ store.code_turkey=ini_read_real( "save1", "code_turkey",store.code_turkey);
 store.code_gravy=ini_read_real( "save1", "code_gravy",store.code_gravy);
 store.code_feelgood=ini_read_real( "save1", "code_feelgood",store.code_feelgood);
 store.code_winterishere=ini_read_real( "save1", "code_winterishere",store.code_winterishere);
+store.code_lunarys=ini_read_real( "save1", "code_lunarys",store.code_lunarys);
+store.code_santa=ini_read_real( "save1", "code_santa",store.code_santa);
 //Ingame Stats
 store.gold=ini_read_real( "save1", "gold",store.gold);
 store.current_stage=ini_read_real( "save1", "current_stage",store.current_stage);
@@ -237,6 +240,7 @@ store.djinn_ready=ini_read_real( "save1", "djinn_ready",store.djinn_ready);
 store.bahamut_ready=ini_read_real( "save1", "bahamut_ready",store.bahamut_ready);
 store.last_stage=ini_read_string( "save1", "last_stage",store.last_stage);
 store.second_last_stage=ini_read_string( "save1", "second_last_stage",store.second_last_stage);
+store.bloodmoon=ini_read_string( "save1", "bloodmoon",store.bloodmoon);
 
 	ini_close();
 }

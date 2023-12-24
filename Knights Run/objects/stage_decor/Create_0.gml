@@ -14,5 +14,7 @@ if store.current_area="Deadly Dungeon" {sprite_index=spr_decor_castle}
 if store.current_area="Cursed Courtyard" {sprite_index=spr_decor_castle}
 if store.current_area="Ice Cavern" {sprite_index=spr_decor_cave}
 if store.current_area="Snowy Peak" {sprite_index=spr_decor_deadforest}
+if store.current_area="Deaths Hollow" {sprite_index=spr_decor_cave}
+if store.current_area="Dark Lair" {sprite_index=spr_decor_castle}
 
 image_index=round(random(image_number))

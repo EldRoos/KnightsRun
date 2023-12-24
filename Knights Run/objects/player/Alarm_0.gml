@@ -26,39 +26,39 @@ if store.titan_ready<store.titan_readytime and store.guardian_titan_lvl {store.t
 if store.djinn_ready<store.djinn_readytime and store.guardian_djinn_lvl {store.djinn_ready+=1+tmp_guardian_boost}
 if store.bahamut_ready<store.bahamut_readytime and store.guardian_bahamut_lvl {store.bahamut_ready+=1+tmp_guardian_boost}
 
-if store.shiva_ready>=store.shiva_readytime and store.auto_guardian=1 and instance_number(default_guardian)=0 {
+if store.shiva_ready>=store.shiva_readytime and store.auto_guardian=1 and instance_number(default_guardian)=0 and (instance_number(default_enemy)>2 or store.current_stage%10==0) {
 store.shiva_ready=0
 instance_create_depth(-100,100,depth-1000,guardian_shiva)
 log_rotate(c_lime,"Summoned Shiva")
 }
 
-if store.phoenix_ready>=store.phoenix_readytime and store.auto_guardian=1 and store.hp<store.maxhp and instance_number(default_guardian)=0 {
+if store.phoenix_ready>=store.phoenix_readytime and store.auto_guardian=1 and store.hp<store.maxhp*.95 and instance_number(default_guardian)=0 and (instance_number(default_enemy)>2 or store.current_stage%10==0) {
 store.phoenix_ready=0
 instance_create_depth(-100,100,depth-1000,guardian_phoenix)
 log_rotate(c_lime,"Summoned Phoenix")
 }
 
-if store.ifrit_ready>=store.ifrit_readytime and store.auto_guardian=1 and instance_number(default_guardian)=0 {
+if store.ifrit_ready>=store.ifrit_readytime and store.auto_guardian=1 and instance_number(default_guardian)=0 and (instance_number(default_enemy)>2 or store.current_stage%10==0) {
 store.ifrit_ready=0
 instance_create_depth(-100,100,depth-1000,guardian_ifrit)
 log_rotate(c_lime,"Summoned Ifrit")
 }
 
-if store.titan_ready>=store.titan_readytime and store.auto_guardian=1 and instance_number(default_guardian)=0 {
+if store.titan_ready>=store.titan_readytime and store.auto_guardian=1 and instance_number(default_guardian)=0 and (instance_number(default_enemy)>2 or store.current_stage%10==0) {
 store.titan_ready=0
 instance_create_depth(-100,232,depth-1000,guardian_titan)
 log_rotate(c_lime,"Summoned Titan")
 }
 
-if store.djinn_ready>=store.djinn_readytime and store.auto_guardian=1 and instance_number(default_guardian)=0 {
+if store.djinn_ready>=store.djinn_readytime and store.auto_guardian=1 and instance_number(default_guardian)=0 and (instance_number(default_enemy)>2 or store.current_stage%10==0) {
 store.djinn_ready=0
 instance_create_depth(-100,232,depth-1000,guardian_djinn)
 log_rotate(c_lime,"Summoned Djinn")
 }
 
-if store.bahamut_ready>=store.bahamut_readytime and store.auto_guardian=1 and instance_number(default_guardian)=0 {
+if store.bahamut_ready>=store.bahamut_readytime and store.auto_guardian=1 and instance_number(default_guardian)=0 and (instance_number(default_enemy)>2 or store.current_stage%10==0) {
 store.bahamut_ready=0
-instance_create_depth(-100,232,depth-1000,guardian_bahamut)
+instance_create_depth(-100,200,depth-1000,guardian_bahamut)
 log_rotate(c_lime,"Summoned Bahamut")
 }
 

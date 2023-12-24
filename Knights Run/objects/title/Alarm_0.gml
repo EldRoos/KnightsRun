@@ -1,5 +1,5 @@
 
-if store.total_runs=0 {room =rm_maingame}
+if store.story_scene=0 {room =rm_story_intro}
 
 if store.total_runs>0 {
 	if store.current_stage>=2 {room =rm_maingame}

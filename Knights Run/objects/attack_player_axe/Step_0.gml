@@ -7,8 +7,7 @@ if mySpeed<2.5 {y+=3+store.game_speed/8}
 if mySpeed<=0 {instance_destroy()}
 if y>player.y+32 {image_alpha-=.05}
 
-
-
-
-
+if instance_number(default_enemy)>0 {
+if x>=instance_nearest(x,y,default_enemy).x-16 {speed-=.2 y+=2}
+}
 

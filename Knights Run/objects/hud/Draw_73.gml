@@ -7,6 +7,7 @@ if store.current_area="Sunset Meadows" {draw_set_alpha(.25) draw_rectangle_color
 if store.current_area="Whisper Woods" {draw_set_alpha(.15) draw_rectangle_color(0,0,room_width,420,c_purple,c_purple,c_blue,c_blue,false) draw_set_alpha(1)}
 if store.current_area="Grim Graveyard" {draw_set_alpha(.05) draw_rectangle_color(0,0,room_width,420,c_purple,c_purple,c_blue,c_blue,false) draw_set_alpha(1)}
 if store.current_area="Ice Cavern" {draw_set_alpha(.2) draw_rectangle_color(0,0,room_width,420,c_teal,c_teal,c_blue,c_blue,false) draw_set_alpha(1)}
+if store.bloodmoon=1 {draw_set_alpha(.35) draw_rectangle_color(0,0,room_width,420,c_orange,c_orange,c_red,c_red,false) draw_set_alpha(1)}
 
 //Draw Fury
 if store.card_slot_1 = 7 or store.card_slot_2 = 7 or store.card_slot_3 = 7 or store.card_slot_4 = 7
@@ -72,29 +73,36 @@ draw_text(cx+12,cy+460,"Health")
 draw_text(cx+89,cy+460,string(round(store.hp))+"/"+string(round(store.maxhp)))       
 draw_sprite(spr_stat_cap,0,cx+7,cy+466)
 
-//Draw Current Stage
+//Draw Current Stage & tier
 draw_set_font(font_stats)
 draw_set_color(c_black)
-draw_text(cx+184,cy+440,"Stage "+string(store.current_stage))              
+draw_text(cx+184,cy+440,"Stage "+string(store.current_stage))   
+draw_text(cx+184,cy+452,"Tier "+string(1+floor(store.current_stage/101)))
 draw_set_color(c_white)
 draw_text(cx+182,cy+438,"Stage "+string(store.current_stage))
+draw_text(cx+182,cy+450,"Tier "+string(1+floor(store.current_stage/101)))
 
 //Draw Current Stage Banner
 if show_stage>0 {
 draw_set_alpha(show_stage)
 draw_set_color(c_black)
 draw_set_font(font_large_hud)
-draw_text(cx+124,cy+70,string(store.current_area))  
+draw_text(cx+124+banner_gap,cy+70,string(store.current_area))  
 draw_set_font(font_upgrades)
 draw_text(cx+204,cy+110,"Stage "+string(store.current_stage))              
 draw_set_color(c_white)
 draw_set_font(font_large_hud)
-draw_text(cx+124,cy+68,string(store.current_area))  
+draw_text(cx+124+banner_gap,cy+68,string(store.current_area))  
 draw_set_font(font_upgrades)
 draw_text(cx+202,cy+108,"Stage "+string(store.current_stage))
 draw_set_color(c_yellow)
 draw_line(cx+114,cy+67,cx+389,cy+67)
 draw_line(cx+114,cy+107,cx+389,cy+107)
+//Draw Bloodmoon banner
+if store.bloodmoon=1 {
+draw_set_color(c_red)
+draw_text(cx+208,cy+168,"Blood Moon")
+}
 draw_set_alpha(1)
 }
 
@@ -192,16 +200,17 @@ if game_over = 1 {
 	draw_text_color(cx+162,cy+200,string(store.current_area),c_white,c_white,c_silver,c_silver,1)
 	draw_text_color(cx+162,cy+220,"Best Run: "+string(store.best_stage),c_white,c_white,c_silver,c_silver,1)
 	draw_text_color(cx+162,cy+220,"Best Run: "+string(store.best_stage),c_white,c_white,c_silver,c_silver,1)
-	draw_text_color(cx+93,cy+264,"Stage Reached: "+string(store.current_stage),c_white,c_white,c_silver,c_silver,1)
-	draw_text_color(cx+93,cy+289,"Levels Gained: "+string(store.level),c_white,c_white,c_silver,c_silver,1)
-	draw_text_color(cx+93,cy+314,"Enemies Slain: "+string(store.enemies_killed_run),c_white,c_white,c_silver,c_silver,1)
-	draw_text_color(cx+162,cy+354,"Bonus Gems: "+string(store.gems_earned_run),c_yellow,c_yellow,c_yellow,c_orange,1)
+	draw_text_color(cx+93,cy+254,"Stage Reached: "+string(store.current_stage),c_white,c_white,c_silver,c_silver,1)
+	draw_text_color(cx+93,cy+279,"Levels Gained: "+string(store.level),c_white,c_white,c_silver,c_silver,1)
+	draw_text_color(cx+93,cy+304,"Enemies Slain: "+string(store.enemies_killed_run),c_white,c_white,c_silver,c_silver,1)
+	draw_text_color(cx+162,cy+329,"Tier Multiplier: x"+string(1+floor(store.current_stage/101)),c_white,c_white,c_silver,c_silver,1)
+	draw_text_color(cx+162,cy+359,"Bonus Gems: "+string(store.gems_earned_run),c_yellow,c_yellow,c_yellow,c_orange,1)
 	
 	//Show Gems bonuses
 	if store.current_stage>1 {
-	draw_text_color(cx+316,cy+264,"+"+string(round(store.current_stage*5))+" gems",c_yellow,c_yellow,c_yellow,c_orange,1)
-	draw_text_color(cx+316,cy+289,"+"+string(round(store.level*10))+" gems",c_yellow,c_yellow,c_yellow,c_orange,1)
-	draw_text_color(cx+316,cy+314,"+"+string(ceil(store.enemies_killed_run/3))+" gems",c_yellow,c_yellow,c_yellow,c_orange,1)
+	draw_text_color(cx+316,cy+254,"+"+string(round(store.current_stage*5))+" gems",c_yellow,c_yellow,c_yellow,c_orange,1)
+	draw_text_color(cx+316,cy+279,"+"+string(round(store.level*10))+" gems",c_yellow,c_yellow,c_yellow,c_orange,1)
+	draw_text_color(cx+316,cy+304,"+"+string(ceil(store.enemies_killed_run/3))+" gems",c_yellow,c_yellow,c_yellow,c_orange,1)
 	}
 	
 	draw_set_color(c_lime)

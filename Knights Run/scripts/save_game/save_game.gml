@@ -13,6 +13,7 @@ ini_write_real( "save1", "show_healthbars", store.show_healthbars);
 ini_write_real( "save1", "auto_upgrade", store.auto_upgrade);
 ini_write_real( "save1", "auto_guardian", store.auto_guardian);
 ini_write_real( "save1", "auto_event", store.auto_event);
+ini_write_real( "save1", "store_scene", store.story_scene);
 //Challenges
 ini_write_real( "save1", "challenge_a", store.challenge_a);
 ini_write_real( "save1", "challenge_b", store.challenge_b);
@@ -151,6 +152,8 @@ ini_write_real( "save1", "code_turkey", store.code_turkey);
 ini_write_real( "save1", "code_gravy", store.code_gravy);
 ini_write_real( "save1", "code_feelgood", store.code_feelgood);
 ini_write_real( "save1", "code_winterishere", store.code_winterishere);
+ini_write_real( "save1", "code_lunarys", store.code_lunarys);
+ini_write_real( "save1", "code_santa", store.code_santa);
 //Ingame Stats
 ini_write_real( "save1", "gold", store.gold);
 ini_write_real( "save1", "current_stage", store.current_stage);
@@ -239,6 +242,7 @@ ini_write_real( "save1", "djinn_ready", store.djinn_ready);
 ini_write_real( "save1", "bahamut_ready", store.bahamut_ready);
 ini_write_string( "save1", "last_stage", store.last_stage);
 ini_write_string( "save1", "second_last_stage", store.second_last_stage);
+ini_write_string( "save1", "bloodmoon", store.bloodmoon);	
 	
 	ini_close();
 

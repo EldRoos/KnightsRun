@@ -16,6 +16,7 @@ store.show_healthbars=0
 store.auto_upgrade=0
 store.auto_guardian=0
 store.auto_event=0
+store.story_scene=0
 
 //Challenges
 store.challenge_a=0
@@ -164,4 +165,6 @@ store.code_turkey=0
 store.code_gravy=0
 store.code_feelgood=0
 store.code_winterishere=0
+store.code_lunarys=0
+store.code_santa=0
 }

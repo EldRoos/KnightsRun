@@ -319,6 +319,90 @@ instance_create_depth(random_range(1000,1000+distanceBossEyemon), y,-199,enemy_b
 }
 }
 
+//Deaths Hollow ---------------------------------------------------------------------------------------------
+if store.current_area="Deaths Hollow" { 
+//Gen Golem
+var distanceGolem = max(2000-tier_level,1600)
+var spawnGolem = 4 + tier +(3*store.active_lures)
+repeat(spawnGolem) instance_create_depth(random_range(500,500+distanceGolem), y,-199,enemy_golem);
+//Gen Poison Mushkin
+var distancePoisonMushkin = max(2000-tier_level,1600)
+var spawnPoisonMushkin = 5 + tier +(2*store.active_lures)
+repeat(spawnPoisonMushkin) instance_create_depth(random_range(500,500+distancePoisonMushkin), y,-199,enemy_mushroom_poison);
+//Gen Goblin
+if store.current_stage%3==0 {
+var distanceGoblin = max(2000-tier_level,1600)
+var spawnGoblin = 3 + tier +(3*store.active_lures)
+repeat(spawnGoblin) instance_create_depth(random_range(500,500+distanceGoblin), y,-199,enemy_goblin);
+}
+//Gen Bat
+if store.current_stage%2==0 {
+var distanceBat = max(2000-tier_level,1600)
+var spawnBat = 7 + tier +(3*store.active_lures)
+repeat(spawnBat) instance_create_depth(random_range(500,500+distanceBat), y,-199,enemy_bat);
+}
+//Gen Spider
+if store.current_stage%1==0 {
+var distanceSpider = max(2000-tier_level,1600)
+var spawnSpider = 3 + tier +(3*store.active_lures)
+repeat(spawnSpider) instance_create_depth(random_range(500,500+distanceSpider), y,-199,enemy_spider);
+}
+//Gen ghoul
+if store.current_stage%1==0 {
+var distanceGhoul = max(2000-tier_level,1600)
+var spawnGhoul = 2 + tier +(3*store.active_lures)
+repeat(spawnGhoul) instance_create_depth(random_range(500,500+distanceGhoul), y,-199,enemy_ghoul);
+}
+//Gen Bonesy
+if store.current_stage%4==0 {
+var distanceBonesy = max(2000-tier_level,1600)
+var spawnBonesy = 3 + tier +(3*store.active_lures)
+repeat(spawnBonesy) instance_create_depth(random_range(500,500+distanceBonesy), y,-199,enemy_bonesy);
+}
+//Gen Boss Tokisaki
+if store.current_stage%10==0 {
+var distanceBossTokisaki = max(2500-tier_level,1800)
+instance_create_depth(random_range(1000,1000+distanceBossTokisaki), y,-199,enemy_boss_tokisaki);
+}
+}
+
+//Dark Lair ---------------------------------------------------------------------------------------------
+if store.current_area="Dark Lair" { 
+//Gen Bonesy
+var distanceBonesy = max(2000-tier_level,1600)
+var spawnBonesy = 15 + tier +(3*store.active_lures)
+repeat(spawnBonesy) instance_create_depth(random_range(500,500+distanceBonesy), y,-199,enemy_bonesy);
+//Gen Poison Mushkin
+if store.current_stage%7==0 {
+var distancePoisonMushkin = max(2000-tier_level,1600)
+var spawnPoisonMushkin = 2 + tier +(2*store.active_lures)
+repeat(spawnPoisonMushkin) instance_create_depth(random_range(500,500+distancePoisonMushkin), y,-199,enemy_mushroom_poison);
+}
+//Gen Goblin
+if store.current_stage%5==0 {
+var distanceGoblin = max(2000-tier_level,1600)
+var spawnGoblin = 2 + tier +(3*store.active_lures)
+repeat(spawnGoblin) instance_create_depth(random_range(500,500+distanceGoblin), y,-199,enemy_goblin);
+}
+//Gen Bat
+if store.current_stage%1==0 {
+var distanceBat = max(2000-tier_level,1600)
+var spawnBat = 1 + tier +(3*store.active_lures)
+repeat(spawnBat) instance_create_depth(random_range(500,500+distanceBat), y,-199,enemy_bat);
+}
+//Gen ghoul
+if store.current_stage%2==0 {
+var distanceGhoul = max(2000-tier_level,1600)
+var spawnGhoul = 7 + tier +(3*store.active_lures)
+repeat(spawnGhoul) instance_create_depth(random_range(500,500+distanceGhoul), y,-199,enemy_ghoul);
+}
+//Gen Dark One
+if store.current_stage%10==0 {
+var distanceBossDarkOne = max(3500-tier_level,3000)
+instance_create_depth(random_range(4600,4600+distanceBossDarkOne), y,-199,enemy_boss_darkone);
+}
+}
+
 //Gen Loot Chest ----------------------------------------------
 if (7+store.luck+hud.luck_boost)>random(100) {instance_create_depth(random_range(500,750),y+12,-205,loot_chest)}
 if 18>random(100) and store.total_runs<=3 {instance_create_depth(random_range(500,750),y+12,-205,loot_chest)}

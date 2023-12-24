@@ -4,6 +4,7 @@ attack_buffer_cap=65
 attack_damage=0
 boss=0
 damaged=0
+shield=0
 
 gem_reward=ceil(random(5))
 gold_reward=ceil(random(10)+store.current_stage)

@@ -3,7 +3,7 @@ if mode="attack" and hit_check=0 and other.damaged<=0 {
 //Check Critical or Hit
 hud.tmp_crit_boost=0
 if store.active_focus>0 {hud.tmp_crit_boost=15}
-if store.critical_chance+hud.tmp_crit_boost >= random(100)
+if store.critical_chance+hud.tmp_crit_boost >= random(100) and other.shield=0
 {
 other.hp -= store.attack_damage*store.critical_multiplier
 instance_create_depth(other.x-17,other.y-other.sprite_height/1.4,depth,show_criticalhit)
@@ -15,8 +15,8 @@ check_critgold()
 else //Regular Hit
 {
 other.damaged=10
-other.hp-=store.attack_damage
-instance_create_depth(other.x-10,other.y-other.sprite_height,depth,show_damage).myDamage=store.attack_damage
+if other.shield=0 {other.hp-=store.attack_damage instance_create_depth(other.x-10,other.y-other.sprite_height,depth,show_damage).myDamage=store.attack_damage}
+if other.shield>0 {other.shield-=1 instance_create_depth(other.x-10,other.y-other.sprite_height,depth,show_damage).myDamage=0}
 }	
 
 hit_check=1

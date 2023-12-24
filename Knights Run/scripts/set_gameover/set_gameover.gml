@@ -8,9 +8,10 @@ hud.game_over = 1
 store.total_runs+=1
 	
 store.gems_earned_run=(store.current_stage*5)+(store.level*10)+ceil(store.enemies_killed_run/3)
+store.gems_earned_run=store.gems_earned_run*(1+floor(store.current_stage/101))
 if store.current_stage<=1 {store.gems_earned_run=0}
 store.gems+=store.gems_earned_run
-store.gems_earned+=store.gems_earned_run
+store.gems_earned=store.gems_earned_run
 
 audio_stop_all()
 audio_play_sound(bgm_gameover,1,false)
