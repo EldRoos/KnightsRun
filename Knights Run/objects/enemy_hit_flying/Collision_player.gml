@@ -15,9 +15,3 @@ instance_create_depth(other.x-10,other.y-other.sprite_height,depth,show_damage_p
 
 instance_destroy()
 }
-
-
-
-
-
-

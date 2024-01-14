@@ -1,12 +1,12 @@
 // Genetix Studio
 if store.auto_guardian=1 {
 image_index = store.color_scheme
-myName="Auto Guardian\n         On"
+myName="Auto Guardian\n          On"
 }
 
 if store.auto_guardian=0 {
 image_index = 0
-myName="Auto Guardian\n         Off"
+myName="Auto Guardian\n          Off"
 }
 
 if instance_number(hud)>0 {

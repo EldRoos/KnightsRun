@@ -1,3 +1,4 @@
+
 if hud.game_over=0 and hud.game_paused=0 {
 
 //Check Dodge
@@ -16,7 +17,6 @@ instance_create_depth(other.x-10,other.y-other.sprite_height,depth,show_damage_p
 
 instance_destroy()
 }
-
 
 
 

@@ -8,7 +8,8 @@ if hud.tmp_lifesteal_boost>0 {draw_set_color(c_orange)}
 draw_text(x+132,y+11,string(store.lifesteal_chance+hud.tmp_lifesteal_boost)+"%")
 draw_set_color(c_white)
 if maxxed = 0 {
-draw_text(x+152,y+38,string(store.cost_lifesteal_chance))
+if store.cost_lifesteal_chance<10000 {draw_text(x+152,y+38,string(store.cost_lifesteal_chance))}
+if store.cost_lifesteal_chance>=10000 {draw_text(x+152,y+38,string(store.cost_lifesteal_chance/1000)+"k")}
 draw_sprite(spr_show_gold,0,x+142,y+48)
 }
 else {

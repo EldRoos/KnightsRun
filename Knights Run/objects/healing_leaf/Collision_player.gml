@@ -6,10 +6,3 @@ wait=60
 used+=1
 if used>=3 {instance_destroy()}
 }
-
-
-
-
-
-
-

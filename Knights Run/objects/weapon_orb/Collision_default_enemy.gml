@@ -4,11 +4,11 @@ if other.damaged<=0 {
 stun=15
 if other.shield=0 {
 other.hp-=store.card_lvl_orb+4+(3*store.perk_lvl_sideweapon)
-instance_create_depth(other.x+10,other.y-other.sprite_height-8,depth,show_damage).myDamage=store.card_lvl_orb+4+store.perk_lvl_sideweapon
+instance_create_depth(other.x+10,other.y-other.sprite_height-8,depth,show_damage).myDamage=store.card_lvl_orb+4+(3*store.perk_lvl_sideweapon)
 }
 if other.shield>0 {
 other.hp-=(store.card_lvl_orb*2)+4+(3*store.perk_lvl_sideweapon)
-instance_create_depth(other.x+10,other.y-other.sprite_height-8,depth,show_damage).myDamage=(store.card_lvl_orb*2)+4+store.perk_lvl_sideweapon
+instance_create_depth(other.x+10,other.y-other.sprite_height-8,depth,show_damage).myDamage=(store.card_lvl_orb*2)+4+(3*store.perk_lvl_sideweapon)
 }
 
 }	

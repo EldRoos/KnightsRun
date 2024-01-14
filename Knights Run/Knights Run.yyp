@@ -110,6 +110,7 @@
     {"id":{"name":"spr_button_discord","path":"sprites/spr_button_discord/spr_button_discord.yy",},"order":0,},
     {"id":{"name":"loot_chest","path":"objects/loot_chest/loot_chest.yy",},"order":7,},
     {"id":{"name":"item_vampirefang","path":"objects/item_vampirefang/item_vampirefang.yy",},"order":5,},
+    {"id":{"name":"font_upgrades_big","path":"fonts/font_upgrades_big/font_upgrades_big.yy",},"order":6,},
     {"id":{"name":"check_lvl_valid","path":"scripts/check_lvl_valid/check_lvl_valid.yy",},"order":2,},
     {"id":{"name":"btn_item_megapotion","path":"objects/btn_item_megapotion/btn_item_megapotion.yy",},"order":3,},
     {"id":{"name":"enemy_hit_flying","path":"objects/enemy_hit_flying/enemy_hit_flying.yy",},"order":1,},

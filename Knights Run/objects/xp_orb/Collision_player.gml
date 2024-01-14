@@ -9,6 +9,3 @@ instance_destroy()
 
 check_lvl_up()
 }
-
-
-

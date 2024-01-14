@@ -1,12 +1,12 @@
 // Genetix Studio
 if store.auto_perk=1 {
 image_index = store.color_scheme
-myName="Auto Perk\n      On"
+myName="Auto Perk\n     On"
 }
 
 if store.auto_perk=0 {
 image_index = 0
-myName="Auto Perk\n      Off"
+myName="Auto Perk\n     Off"
 }
 
 if instance_number(hud)>0 {
