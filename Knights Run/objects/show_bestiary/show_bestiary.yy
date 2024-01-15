@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "btn_shop_placeholder",
+  "name": "show_bestiary",
   "spriteId": {
-    "name": "btn_large_tab",
-    "path": "sprites/btn_large_tab/btn_large_tab.yy",
+    "name": "spr_effect_poison",
+    "path": "sprites/spr_effect_poison/spr_effect_poison.yy",
   },
   "solid": false,
   "visible": true,
@@ -26,14 +26,13 @@
   "physicsShapePoints": [],
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":4,"eventType":6,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "ItemShop",
-    "path": "folders/Objects/Menu/buttons/ItemShop.yy",
+    "name": "Bestiary",
+    "path": "folders/Objects/Menu/Misc/Bestiary.yy",
   },
 }

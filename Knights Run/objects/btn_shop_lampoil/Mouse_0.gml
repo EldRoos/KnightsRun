@@ -1,3 +1,6 @@
+hold+=1
+
+if hold<=1 or hold %10==0 {
 if store.gems >= myCost
 {
 store.gems -= myCost
@@ -8,7 +11,7 @@ if (store.challenge_a=6 or store.challenge_b=6 or store.challenge_c=6) and store
 {
 	store.goal_shopaholic+=1		
 }
-	
+}	
 }
 
 
