@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
 depth =-10005
-image_alpha = 4
+image_alpha = 4.5
 //log_rotate(c_white,"Lifesteal!")
 

@@ -1,0 +1,10 @@
+// Genetix Studio
+draw_set_font(font_show_effect)
+draw_set_alpha(image_alpha)
+draw_rectangle_color(x-4,y-8,x+370,y+48,c_blue,c_blue,c_navy,c_navy,false)
+draw_rectangle_color(x-4,y-8,x+370,y+48,c_white,c_white,c_silver,c_silver,true)
+draw_set_color(c_black)
+draw_text(x+1,y+1,myText)
+draw_set_color(c_white)
+draw_text(x,y,myText)
+draw_set_alpha(1)

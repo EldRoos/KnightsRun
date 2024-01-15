@@ -13,7 +13,8 @@ ini_write_real( "save1", "show_healthbars", store.show_healthbars);
 ini_write_real( "save1", "auto_upgrade", store.auto_upgrade);
 ini_write_real( "save1", "auto_guardian", store.auto_guardian);
 ini_write_real( "save1", "auto_event", store.auto_event);
-ini_write_real( "save1", "store_scene", store.story_scene);
+ini_write_real( "save1", "story_scene", store.story_scene);
+ini_write_real( "save1", "tutorial", store.tutorial);
 //Challenges
 ini_write_real( "save1", "challenge_a", store.challenge_a);
 ini_write_real( "save1", "challenge_b", store.challenge_b);

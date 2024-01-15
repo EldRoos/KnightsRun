@@ -14,6 +14,7 @@ store.auto_upgrade=ini_read_real( "save1", "auto_upgrade",store.auto_upgrade);
 store.auto_guardian=ini_read_real( "save1", "auto_guardian",store.auto_guardian);
 store.auto_event=ini_read_real( "save1", "auto_event",store.auto_event);
 store.story_scene=ini_read_real( "save1", "story_scene",store.story_scene);
+store.tutorial=ini_read_real( "save1", "tutorial",store.tutorial);
 //Challenges
 store.challenge_a=ini_read_real( "save1", "challenge_a",store.challenge_a);
 store.challenge_b=ini_read_real( "save1", "challenge_b",store.challenge_b);

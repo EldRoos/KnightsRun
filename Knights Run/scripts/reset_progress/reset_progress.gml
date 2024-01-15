@@ -17,6 +17,7 @@ store.auto_upgrade=0
 store.auto_guardian=0
 store.auto_event=0
 store.story_scene=0
+store.tutorial=0
 
 //Challenges
 store.challenge_a=0
