@@ -1,6 +1,6 @@
 hold+=1
 
-if hold<=1 or hold %10==0 {
+if hold<=1 or hold %10==0 or hold>120 {
 if store.gems >= myCost
 {
 store.gems -= myCost

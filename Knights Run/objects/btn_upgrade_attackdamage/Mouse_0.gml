@@ -1,7 +1,7 @@
 // Genetix Studio
 hold+=1
 
-if hold<=1 or hold %10==0 {
+if hold<=1 or hold %10==0 or store.devMode==1 and hold>120 {
 if store.gold >= store.cost_attack_damage and maxxed = 0 and hud.game_paused = 0
 {
 if store.luck+hud.luck_boost >= random(100) 
@@ -16,3 +16,5 @@ instance_create_depth(x-4,y-4,depth-1000,effect_upgrade)
 log_rotate(c_lime,"Upgraded Attack Damage")
 }
 }
+
+

@@ -1,7 +1,7 @@
 // Genetix Studio
 hold+=1
 
-if hold<=1 or hold %10==0 {
+if hold<=1 or hold %10==0 or store.devMode==1 and hold>120 {
 if store.gems >= store.cost_perm_attack_speed and maxxed = 0
 {
 store.gems -= store.cost_perm_attack_speed
