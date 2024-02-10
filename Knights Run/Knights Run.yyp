@@ -514,6 +514,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Cards","folderPath":"folders/Scripts/Cards.yy","order":11,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Challenges","folderPath":"folders/Scripts/Challenges.yy","order":9,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Enemy","folderPath":"folders/Scripts/Enemy.yy","order":1,},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Helper","folderPath":"folders/Scripts/Helper.yy","order":18,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Perks","folderPath":"folders/Scripts/Perks.yy","order":5,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sounds","folderPath":"folders/Sounds.yy","order":3,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sprites","folderPath":"folders/Sprites.yy","order":1,},
@@ -532,7 +533,6 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Deaths","folderPath":"folders/Sprites/NPC/Enemy/Deaths.yy","order":1,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"player","folderPath":"folders/Sprites/NPC/player.yy","order":0,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Story","folderPath":"folders/Sprites/Story.yy","order":6,},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Helper","folderPath":"folders/Scripts/Helper.yy","order":18,},
   ],
   "AudioGroups": [
     {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"audiogroup_default","targets":-1,},
