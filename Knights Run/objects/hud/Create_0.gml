@@ -9,7 +9,7 @@ show_stage=3
 stage_complete=0
 show_fade=1
 throw_axe=180
-endMessage=round(random(3))
+endMessage=round(random(6))
 banner_gap=0
 alarm[0]=240 //Show tutorial
 
