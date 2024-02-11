@@ -410,6 +410,7 @@
     {"id":{"name":"spr_bat_death","path":"sprites/spr_bat_death/spr_bat_death.yy",},"order":9,},
     {"id":{"name":"spr_item_chicken","path":"sprites/spr_item_chicken/spr_item_chicken.yy",},"order":6,},
     {"id":{"name":"show_menu_guardians","path":"objects/show_menu_guardians/show_menu_guardians.yy",},"order":13,},
+    {"id":{"name":"show_status_long","path":"objects/show_status_long/show_status_long.yy",},"order":16,},
     {"id":{"name":"rm_title","path":"rooms/rm_title/rm_title.yy",},"order":1,},
     {"id":{"name":"ads_init_interstitial","path":"scripts/ads_init_interstitial/ads_init_interstitial.yy",},"order":1,},
     {"id":{"name":"sfx_enemy_hit","path":"sounds/sfx_enemy_hit/sfx_enemy_hit.yy",},"order":6,},
