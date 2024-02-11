@@ -28,6 +28,7 @@ store.critical_chance+=.25
 if my_id=7 {
 store.perk_lvl_miner+=1
 store.gems+=20+(store.perk_lvl_miner*5)
+///store.gems_earned+=20+(store.perk_lvl_miner*5)
 }
 if my_id=8 {
 store.perk_lvl_evader+=1
