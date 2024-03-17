@@ -5,6 +5,6 @@ draw_set_font(font_upgrades)
 draw_set_color(c_white)
 draw_text(x+6,y+3,myName)
 draw_set_color(c_yellow)
-draw_text(x+6,y+42,"x"+string(store.have_lampoil))
+draw_text(x+6,y+42,"x"+calc_number(store.have_lampoil))
 
 	

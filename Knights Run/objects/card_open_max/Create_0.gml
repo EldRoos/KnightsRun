@@ -9,6 +9,8 @@ got_card_axes=0
 got_card_evilcreed=0
 got_card_mastery=0
 maxCards=floor(store.gems/store.card_cost)
+if maxCards > 100000
+	maxCards = 100000
 store.gems -= store.card_cost*maxCards
 if store.gems<0 {store.gems=0}
 cardsRecieved=0

@@ -2,20 +2,16 @@
 
 //Show Header
 draw_set_font(font_med_hud)
-draw_set_color(c_yellow)
-draw_text(172,20,"Card Collection") 
+draw_text2(172,20,"Card Collection",c_yellow)
 
-draw_set_color(c_lime)
-draw_text(34,44,"Active Cards")
-draw_text(34,233,"Card Library")
+draw_text2(34,44,"Active Cards",c_lime)
+draw_text2(34,233,"Card Library",c_lime)
 draw_line_color(38,220,446,220,c_white,c_silver)
 
 draw_set_font(font_stats)
-draw_set_color(c_silver)
-draw_text(158,49,"(Tap to Unlock or Unequip)")
-draw_text(158,238,"(Tap a card to Select it)")
+draw_text2(158,48,"(Tap to Unlock or Unequip)",c_silver)
+draw_text2(158,237,"(Tap a card to Select it)",c_silver)
 
-draw_set_color(c_white)
+draw_sprite(spr_show_gem,0,207,928)
 draw_set_font(font_med_hud)
-draw_text(222,926,string(store.gems))
-draw_sprite(spr_show_gem,0,207,937)
+draw_text_color(222,920,calc_number(store.gems),c_white,c_white,c_silver,c_silver,1)

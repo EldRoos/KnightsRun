@@ -1,4 +1,6 @@
-if store.have_skullkeys >= myCost
+hold += 1
+
+if (hold <= 1 or hold %10 == 0 or hold > 120) and store.have_skullkeys >= myCost
 {
 store.have_skullkeys -= myCost
 store.guardian_titan_lvl +=1

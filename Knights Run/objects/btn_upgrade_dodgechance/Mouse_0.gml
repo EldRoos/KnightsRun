@@ -1,7 +1,7 @@
 // Genetix Studio
 hold+=1
 
-if hold<=1 or hold %10==0 {
+if hold<=1 or hold %10==0 or store.devMode==1 and hold>120 {
 if store.gold >= store.cost_dodge and maxxed = 0 and hud.game_paused = 0
 {
 if store.luck+hud.luck_boost >= random(100) 
