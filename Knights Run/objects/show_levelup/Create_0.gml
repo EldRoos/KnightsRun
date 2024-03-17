@@ -13,3 +13,5 @@ if (store.challenge_a=7 or store.challenge_b=7 or store.challenge_c=7) and store
 	store.goal_learning+=1		
 }
 
+//Make confetti
+repeat 500 instance_create_depth(x,y,depth+10,effect_confetti)

@@ -73,7 +73,7 @@ if store.perk_lvl_sacrifice=0 {isNew=1}
 }
 if my_id=12 {
 myHeader="Side Weapon"
-myInfo="Attack cards deal +"+string(3*(store.perk_lvl_sideweapon+1))+" damage"
+myInfo="Attack cards deal +"+string(5*(store.perk_lvl_sideweapon+1))+" damage"
 myLevel="Level "+string(store.perk_lvl_sideweapon)+">"+string(store.perk_lvl_sideweapon+1)
 if store.perk_lvl_sideweapon=0 {isNew=1}
 }

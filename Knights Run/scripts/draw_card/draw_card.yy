@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "draw_card",
-  "isDnD": false,
-  "isCompatibility": false,
-  "parent": {
-    "name": "Cards",
-    "path": "folders/Scripts/Cards.yy",
+  "$GMScript":"",
+  "%Name":"draw_card",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"draw_card",
+  "parent":{
+    "name":"Cards",
+    "path":"folders/Scripts/Cards.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }
