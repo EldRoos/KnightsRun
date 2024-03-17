@@ -5,7 +5,7 @@ image_index=round(random(image_number))
 used=0
 
 //Handle clumping
-while collision_rectangle(x-sprite_width,y-sprite_height,x+sprite_width,y+sprite_height,stage_decor,false,true) {x+=sprite_width*4}
+while collision_rectangle(x-sprite_width,y-sprite_height,x+sprite_width,y+sprite_height,stage_decor,false,true) {other.x+=sprite_width*4}
 
 
 

@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "enemy_show_healthbar",
-  "isDnD": false,
-  "isCompatibility": false,
-  "parent": {
-    "name": "Enemy",
-    "path": "folders/Scripts/Enemy.yy",
+  "$GMScript":"",
+  "%Name":"enemy_show_healthbar",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"enemy_show_healthbar",
+  "parent":{
+    "name":"Enemy",
+    "path":"folders/Scripts/Enemy.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

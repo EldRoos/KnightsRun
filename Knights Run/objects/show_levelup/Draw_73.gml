@@ -21,6 +21,9 @@ draw_text_color(cx+154,cy+120,"Leveled Up!",c_white,c_white,c_silver,c_silver,1)
 draw_line_color(cx+97,cy+120,cx+337,cy+120,c_purple,c_maroon)
 draw_line_color(cx+154,cy+158,cx+410,cy+158,c_purple,c_maroon)
 
+draw_line_color(cx+97,cy+118,cx+337,cy+118,c_purple,c_maroon)
+draw_line_color(cx+154,cy+160,cx+410,cy+160,c_purple,c_maroon)
+
 //draw_set_font(font_upgrades)
 //draw_text_color(cx+385,cy+929,"Skip",c_red,c_red,c_maroon,c_maroon,1)
 

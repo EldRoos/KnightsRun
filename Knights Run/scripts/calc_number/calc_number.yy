@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "calc_number",
-  "isDnD": false,
-  "isCompatibility": false,
-  "parent": {
-    "name": "Helper",
-    "path": "folders/Scripts/Helper.yy",
+  "$GMScript":"",
+  "%Name":"calc_number",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"calc_number",
+  "parent":{
+    "name":"Helper",
+    "path":"folders/Scripts/Helper.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

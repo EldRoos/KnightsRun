@@ -50,7 +50,7 @@ if store.card_slot_1 = 3 or store.card_slot_2 = 3 or store.card_slot_3 = 3 or st
 //Mineshaft Card
 if (store.card_slot_1 = 4 or store.card_slot_2 = 4 or store.card_slot_3 = 4 or store.card_slot_4 = 4) and store.current_stage>1 
 	{
-		if store.current_stage%3==0{instance_create_depth(50,283,depth,mineshaft)}
+		if store.current_stage%3==0{instance_create_depth(45,283,depth,mineshaft)}
 	}	
 //Orb Card
 if store.card_slot_1 = 5 or store.card_slot_2 = 5 or store.card_slot_3 = 5 or store.card_slot_4 = 5
