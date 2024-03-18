@@ -1,4 +1,5 @@
 function reset_progress(){
+// feather disable GM2017 *
 
 //MISC
 store.game_speed=1
@@ -168,4 +169,5 @@ store.code_feelgood=0
 store.code_winterishere=0
 store.code_lunarys=0
 store.code_santa=0
+store.code_fivestars=0
 }

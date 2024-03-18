@@ -244,6 +244,7 @@ ini_write_real( "save1", "bahamut_ready", store.bahamut_ready);
 ini_write_string( "save1", "last_stage", store.last_stage);
 ini_write_string( "save1", "second_last_stage", store.second_last_stage);
 ini_write_string( "save1", "bloodmoon", store.bloodmoon);	
+ini_write_string( "save1", "fivestars", store.code_fivestars);	
 	
 	ini_close();
 
