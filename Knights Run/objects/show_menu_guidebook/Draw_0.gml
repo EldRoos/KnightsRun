@@ -63,7 +63,7 @@ draw_text_ext_color(32,350,"Monster Lure\nSpawn more enemies for 3 stages. Can b
 draw_sprite(spr_item_lure,0,12,359)
 draw_text_ext_color(32,400,"Lamp Oil\nGuardians summon meter fills faster for 60 seconds.",20,420,c_orange,c_orange,c_yellow,c_yellow,1)
 draw_sprite(spr_item_lampoil,0,12,409)
-draw_text_ext_color(32,450,"Healing Salve\n+10 Regen health for 60 seconds.",20,420,c_orange,c_orange,c_yellow,c_yellow,1)
+draw_text_ext_color(32,450,"Healing Salve\n+30% Regen health for 60 seconds.",20,420,c_orange,c_orange,c_yellow,c_yellow,1)
 draw_sprite(spr_item_healingsalve,0,12,459)
 }
 
